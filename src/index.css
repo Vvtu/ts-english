@@ -1,14 +1,259 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+	--font-size: 22px;
+
+	--info_panel_height: calc(var(--font-size)*2);
+	--main_gap: calc(var(--font-size) / 2);
+
+	/*
+	 This properties will be possible changed in run time in
+	 AppCode.js componentDidMount().
+	============================================================= */
+	--screen-height: 100vh;
+	--screen-width: 100vw;
+	--screen-padding: 8px;
+	/* ========================================================== */
+
+	--text-height-portrait: calc(
+
+			(
+				var(--screen-height) - var(--screen-padding) - calc(var(--main_gap) * 2) -
+					calc(var(--info_panel_height)*1)
+			) / 2
+	);
+
+	--text-height-landscape: calc(
+		var(--screen-height) - calc(var(--info_panel_height)*1) - var(--main_gap) -
+			var(--screen-padding)
+	);
+
+	--settings-color: #522719; /* #add8e6; */
+	--background-color: #000000; /* #ffffff; */
+	--base-text-color: #ffffff; /* #000000; */
+	--danger-color: #ff4000; /* #00bfff */
+	--english-appcode__speaking-text-color: #6b5ee0; /*  #94a11f */
+	--english-text-color: #94a11f; /* #6b5ee0 */
+	--grey-color: #777777; /*  #888888 */
+	--shadow-color: #dddddd; /* #222222 */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* body
+============================================================= */
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background-color: var(--background-color);
+
+	-webkit-user-select: none;
+	user-select: none;
+
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-tap-highlight-color: transparent;
+}
+
+/* grid
+============================================================= */
+
+.appcode__grid {
+	background-color: var(--background-color);
+	color: var(--base-text-color);
+	display: grid;
+	filter: invert(100%);
+	font-size: var(--font-size);
+	grid-column-gap: var(--main_gap);
+	grid-row-gap: var(--main_gap);
+	margin: 0;
+	padding: 0 var(--screen-padding);
+	font-family: sans-serif;
+}
+
+@media (orientation: portrait) {
+	.appcode__grid {
+		grid-template-columns: 1fr;
+		grid-template-rows: var(--text-height-portrait) var(--info_panel_height)
+			var(--text-height-portrait);
+		grid-template-areas: 'russian' 'info' 'english';
+	}
+	.appcode__icon_rotate {
+		transform: rotate(270deg);
+		margin-left: 7px;
+	}
+	.appcode__icon_rotate_back {
+		transform: rotate(90deg);
+		margin-right: 7px;
+	}
+	.appcode__scroll {
+		max-height: 100%;
+		width: calc(var(--screen-width) - var(--screen-padding)*2);
+		overflow-y: scroll;
+		overflow-wrap: break-word;
+	}
+}
+
+@media (orientation: landscape) {
+	.appcode__grid {
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: var(--text-height-landscape) var(--info_panel_height);
+		grid-template-areas: 'russian english' 'info info';
+	}
+	.appcode__icon_rotate {
+		transform: rotate(90deg);
+	}
+	.appcode__icon_rotate_back {
+		transform: rotate(270deg);
+	}
+	.appcode__scroll {
+		max-height: 100%;
+		width: calc(var(--screen-width)/2 - var(--main_gap));
+		overflow-y: scroll;
+		overflow-wrap: break-word;
+	}
+}
+
+.appcode__info {
+	grid-area: info;
+}
+
+.appcode__russian {
+	grid-area: russian;
+}
+
+.appcode__english {
+	grid-area: english;
+}
+
+/* font size and colors
+============================================================= */
+
+.appcode__eng_text_color {
+	color: var(--english-text-color);
+}
+
+.appcode__speaking {
+	color: var(--english-appcode__speaking-text-color);
+}
+
+/* icons
+============================================================= */
+
+.appcode__icon_invert__horizontal {
+	transform: scaleX(-1);
+}
+
+/* flex boxes
+============================================================= */
+
+.appcode__center {
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.appcode__info2 {
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/*   PopupWindow.css   ********************************************************** */
+
+.popup__full_screen_div {
+	align-items: center;
+	bottom: 0;
+	display: flex;
+	justify-content: center;
+	left: 0;
+	overflow: hidden;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 5;
+}
+
+.popup__full_screen_div_opacity {
+	background-color: var(--grey-color);
+	bottom: 0;
+	left: 0;
+	opacity: 0.4;
+	overflow: hidden;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 4;
+}
+
+.popup__opacity_1 {
+	opacity: 1;
+	transition: opacity 0.9s ease;
+}
+.popup__opacity_0 {
+	opacity: 0;
+	transition: opacity 0.9s ease;
+}
+
+.popup__window {
+	/* max-height: calc(100vh - 4rem); */
+	background-color: var(--background-color);
+	border-radius: 5px;
+	box-shadow: var(--shadow-color) 0px 13px 26px 0px;
+	padding: 10px 25px 10px 20px;
+	position: relative;
+}
+
+.popup__list {
+	/* max-height: calc(100vh - 4rem); */
+	overflow-y: scroll;
+	align-items: flex-start;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	max-width: 10em;
+}
+
+.popup__cancel {
+	position: absolute;
+	top: 2px;
+	right: 10px;
+	cursor: pointer;
+}
+
+.popup__row {
+	padding: 0.6rem 0.4rem;
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+.popup__row_selected {
+	background-color: var(--danger-color);
+	border-radius: 5px;
+}
+
+.popup__header {
+	font-weight: bold;
+}
+
+.popup__gap {
+	padding-right: 10px;
+}
+
+.popup__scroll {
+	max-height: 80vh;
+	overflow-y: scroll;
+	/* -webkit-overflow-scrolling: touch; */
+}
+
+.popup__width35 {
+	width: 35px;
+}
+
+.popup_voices_zindex {
+	z-index: 10;
 }
