@@ -6,7 +6,7 @@ import PopupWindowForVoicesMenu from '../PopupWindows/PopupWindowForVoicesMenu';
 import ArrowIcon from './svg/ArrowIcon';
 import AdvancedIcon from './svg/AdvancedIcon';
 
-import { getDictionaryWithMix, handleDictClicked } from '../lib/lib';
+import { getDictionaryWithMix, handleDictClicked } from '../lib/lib.tsx';
 import getVoicesArray from '../lib/getVoicesArray';
 import { ICON_SIZE } from '../Constants/constants';
 

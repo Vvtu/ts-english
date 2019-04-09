@@ -1,5 +1,7 @@
-const dictionary10 = [ { rus: '', eng: '' } ];
-const dictionary1 = [
+import {dictType} from './Types';
+
+const dictionary10: dictType[] = [];
+const dictionary1: dictType[] = [
 	{
 		rus:
 			"Обратите внимание, что функция не имеет постоянного понятия 'this'. Это всегда устанавливается во время вызова на основе способа, которым это было вызвано.",
@@ -55,7 +57,7 @@ const dictionary1 = [
 	},
 ];
 
-const oldDictionary1 = [
+const oldDictionary1: dictType[] = [
 	{
 		rus:
 			'API-интерфейс браузера, объектная модель документа (DOM) - довольно ужасна, и JavaScript-это несправедливо обвинили. С DOM было бы больно работать на любом языке.',
@@ -434,7 +436,7 @@ const oldDictionary1 = [
 	},
 ];
 
-const veryOldDictionary1 = [
+const veryOldDictionary1: dictType[] = [
 	{
 		rus:
 			'К концу планирования спринта команда разработчиков должна быть в состоянии объяснить владельцу продукта и мастеру Scrum, как она намерена работать как самоорганизующаяся команда для достижения цели спринта.',
@@ -986,7 +988,7 @@ const veryOldDictionary1 = [
 	},
 ];
 
-const dictionary20 = [
+const dictionary20: dictType[] = [
 	{
 		rus: 'Какой образ хотела бы произвести ваша компания?',
 		eng: 'What kind of image would your company like to project?',
@@ -1085,7 +1087,7 @@ const dictionary20 = [
 		eng: 'I hope we can book a call to iron out any last-minute problems.',
 	},
 ];
-const dictionary2 = [
+const dictionary2: dictType[] = [
 	{
 		rus: '',
 		eng:
@@ -1276,7 +1278,7 @@ const dictionary2 = [
 			'Your communication skills could make all the difference at a job interview // (have a good effect).',
 	},
 ];
-const oldDictionary2 = [
+const oldDictionary2: dictType[] = [
 	{
 		eng: "Hi, I don't think we've met. I'm Paolo from Napoli.",
 		rus: 'Привет, не думаю, что мы встречались. Я Паоло из Неаполя.',
@@ -3889,7 +3891,7 @@ const oldDictionary2 = [
 	},
 ];
 
-const veryOldDictionary2 = [
+const veryOldDictionary2: dictType[] = [
 	{
 		rus:
 			'Variants в их многочисленных формах (полиморфный вариант, открытый вариант, GADT и др.), вероятно, являются фичей системы типов, такой как Reason.',
@@ -4441,7 +4443,7 @@ const veryOldDictionary2 = [
 	},
 ];
 
-const oldOldDictionary2 = [
+const oldOldDictionary2: dictType[] = [
 	/* ************************************************************************************************************************** */
 	{
 		rus:
