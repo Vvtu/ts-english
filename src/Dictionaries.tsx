@@ -5174,4 +5174,4 @@ const oldOldDictionary2 = [
 	},
 ];
 
-export { dictionary1, dictionary10, dictionary2, dictionary20 };
+export default { dictionary1, dictionary10, dictionary2, dictionary20 };

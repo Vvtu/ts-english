@@ -1,15 +1,12 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="appcode__grid">
-        <header className="appcode__info">
-            Learn React
-        </header>
-      </div>
-    );
-  }
+import AppCode from './AppCode/AppCode';
+import dictionaries from './Dictionaries';
+
+class App extends PureComponent {
+	render() {
+		return <AppCode dictionaries={dictionaries} />;
+	}
 }
 
 export default App;

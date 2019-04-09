@@ -1,0 +1,215 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PopupWindowForAdvancedMenu test    test 1 1`] = `
+<div
+  onClick={[Function]}
+  onDoubleClick={[Function]}
+  style={
+    Object {
+      "opacity": "0",
+      "transition": "opacity 0.5s ease",
+    }
+  }
+>
+  <div
+    className="popup__full_screen_div_opacity"
+  />
+  <div
+    className="popup__full_screen_div"
+  >
+    <div
+      className="popup__window"
+    >
+      <div
+        className="popup__cancel"
+        onClick={undefined}
+      >
+        <svg
+          fill=""
+          height={16}
+          onClick={[Function]}
+          onDoubleClick={[Function]}
+          viewBox="0 0 32 32"
+          width={16}
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <rect
+            fill="none"
+            height="32"
+            width="32"
+          />
+          <polygon
+            fill=""
+            points="2,26 6,30 16,20 26,30 30,26 20,16 30,6 26,2 16,12 6,2 2,6 12,16"
+          />
+        </svg>
+      </div>
+      <div
+        className="popup__list"
+      >
+        <div
+          className="popup__row"
+          onClick={[Function]}
+          onDoubleClick={[Function]}
+        >
+          <svg
+            fill=""
+            height="32"
+            viewBox="0 0 32 32"
+            width="32"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect
+              fill="none"
+              height="32"
+              width="32"
+            />
+            <polygon
+              fill=""
+              points="2,26 6,30 16,20 26,30 30,26 20,16 30,6 26,2 16,12 6,2 2,6 12,16"
+            />
+          </svg>
+          <div
+            className="popup__gap"
+          />
+          <div>
+            Advanced:
+          </div>
+        </div>
+        <div
+          className="popup__row"
+          onClick={[Function]}
+          onDoubleClick={[Function]}
+        >
+          <svg
+            fill=""
+            height="32"
+            viewBox="0 0 32 32"
+            width="32"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect
+              fill="none"
+              height="32"
+              width="32"
+            />
+            <polygon
+              fill=""
+              points="2,26 6,30 16,20 26,30 30,26 20,16 30,6 26,2 16,12 6,2 2,6 12,16"
+            />
+          </svg>
+          <div
+            className="popup__gap"
+          />
+          <div>
+            hide this item
+          </div>
+        </div>
+        <div
+          className="popup__row"
+          onClick={[Function]}
+          onDoubleClick={[Function]}
+        >
+          <svg
+            fill=""
+            height="32"
+            viewBox="0 0 16 16"
+            width="32"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              fill="none"
+              fillRule="evenodd"
+              id="Icons with numbers"
+            >
+              <g
+                fill=""
+                id="Group"
+                transform="translate(-432 -432)"
+              >
+                <path
+                  d="M438.972188,442 L438.972188,433 L447.922128,433 L444.938815,436 C446.430471,437 448.419347,439.5 447.922128,442 C447.424909,445 445.436034,447 440.961064,447 C435.491657,447 434,442.5 434,442 C436.983313,444.5 438.972188,445 440.961064,445 C442.949939,445 443.944377,443.5 443.944377,442 C443.944377,441 443.447158,440 441.955502,439 L438.972188,442 L438.972188,442 Z M438.972188,442"
+                  id="Shape copy"
+                  transform="matrix(-1 0 0 1 882 0)"
+                />
+              </g>
+            </g>
+          </svg>
+          <div
+            className="popup__gap"
+          />
+          <div>
+            reset all info
+          </div>
+        </div>
+        <div
+          className="popup__row"
+          onClick={[Function]}
+          onDoubleClick={[Function]}
+        >
+          <div
+            style={
+              Object {
+                "color": "",
+                "width": "32",
+              }
+            }
+          >
+            D1
+          </div>
+          <div
+            className="popup__gap"
+          />
+          <div>
+            dict #1
+          </div>
+        </div>
+        <div
+          className="popup__row"
+          onClick={[Function]}
+          onDoubleClick={[Function]}
+        >
+          <div
+            style={
+              Object {
+                "color": "",
+                "width": "32",
+              }
+            }
+          >
+            D2
+          </div>
+          <div
+            className="popup__gap"
+          />
+          <div>
+            dict #2
+          </div>
+        </div>
+        <div
+          className="popup__row"
+          onClick={[Function]}
+          onDoubleClick={[Function]}
+        >
+          <div
+            style={
+              Object {
+                "color": "",
+                "width": "32",
+              }
+            }
+          >
+            D2
+          </div>
+          <div
+            className="popup__gap"
+          />
+          <div>
+            set voice
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
