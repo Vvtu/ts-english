@@ -1,4 +1,4 @@
-import React, { PureComponent , SyntheticEvent } from 'react';
+import React, { PureComponent, SyntheticEvent } from 'react';
 import PropTypes from 'prop-types';
 
 import PopupWindowForAdvancedMenu from '../PopupWindows/PopupWindowForAdvancedMenu';
@@ -30,7 +30,7 @@ interface State {
 	showAdvanced: boolean;
 	appcodeIsSpeaking: boolean;
 	showVoicesMenu: boolean;
-	voiceIndex: string;
+	voiceIndex: string | null;
 	randomDictionary: dictType[];
 	greenColor: string;
 	advancedColor: string;
@@ -38,6 +38,8 @@ interface State {
 }
 
 class AppCode extends PureComponent<Props, State> {
+	voicesArray: any;
+	engVoice: any;
 	constructor(props: Props) {
 		super(props);
 		this.state = {
@@ -46,7 +48,7 @@ class AppCode extends PureComponent<Props, State> {
 			showAdvanced: false,
 			appcodeIsSpeaking: false,
 			showVoicesMenu: false,
-			voiceIndex: '',
+			voiceIndex: null,
 			greenColor: '',
 			advancedColor: '',
 			whiteColor: '',
@@ -219,7 +221,7 @@ class AppCode extends PureComponent<Props, State> {
 			showEnglish: false,
 			showAdvanced: false,
 			appcodeIsSpeaking: false,
-			voiceIndex: '',
+			voiceIndex: null,
 		});
 	};
 
@@ -243,7 +245,7 @@ class AppCode extends PureComponent<Props, State> {
 				this.voicesArray &&
 				this.voicesArray[parseInt(this.state.voiceIndex, 10)]
 			) {
-				utterThis.voice = this.voicesArray[parseInt(this.state.voiceIndex, 10)];
+				utterThis.voice = null;
 			}
 
 			// utterThis.voiceURI = 'Google UK English Female';
