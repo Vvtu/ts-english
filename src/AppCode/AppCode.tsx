@@ -1,4 +1,4 @@
-import React, { PureComponent, SyntheticEvent } from 'react';
+import React, { PureComponent, SyntheticEvent, MouseEvent } from 'react';
 import PropTypes from 'prop-types';
 
 import PopupWindowForAdvancedMenu from '../PopupWindows/PopupWindowForAdvancedMenu';
@@ -37,9 +37,12 @@ interface State {
 	whiteColor: string;
 }
 
+const nullObj: dictType = { rus: '', eng: '' };
+
 class AppCode extends PureComponent<Props, State> {
 	voicesArray: any;
 	engVoice: any;
+	appcodeIsSpeakingTimeOut: any;
 	constructor(props: Props) {
 		super(props);
 		this.state = {
@@ -103,17 +106,9 @@ class AppCode extends PureComponent<Props, State> {
 		}
 	};
 
-	handleForwardClicked = (e) => {
-		e.preventDefault();
-		e.stopPropagation();
+	handleForwardClicked = (event: MouseEvent) => {
+		event.stopPropagation();
 		this.incrementLocalStorage();
-
-		if (this.russianScrollNode) {
-			this.russianScrollNode.scrollTop = 0;
-		}
-		if (this.englishScrollNode) {
-			this.englishScrollNode.scrollTop = 0;
-		}
 
 		const { activeIndex, randomDictionary } = this.state;
 
@@ -125,20 +120,11 @@ class AppCode extends PureComponent<Props, State> {
 			showEnglish: false,
 			appcodeIsSpeaking: false,
 		});
-		return false;
 	};
 
-	handleBackClicked = (e) => {
-		e.preventDefault();
-		e.stopPropagation();
+	handleBackClicked = (event: MouseEvent) => {
+		event.stopPropagation();
 		this.incrementLocalStorage();
-
-		if (this.russianScrollNode) {
-			this.russianScrollNode.scrollTop = 0;
-		}
-		if (this.englishScrollNode) {
-			this.englishScrollNode.scrollTop = 0;
-		}
 
 		const { activeIndex, randomDictionary } = this.state;
 		const len = randomDictionary.length;
@@ -149,27 +135,22 @@ class AppCode extends PureComponent<Props, State> {
 			showEnglish: false,
 			appcodeIsSpeaking: false,
 		});
-		return false;
 	};
 
-	handleShowEnglishClicked = (e) => {
-		e.preventDefault();
-		e.stopPropagation();
+	handleShowEnglishClicked = (event: MouseEvent) => {
+		event.stopPropagation();
 		this.setState({
 			showEnglish: this.state.showEnglish !== true,
 			appcodeIsSpeaking: false,
 		});
-		return false;
 	};
 
-	handleAdvancedClicked = (e) => {
-		e.preventDefault();
-		e.stopPropagation();
+	handleAdvancedClicked = (event: MouseEvent) => {
+		event.stopPropagation();
 		this.setState({
 			showAdvanced: true,
 			appcodeIsSpeaking: false,
 		});
-		return false;
 	};
 	handleClosePopupClicked = () => {
 		this.setState({
@@ -177,7 +158,6 @@ class AppCode extends PureComponent<Props, State> {
 			appcodeIsSpeaking: false,
 			showVoicesMenu: false,
 		});
-		return false;
 	};
 
 	handleHideItemClicked = () => {
@@ -202,15 +182,13 @@ class AppCode extends PureComponent<Props, State> {
 		}
 	};
 
-	handleStatisticClicked = (e) => {
-		e.preventDefault();
-		e.stopPropagation();
+	handleStatisticClicked = (event: MouseEvent) => {
+		event.stopPropagation();
 		if (this.state.showEnglish) {
-			this.handleForwardClicked(e);
+			this.handleForwardClicked(event);
 		} else {
-			this.handleShowEnglishClicked(e);
+			this.handleShowEnglishClicked(event);
 		}
-		return false;
 	};
 
 	handleUnhideAllItemsClicked = () => {
@@ -225,9 +203,8 @@ class AppCode extends PureComponent<Props, State> {
 		});
 	};
 
-	handleTextToSpeachClicked = (e: SyntheticEvent<string>, text: string) => {
-		e.preventDefault();
-		e.stopPropagation();
+	handleTextToSpeachClicked = (event: MouseEvent, text: string) => {
+		event.stopPropagation();
 		if (this.state.appcodeIsSpeaking) {
 			return false;
 		}
@@ -243,9 +220,9 @@ class AppCode extends PureComponent<Props, State> {
 			if (
 				this.state.voiceIndex &&
 				this.voicesArray &&
-				this.voicesArray[parseInt(this.state.voiceIndex, 10)]
+				this.voicesArray[parseInt(this.state.voiceIndex || '0', 10)]
 			) {
-				utterThis.voice = null;
+				utterThis.voice = this.voicesArray[parseInt(this.state.voiceIndex || '0', 10)];
 			}
 
 			// utterThis.voiceURI = 'Google UK English Female';
@@ -271,7 +248,6 @@ class AppCode extends PureComponent<Props, State> {
 			utterThis.text = text;
 			synth.speak(utterThis);
 		}
-		return false;
 	};
 
 	handleDictClickedLocal = (number: number) => {
@@ -314,14 +290,15 @@ class AppCode extends PureComponent<Props, State> {
 			whiteColor,
 		} = this.state;
 
-		const activeObj = activeIndex !== undefined && randomDictionary[activeIndex];
+		const activeObj =
+			(activeIndex !== undefined && randomDictionary[activeIndex]) || nullObj;
 		const russian = activeObj.rus;
 
 		const english = activeObj.eng;
 		const count = randomDictionary.length;
 
 		const item = localStorage.getItem(russian);
-		const shown = parseInt(item, 10) || 0;
+		const shown = parseInt(item || '0', 10) || 0;
 
 		// console.log('App code render this.props = ', this.props);
 		// console.log('App code render activeObj = ', activeObj);
@@ -390,7 +367,7 @@ class AppCode extends PureComponent<Props, State> {
 						className="appcode__center"
 						onClick={this.handleShowEnglishClicked}
 						onDoubleClick={this.handleShowEnglishClicked}
-						ref={(ref) => (this.russianScrollNode = ref)}
+						key={russian}
 					>
 						{russian}
 					</div>
@@ -400,13 +377,13 @@ class AppCode extends PureComponent<Props, State> {
 						className="appcode__center"
 						onClick={(e) => this.handleTextToSpeachClicked(e, english)}
 						onDoubleClick={(e) => this.handleTextToSpeachClicked(e, english)}
-						ref={(ref) => (this.englishScrollNode = ref)}
 					>
 						<div
 							className={
 								'appcode__eng_text_color' +
 								(appcodeIsSpeaking ? ' appcode__speaking' : '')
 							}
+							key={english}
 						>
 							{showEnglish && english}
 						</div>
