@@ -29,12 +29,14 @@ export const filterDeletedOff = (arr: dictType[]) => {
 const DICT = 'DICT';
 const DICT_NUMBER = '2';
 
-const OLD_LENGTH = 3;
+const OLD_LENGTH = 6;
 
 export const getDictionaryWithMix = (dictionaries: {
 	dictionary2: dictType[];
+	dictionary20: dictType[];
 	oldDictionary2: dictType[];
 	dictionary1: dictType[];
+	dictionary10: dictType[];
 	oldDictionary1: dictType[];
 }) => {
 	const whichDict = localStorage.getItem(DICT);
@@ -42,10 +44,10 @@ export const getDictionaryWithMix = (dictionaries: {
 	let oldD: dictType[];
 	if (whichDict === DICT_NUMBER) {
 		d = dictionaries.dictionary2;
-		oldD = dictionaries.oldDictionary2;
+		oldD = dictionaries.oldDictionary2.concat(dictionaries.dictionary20);
 	} else {
 		d = dictionaries.dictionary1;
-		oldD = dictionaries.oldDictionary1;
+		oldD = dictionaries.oldDictionary1.concat(dictionaries.dictionary10);
 	}
 	d = reshuffle(filterDeletedOff(d));
 	oldD = reshuffle(filterDeletedOff(oldD)).slice(0, OLD_LENGTH);

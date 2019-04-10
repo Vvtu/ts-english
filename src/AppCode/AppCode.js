@@ -362,22 +362,18 @@ class AppCode extends PureComponent {
 						/>
 					</div>
 				</div>
-				<div className="appcode__russian">
-					<div className="appcode__center">
-						<div
-							className="appcode__scroll"
+				<div className="appcode__russian appcode__scroll">
+					<div className="appcode__center"
+
 							onClick={this.handleShowEnglishClicked}
 							onDoubleClick={this.handleShowEnglishClicked}
 							ref={(ref) => (this.russianScrollNode = ref)}
 						>
-							<div>{russian}</div>
-						</div>
+							{russian}
 					</div>
 				</div>
-				<div className="appcode__english">
-					<div className="appcode__center">
-						<div
-							className="appcode__scroll"
+				<div className="appcode__english appcode__scroll">
+					<div className="appcode__center"
 							onClick={(e) => this.handleTextToSpeachClicked(e, english)}
 							onDoubleClick={(e) => this.handleTextToSpeachClicked(e, english)}
 							ref={(ref) => (this.englishScrollNode = ref)}
@@ -390,7 +386,6 @@ class AppCode extends PureComponent {
 							>
 								{showEnglish && english}
 							</div>
-						</div>
 					</div>
 				</div>
 

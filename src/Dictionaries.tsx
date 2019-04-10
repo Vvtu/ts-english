@@ -1,7 +1,6 @@
-import {dictType} from './Types';
+import { dictType } from './Types';
 
-const dictionary10: dictType[] = [];
-const dictionary1: dictType[] = [
+const dictionary10: dictType[] = [
 	{
 		rus:
 			"Обратите внимание, что функция не имеет постоянного понятия 'this'. Это всегда устанавливается во время вызова на основе способа, которым это было вызвано.",
@@ -50,6 +49,14 @@ const dictionary1: dictType[] = [
 		eng:
 			"An arrow function does not have its own 'this'. The 'this' value of the enclosing lexical scope is used.",
 	},
+	{
+		rus: 'Методы apply, call и bind никак не влияют на стрелочные функции.',
+		eng:
+			"'apply', 'call' и 'bind' methods can't influence the behavior of arrow fuctions.",
+	},
+];
+
+const dictionary1: dictType[] = [
 	{
 		rus: 'Методы apply, call и bind никак не влияют на стрелочные функции.',
 		eng:
@@ -5176,4 +5183,11 @@ const oldOldDictionary2: dictType[] = [
 	},
 ];
 
-export default { dictionary1, dictionary10, dictionary2, dictionary20 };
+export default {
+	dictionary1,
+	oldDictionary1,
+	dictionary10,
+	dictionary2,
+	dictionary20,
+	oldDictionary2,
+};
