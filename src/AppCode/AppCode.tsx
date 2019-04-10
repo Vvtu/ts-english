@@ -1,4 +1,4 @@
-import React, { PureComponent } from 'react';
+import React, { PureComponent , SyntheticEvent } from 'react';
 import PropTypes from 'prop-types';
 
 import PopupWindowForAdvancedMenu from '../PopupWindows/PopupWindowForAdvancedMenu';
@@ -32,6 +32,9 @@ interface State {
 	showVoicesMenu: boolean;
 	voiceIndex: string;
 	randomDictionary: dictType[];
+	greenColor: string;
+	advancedColor: string;
+	whiteColor: string;
 }
 
 class AppCode extends PureComponent<Props, State> {
@@ -44,6 +47,9 @@ class AppCode extends PureComponent<Props, State> {
 			appcodeIsSpeaking: false,
 			showVoicesMenu: false,
 			voiceIndex: '',
+			greenColor: '',
+			advancedColor: '',
+			whiteColor: '',
 			randomDictionary: getDictionaryWithMix(this.props.dictionaries),
 		};
 	}
@@ -217,7 +223,7 @@ class AppCode extends PureComponent<Props, State> {
 		});
 	};
 
-	handleTextToSpeachClicked = (e, text) => {
+	handleTextToSpeachClicked = (e: SyntheticEvent<string>, text: string) => {
 		e.preventDefault();
 		e.stopPropagation();
 		if (this.state.appcodeIsSpeaking) {
