@@ -6,9 +6,11 @@ import PopupWindowForVoicesMenu from '../PopupWindows/PopupWindowForVoicesMenu';
 import ArrowIcon from './svg/ArrowIcon';
 import AdvancedIcon from './svg/AdvancedIcon';
 
-import { getDictionaryWithMix, handleDictClicked } from '../lib/lib.tsx';
+import { getDictionaryWithMix, handleDictClicked } from '../lib/lib';
 import getVoicesArray from '../lib/getVoicesArray';
 import { ICON_SIZE } from '../Constants/constants';
+
+import { dictType, dictionariesType } from '../Types';
 
 const VOICE_INDEX_IN_VOICES_ARRAY = 'voiceIndexInVoicesArray';
 
@@ -18,17 +20,30 @@ const VOICE_INDEX_IN_VOICES_ARRAY = 'voiceIndexInVoicesArray';
 // 	process.env && process.env.REACT_APP_SECRET_CODE,
 // );
 
-class AppCode extends PureComponent {
-	static propTypes = {
-		dictionaries: PropTypes.object.isRequired,
-	};
-	constructor(props) {
+export interface Props {
+	dictionaries: dictionariesType;
+}
+
+interface State {
+	activeIndex: number;
+	showEnglish: boolean;
+	showAdvanced: boolean;
+	appcodeIsSpeaking: boolean;
+	showVoicesMenu: boolean;
+	voiceIndex: string;
+	randomDictionary: dictType[];
+}
+
+class AppCode extends PureComponent<Props, State> {
+	constructor(props: Props) {
 		super(props);
 		this.state = {
 			activeIndex: 0,
 			showEnglish: false,
 			showAdvanced: false,
 			appcodeIsSpeaking: false,
+			showVoicesMenu: false,
+			voiceIndex: '',
 			randomDictionary: getDictionaryWithMix(this.props.dictionaries),
 		};
 	}
@@ -70,9 +85,9 @@ class AppCode extends PureComponent {
 		const { activeIndex, randomDictionary, showEnglish } = this.state;
 		if (showEnglish) {
 			const activeObj = activeIndex !== undefined && randomDictionary[activeIndex];
-			const russian = activeObj.rus;
+			const russian = activeObj && activeObj.rus;
 			if (russian) {
-				const item = localStorage.getItem(russian);
+				const item: string | null = localStorage.getItem(russian) || '';
 				const shown = parseInt(item, 10) || 0;
 				const newItem = String(shown + 1);
 				localStorage.setItem(russian, newItem);
@@ -198,7 +213,7 @@ class AppCode extends PureComponent {
 			showEnglish: false,
 			showAdvanced: false,
 			appcodeIsSpeaking: false,
-			voiceIndex: undefined,
+			voiceIndex: '',
 		});
 	};
 
@@ -251,7 +266,7 @@ class AppCode extends PureComponent {
 		return false;
 	};
 
-	handleDictClickedLocal = (number) => {
+	handleDictClickedLocal = (number: number) => {
 		handleDictClicked(number);
 		this.setState({
 			activeIndex: 0,
@@ -269,7 +284,7 @@ class AppCode extends PureComponent {
 		});
 	};
 
-	handleVoiceDidSelect = (voiceIndex) => {
+	handleVoiceDidSelect = (voiceIndex: string) => {
 		this.setState({
 			showAdvanced: false,
 			showVoicesMenu: false,
@@ -363,29 +378,30 @@ class AppCode extends PureComponent {
 					</div>
 				</div>
 				<div className="appcode__russian appcode__scroll">
-					<div className="appcode__center"
-
-							onClick={this.handleShowEnglishClicked}
-							onDoubleClick={this.handleShowEnglishClicked}
-							ref={(ref) => (this.russianScrollNode = ref)}
-						>
-							{russian}
+					<div
+						className="appcode__center"
+						onClick={this.handleShowEnglishClicked}
+						onDoubleClick={this.handleShowEnglishClicked}
+						ref={(ref) => (this.russianScrollNode = ref)}
+					>
+						{russian}
 					</div>
 				</div>
 				<div className="appcode__english appcode__scroll">
-					<div className="appcode__center"
-							onClick={(e) => this.handleTextToSpeachClicked(e, english)}
-							onDoubleClick={(e) => this.handleTextToSpeachClicked(e, english)}
-							ref={(ref) => (this.englishScrollNode = ref)}
+					<div
+						className="appcode__center"
+						onClick={(e) => this.handleTextToSpeachClicked(e, english)}
+						onDoubleClick={(e) => this.handleTextToSpeachClicked(e, english)}
+						ref={(ref) => (this.englishScrollNode = ref)}
+					>
+						<div
+							className={
+								'appcode__eng_text_color' +
+								(appcodeIsSpeaking ? ' appcode__speaking' : '')
+							}
 						>
-							<div
-								className={
-									'appcode__eng_text_color' +
-									(appcodeIsSpeaking ? ' appcode__speaking' : '')
-								}
-							>
-								{showEnglish && english}
-							</div>
+							{showEnglish && english}
+						</div>
 					</div>
 				</div>
 

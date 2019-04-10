@@ -1,4 +1,4 @@
-import { dictType } from '../Types';
+import { dictType, dictionariesType } from '../Types';
 
 export const getRandomInt = (min: number, max: number) => {
 	min = Math.ceil(min);
@@ -31,14 +31,7 @@ const DICT_NUMBER = '2';
 
 const OLD_LENGTH = 6;
 
-export const getDictionaryWithMix = (dictionaries: {
-	dictionary2: dictType[];
-	dictionary20: dictType[];
-	oldDictionary2: dictType[];
-	dictionary1: dictType[];
-	dictionary10: dictType[];
-	oldDictionary1: dictType[];
-}) => {
+export const getDictionaryWithMix = (dictionaries: dictionariesType) => {
 	const whichDict = localStorage.getItem(DICT);
 	let d: dictType[];
 	let oldD: dictType[];
