@@ -362,17 +362,17 @@ class AppCode extends PureComponent<Props, State> {
 						/>
 					</div>
 				</div>
-				<div className="appcode__russian appcode__scroll">
+				<div className="appcode__russian appcode__scroll" key={russian}>
 					<div
 						className="appcode__center"
 						onClick={this.handleShowEnglishClicked}
 						onDoubleClick={this.handleShowEnglishClicked}
-						key={russian}
+
 					>
 						{russian}
 					</div>
 				</div>
-				<div className="appcode__english appcode__scroll">
+				<div className="appcode__english appcode__scroll" key={english}>
 					<div
 						className="appcode__center"
 						onClick={(e) => this.handleTextToSpeachClicked(e, english)}
@@ -383,7 +383,7 @@ class AppCode extends PureComponent<Props, State> {
 								'appcode__eng_text_color' +
 								(appcodeIsSpeaking ? ' appcode__speaking' : '')
 							}
-							key={english}
+
 						>
 							{showEnglish && english}
 						</div>
