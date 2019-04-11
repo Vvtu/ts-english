@@ -386,30 +386,38 @@ class AppCode extends PureComponent<Props, State> {
 						/>
 					</div>
 				</div>
-				<div className="appcode__russian appcode__scroll" key={russian}>
-					<div
-						className="appcode__center"
-						onClick={this.handleShowEnglishClicked}
-						onDoubleClick={this.handleShowEnglishClicked}
-					>
-						{russian}
+				{/* Russian field */}
+				<div
+					className="appcode__russian"
+					onClick={this.handleShowEnglishClicked}
+					onDoubleClick={this.handleShowEnglishClicked}
+				>
+					<div className="appcode__center" key={russian}>
+						<div className="appcode__scroll">{russian}</div>
 					</div>
 				</div>
-				<div className="appcode__english appcode__scroll" key={english}>
-					<div
-						className="appcode__center"
-						onClick={(e) => this.handleTextToSpeachClicked(e, english)}
-						onDoubleClick={(e) => this.handleTextToSpeachClicked(e, english)}
-					>
-						<div
-							className={
-								'appcode__eng_text_color' +
-								(appcodeIsSpeaking ? ' appcode__speaking' : '')
-							}
-						>
-							{showEnglish && english}
+				{/* English field */}
+				<div
+					className="appcode__english"
+					onClick={(e) => this.handleTextToSpeachClicked(e, english)}
+					onDoubleClick={(e) => this.handleTextToSpeachClicked(e, english)}
+				>
+					{showEnglish ? (
+						<div className="appcode__center">
+							<div className="appcode__scroll">
+								<div
+									className={
+										'appcode__eng_text_color' +
+										(appcodeIsSpeaking ? ' appcode__speaking' : '')
+									}
+								>
+									{english}
+								</div>
+							</div>
 						</div>
-					</div>
+					) : (
+						<div className="appcode__center" />
+					)}
 				</div>
 
 				{showAdvanced ? (
