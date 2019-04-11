@@ -65,7 +65,7 @@ class AppCode extends PureComponent<Props, State> {
 	}
 
 	componentDidMount() {
-		this.initializeState()
+		this.initializeState();
 	}
 
 	incrementLocalStorage = () => {
@@ -302,13 +302,13 @@ class AppCode extends PureComponent<Props, State> {
 		if (activeIndex >= randomDictionary.length) {
 			return (
 				<div
+					className="popup__full_screen_div"
+					style={{ backgroundColor: whiteColor }}
 					onClick={this.initializeState}
 					onDoubleClick={this.initializeState}
 				>
-					<div className="popup__full_screen_div" style={{backgroundColor: 'red'}}>
-						<div className="popup__window popup__scroll appcode__eng_text_color">
-							{"That's all!. Click to restart."}
-						</div>
+					<div className="popup__window popup__scroll appcode__eng_text_color">
+						{"That's all!. Click to restart."}
 					</div>
 				</div>
 			);
