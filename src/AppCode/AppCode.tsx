@@ -37,6 +37,19 @@ interface State {
 	whiteColor: string;
 }
 
+const initialState: State = {
+	activeIndex: 0,
+	showEnglish: false,
+	showAdvanced: false,
+	appcodeIsSpeaking: false,
+	showVoicesMenu: false,
+	voiceIndex: null,
+	greenColor: '',
+	advancedColor: '',
+	whiteColor: '',
+	randomDictionary: [],
+};
+
 const nullObj: dictType = { rus: '', eng: '' };
 
 class AppCode extends PureComponent<Props, State> {
@@ -46,50 +59,13 @@ class AppCode extends PureComponent<Props, State> {
 	constructor(props: Props) {
 		super(props);
 		this.state = {
-			activeIndex: 0,
-			showEnglish: false,
-			showAdvanced: false,
-			appcodeIsSpeaking: false,
-			showVoicesMenu: false,
-			voiceIndex: null,
-			greenColor: '',
-			advancedColor: '',
-			whiteColor: '',
+			...initialState,
 			randomDictionary: getDictionaryWithMix(this.props.dictionaries),
 		};
 	}
 
 	componentDidMount() {
-		const element = document.documentElement;
-		// console.log('window.screen = ', window.screen);
-		// const height = Math.max(
-		// 	parseInt(window.screen.height, 10),
-		// 	parseInt(window.screen.width, 10),
-		// );
-		// const width = Math.min(
-		// 	parseInt(window.screen.height, 10),
-		// 	parseInt(window.screen.width, 10),
-		// );
-		// console.log('height , width = ',height , width);
-
-		// element.style.setProperty('--screen-height', height + 'px');
-		// element.style.setProperty('--screen-width', width + 'px');
-		const voiceIndex = localStorage.getItem(VOICE_INDEX_IN_VOICES_ARRAY);
-
-		const styles = getComputedStyle(element);
-		this.setState({
-			greenColor: String(styles.getPropertyValue('--english-text-color')).trim(),
-			advancedColor: String(styles.getPropertyValue('--settings-color')).trim(),
-			whiteColor: String(styles.getPropertyValue('--base-text-color')).trim(),
-			voiceIndex,
-		});
-		// get voices array
-		window.speechSynthesis.getVoices();
-		this.forceUpdate();
-
-		getVoicesArray().then((result) => {
-			this.voicesArray = result;
-		});
+		this.initializeState()
 	}
 
 	incrementLocalStorage = () => {
@@ -113,7 +89,7 @@ class AppCode extends PureComponent<Props, State> {
 		const { activeIndex, randomDictionary } = this.state;
 
 		const len = randomDictionary.length;
-		const newActiveIndex = activeIndex === len - 1 ? 0 : activeIndex + 1;
+		const newActiveIndex = activeIndex + 1;
 		// console.log('handleForwardClicked newActiveIndex = ', newActiveIndex);
 		this.setState({
 			activeIndex: newActiveIndex,
@@ -128,7 +104,7 @@ class AppCode extends PureComponent<Props, State> {
 
 		const { activeIndex, randomDictionary } = this.state;
 		const len = randomDictionary.length;
-		const newActiveIndex = activeIndex === 0 ? len - 1 : activeIndex - 1;
+		const newActiveIndex = activeIndex === 0 ? 0 : activeIndex - 1;
 		// console.log('handleBackClicked newActiveIndex = ', newActiveIndex);
 		this.setState({
 			activeIndex: newActiveIndex,
@@ -171,9 +147,7 @@ class AppCode extends PureComponent<Props, State> {
 			const newRandomDictionary = randomDictionary
 				.slice(0, activeIndex)
 				.concat(randomDictionary.slice(activeIndex + 1));
-			const newActiveIndex = activeIndex >= newRandomDictionary.length ? 0 : activeIndex;
 			this.setState({
-				activeIndex: newActiveIndex,
 				randomDictionary: newRandomDictionary,
 				showEnglish: false,
 				showAdvanced: false,
@@ -277,6 +251,41 @@ class AppCode extends PureComponent<Props, State> {
 		localStorage.setItem(VOICE_INDEX_IN_VOICES_ARRAY, voiceIndex);
 	};
 
+	initializeState = () => {
+		const element = document.documentElement;
+		// console.log('window.screen = ', window.screen);
+		// const height = Math.max(
+		// 	parseInt(window.screen.height, 10),
+		// 	parseInt(window.screen.width, 10),
+		// );
+		// const width = Math.min(
+		// 	parseInt(window.screen.height, 10),
+		// 	parseInt(window.screen.width, 10),
+		// );
+		// console.log('height , width = ',height , width);
+
+		// element.style.setProperty('--screen-height', height + 'px');
+		// element.style.setProperty('--screen-width', width + 'px');
+		const voiceIndex = localStorage.getItem(VOICE_INDEX_IN_VOICES_ARRAY);
+
+		const styles = getComputedStyle(element);
+		this.setState({
+			...initialState,
+			randomDictionary: getDictionaryWithMix(this.props.dictionaries),
+			greenColor: String(styles.getPropertyValue('--english-text-color')).trim(),
+			advancedColor: String(styles.getPropertyValue('--settings-color')).trim(),
+			whiteColor: String(styles.getPropertyValue('--base-text-color')).trim(),
+			voiceIndex,
+		});
+		// get voices array
+		window.speechSynthesis.getVoices();
+		this.forceUpdate();
+
+		getVoicesArray().then((result) => {
+			this.voicesArray = result;
+		});
+	};
+
 	render() {
 		const {
 			activeIndex,
@@ -289,6 +298,21 @@ class AppCode extends PureComponent<Props, State> {
 			advancedColor,
 			whiteColor,
 		} = this.state;
+
+		if (activeIndex >= randomDictionary.length) {
+			return (
+				<div
+					onClick={this.initializeState}
+					onDoubleClick={this.initializeState}
+				>
+					<div className="popup__full_screen_div" style={{backgroundColor: 'red'}}>
+						<div className="popup__window popup__scroll appcode__eng_text_color">
+							{"That's all!. Click to restart."}
+						</div>
+					</div>
+				</div>
+			);
+		}
 
 		const activeObj =
 			(activeIndex !== undefined && randomDictionary[activeIndex]) || nullObj;
@@ -367,7 +391,6 @@ class AppCode extends PureComponent<Props, State> {
 						className="appcode__center"
 						onClick={this.handleShowEnglishClicked}
 						onDoubleClick={this.handleShowEnglishClicked}
-
 					>
 						{russian}
 					</div>
@@ -383,7 +406,6 @@ class AppCode extends PureComponent<Props, State> {
 								'appcode__eng_text_color' +
 								(appcodeIsSpeaking ? ' appcode__speaking' : '')
 							}
-
 						>
 							{showEnglish && english}
 						</div>

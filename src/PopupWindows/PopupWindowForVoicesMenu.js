@@ -2,8 +2,6 @@ import React, { PureComponent } from 'react';
 
 import CancelIcon from './svg/CancelIcon';
 
-import './PopupWindows.css';
-
 import { ANIMATION_INTERVAL } from '../Constants/constants';
 
 const TRANSITION = 'opacity ' + ANIMATION_INTERVAL + 's ease';
