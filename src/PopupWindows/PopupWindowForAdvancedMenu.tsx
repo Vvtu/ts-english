@@ -1,18 +1,42 @@
-import React, { PureComponent } from 'react';
+import React, {
+	PureComponent,
+	SyntheticEvent,
+	ReactNode,
+} from 'react';
 
 import CancelIcon from './svg/CancelIcon';
 import ClearAllInfo from './svg/ClearAllInfo';
 
-import { ANIMATION_INTERVAL, ICON_SIZE } from '../Constants/constants';
+import {
+	ANIMATION_INTERVAL,
+	ICON_SIZE,
+} from '../Constants/constants';
 
 const TRANSITION = 'opacity ' + ANIMATION_INTERVAL + 's ease';
 
 const noop = () => {};
 
-class PopupWindowForAdvancedMenu extends PureComponent {
-	constructor(props) {
+export interface Props {
+	handleHideItemClicked(): void;
+	handleUnhideAllItemsClicked(): void;
+	handleDictClicked(number: number): void;
+	handleClosePopupClicked(): void;
+	handleShowSetVoicePopupClicked(): void;
+
+	// selectedVoiceIndex: string | null;
+	// voicesArray: Voice[];
+	// handleClosePopupClicked(): void;
+	// handleVoiceDidSelect(index: string): void;
+}
+
+interface State {
+	increaseOpacity: boolean;
+}
+
+class PopupWindowForAdvancedMenu extends PureComponent<Props, State> {
+	constructor(props: Props) {
 		super(props);
-		this.state = {};
+		this.setState({ increaseOpacity: false });
 	}
 
 	componentDidMount() {
@@ -21,20 +45,31 @@ class PopupWindowForAdvancedMenu extends PureComponent {
 		});
 	}
 
-	menuRow = (menuItem) => (
+	menuRow = ({
+		Icon,
+		label,
+		props,
+		handleClickedFunc,
+	}: {
+		Icon: any;
+		label: string;
+		props: ReactNode;
+		handleClickedFunc(): void;
+	}) => (
 		<div
 			className="popup__row"
-			onClick={(e) => this.handleClicked(e, menuItem.handleClickedFunc)}
-			onDoubleClick={(e) => this.handleClicked(e, menuItem.handleClickedFunc)}
+			onClick={(e: SyntheticEvent) =>
+				this.handleClicked(e, handleClickedFunc)}
+			onDoubleClick={(e: SyntheticEvent) =>
+				this.handleClicked(e, handleClickedFunc)}
 		>
-			<menuItem.Icon {...menuItem.props} />
+			<Icon {...props} />
 			<div className="popup__gap" />
-			<div>{menuItem.label}</div>
+			<div>{label}</div>
 		</div>
 	);
 
-	handleClicked = (e, func) => {
-		e.preventDefault();
+	handleClicked = (e: SyntheticEvent, func: () => void) => {
 		e.stopPropagation();
 		this.setState({ increaseOpacity: false });
 		setTimeout(() => {
@@ -45,10 +80,18 @@ class PopupWindowForAdvancedMenu extends PureComponent {
 
 	render() {
 		const styles = getComputedStyle(document.documentElement);
-		const greenColor = String(styles.getPropertyValue('--english-text-color')).trim();
-		const redColor = String(styles.getPropertyValue('--danger-color')).trim();
-		const whiteColor = String(styles.getPropertyValue('--base-text-color')).trim();
-		const blackColor = String(styles.getPropertyValue('--background-color')).trim();
+		const greenColor = String(
+			styles.getPropertyValue('--english-text-color'),
+		).trim();
+		const redColor = String(
+			styles.getPropertyValue('--danger-color'),
+		).trim();
+		const whiteColor = String(
+			styles.getPropertyValue('--base-text-color'),
+		).trim();
+		const blackColor = String(
+			styles.getPropertyValue('--background-color'),
+		).trim();
 
 		const {
 			handleHideItemClicked,
@@ -63,11 +106,13 @@ class PopupWindowForAdvancedMenu extends PureComponent {
 		return (
 			<div
 				style={{
-					opacity: this.state.increaseOpacity === true ? '1' : '0',
+					opacity: this.state.increaseOpacity === true ? 1 : 0,
 					transition: TRANSITION,
 				}}
-				onClick={(e) => this.handleClicked(e, handleClosePopupClicked)}
-				onDoubleClick={(e) => this.handleClicked(e, handleClosePopupClicked)}
+				onClick={(e: SyntheticEvent) =>
+					this.handleClicked(e, handleClosePopupClicked)}
+				onDoubleClick={(e: SyntheticEvent) =>
+					this.handleClicked(e, handleClosePopupClicked)}
 			>
 				<div className="popup__full_screen_div_opacity" />
 				<div className="popup__full_screen_div">
@@ -76,8 +121,10 @@ class PopupWindowForAdvancedMenu extends PureComponent {
 							<CancelIcon
 								fill={whiteColor}
 								height={16}
-								onClick={(e) => this.handleClicked(e, handleClosePopupClicked)}
-								onDoubleClick={(e) => this.handleClicked(e, handleClosePopupClicked)}
+								onClick={(e: SyntheticEvent) =>
+									this.handleClicked(e, handleClosePopupClicked)}
+								onDoubleClick={(e: SyntheticEvent) =>
+									this.handleClicked(e, handleClosePopupClicked)}
 								width={16}
 							/>
 						</div>
@@ -85,42 +132,73 @@ class PopupWindowForAdvancedMenu extends PureComponent {
 							{this.menuRow({
 								label: 'Advanced:',
 								Icon: CancelIcon,
-								props: { height: ICON_SIZE, width: ICON_SIZE, fill: blackColor },
+								props: {
+									height: ICON_SIZE,
+									width: ICON_SIZE,
+									fill: blackColor,
+								},
 								handleClickedFunc: noop,
 							})}
 
 							{this.menuRow({
 								label: 'hide this item',
 								Icon: CancelIcon,
-								props: { height: ICON_SIZE, width: ICON_SIZE, fill: redColor },
+								props: {
+									height: ICON_SIZE,
+									width: ICON_SIZE,
+									fill: redColor,
+								},
 								handleClickedFunc: handleHideItemClicked,
 							})}
 
 							{this.menuRow({
 								label: 'reset all info',
 								Icon: ClearAllInfo,
-								props: { height: ICON_SIZE, width: ICON_SIZE, fill: greenColor },
+								props: {
+									height: ICON_SIZE,
+									width: ICON_SIZE,
+									fill: greenColor,
+								},
 								handleClickedFunc: handleUnhideAllItemsClicked,
 							})}
 
 							{this.menuRow({
 								label: 'dict #1',
-								Icon: () => <div style={{ width: ICON_SIZE, color: greenColor }}>D1</div>,
+								Icon: () => (
+									<div
+										style={{ width: ICON_SIZE, color: greenColor }}
+									>
+										D1
+									</div>
+								),
 								props: {},
 								handleClickedFunc: () => handleDictClicked(1),
 							})}
 
 							{this.menuRow({
 								label: 'dict #2',
-								Icon: () => <div style={{ width: ICON_SIZE, color: greenColor }}>D2</div>,
+								Icon: () => (
+									<div
+										style={{ width: ICON_SIZE, color: greenColor }}
+									>
+										D2
+									</div>
+								),
 								props: {},
 								handleClickedFunc: () => handleDictClicked(2),
 							})}
 							{this.menuRow({
 								label: 'set voice',
-								Icon: () => <div style={{ width: ICON_SIZE, color: greenColor }}>D2</div>,
+								Icon: () => (
+									<div
+										style={{ width: ICON_SIZE, color: greenColor }}
+									>
+										D2
+									</div>
+								),
 								props: {},
-								handleClickedFunc: () => handleShowSetVoicePopupClicked(),
+								handleClickedFunc: () =>
+									handleShowSetVoicePopupClicked(),
 							})}
 						</div>
 					</div>
