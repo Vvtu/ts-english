@@ -50,7 +50,8 @@ const dictionary10: dictType[] = [
 			"An arrow function does not have its own 'this'. The 'this' value of the enclosing lexical scope is used.",
 	},
 	{
-		rus: 'Методы apply, call и bind никак не влияют на стрелочные функции.',
+		rus:
+			'Методы apply, call и bind никак не влияют на стрелочные функции.',
 		eng:
 			"'apply', 'call' и 'bind' methods can't influence the behavior of arrow fuctions.",
 	},
@@ -58,12 +59,14 @@ const dictionary10: dictType[] = [
 
 const dictionary1: dictType[] = [
 	{
-		rus: '111 Методы apply, call и bind никак не влияют на стрелочные функции. Методы apply, call и bind никак не влияют на стрелочные функции. Методы apply, call и bind никак не влияют на стрелочные функции. Методы apply, call и bind никак не влияют на стрелочные функции. Методы apply, call и bind никак не влияют на стрелочные функции. Методы apply, call и bind никак не влияют на стрелочные функции. Методы apply, call и bind никак не влияют на стрелочные функции. Методы apply, call и bind никак не влияют на стрелочные функции. Методы apply, call и bind никак не влияют на стрелочные функции. Методы apply, call и bind никак не влияют на стрелочные функции. Методы apply, call и bind никак не влияют на стрелочные функции. Методы apply, call и bind никак не влияют на стрелочные функции. Методы apply, call и bind никак не влияют на стрелочные функции. Методы apply, call и bind никак не влияют на стрелочные функции. Методы apply, call и bind никак не влияют на стрелочные функции. Методы apply, call и bind никак не влияют на стрелочные функции.',
+		rus:
+			'111 Методы apply, call и bind никак не влияют на стрелочные функции. Методы apply, call и bind никак не влияют на стрелочные функции. Методы apply, call и bind никак не влияют на стрелочные функции. Методы apply, call и bind никак не влияют на стрелочные функции. Методы apply, call и bind никак не влияют на стрелочные функции. Методы apply, call и bind никак не влияют на стрелочные функции. Методы apply, call и bind никак не влияют на стрелочные функции. Методы apply, call и bind никак не влияют на стрелочные функции. Методы apply, call и bind никак не влияют на стрелочные функции. Методы apply, call и bind никак не влияют на стрелочные функции. Методы apply, call и bind никак не влияют на стрелочные функции. Методы apply, call и bind никак не влияют на стрелочные функции. Методы apply, call и bind никак не влияют на стрелочные функции. Методы apply, call и bind никак не влияют на стрелочные функции. Методы apply, call и bind никак не влияют на стрелочные функции. Методы apply, call и bind никак не влияют на стрелочные функции.',
 		eng:
 			"'apply', 'call' и 'bind' methods can't influence the behavior of arrow fuctions.",
 	},
 	{
-		rus: '222 Методы apply, call и bind никак не влияют на стрелочные функции. Методы apply, call и bind никак не влияют на стрелочные функции. Методы apply, call и bind никак не влияют на стрелочные функции. Методы apply, call и bind никак не влияют на стрелочные функции. Методы apply, call и bind никак не влияют на стрелочные функции. Методы apply, call и bind никак не влияют на стрелочные функции. Методы apply, call и bind никак не влияют на стрелочные функции. Методы apply, call и bind никак не влияют на стрелочные функции. Методы apply, call и bind никак не влияют на стрелочные функции. Методы apply, call и bind никак не влияют на стрелочные функции. Методы apply, call и bind никак не влияют на стрелочные функции. Методы apply, call и bind никак не влияют на стрелочные функции. Методы apply, call и bind никак не влияют на стрелочные функции. Методы apply, call и bind никак не влияют на стрелочные функции. Методы apply, call и bind никак не влияют на стрелочные функции. Методы apply, call и bind никак не влияют на стрелочные функции.',
+		rus:
+			'222 Методы apply, call и bind никак не влияют на стрелочные функции. Методы apply, call и bind никак не влияют на стрелочные функции. Методы apply, call и bind никак не влияют на стрелочные функции. Методы apply, call и bind никак не влияют на стрелочные функции. Методы apply, call и bind никак не влияют на стрелочные функции. Методы apply, call и bind никак не влияют на стрелочные функции. Методы apply, call и bind никак не влияют на стрелочные функции. Методы apply, call и bind никак не влияют на стрелочные функции. Методы apply, call и bind никак не влияют на стрелочные функции. Методы apply, call и bind никак не влияют на стрелочные функции. Методы apply, call и bind никак не влияют на стрелочные функции. Методы apply, call и bind никак не влияют на стрелочные функции. Методы apply, call и bind никак не влияют на стрелочные функции. Методы apply, call и bind никак не влияют на стрелочные функции. Методы apply, call и bind никак не влияют на стрелочные функции. Методы apply, call и bind никак не влияют на стрелочные функции.',
 		eng:
 			"'apply', 'call' и 'bind' methods can't influence the behavior of arrow fuctions.",
 	},
@@ -77,8 +80,10 @@ const oldDictionary1: dictType[] = [
 			'The API of the browser, the Document Object Model (DOM) is quite awful, and JavaScript is unfairly blamed. The DOM would be painful to work with in any language.',
 	},
 	{
-		rus: 'Модель DOM плохо определена и непоследовательно реализована.',
-		eng: 'The DOM is poorly specified and inconsistently implemented.',
+		rus:
+			'Модель DOM плохо определена и непоследовательно реализована.',
+		eng:
+			'The DOM is poorly specified and inconsistently implemented.',
 	},
 	{
 		rus:
@@ -117,8 +122,10 @@ const oldDictionary1: dictType[] = [
 			'JavaScript depends on global variables for linkage. All of the top-level variables of all compilation units are tossed together in a common namespace called the global object.',
 	},
 	{
-		rus: 'Большинство зарезервированных слов в этом списке не используются в языке.',
-		eng: 'Most of the RESERVED words in this list are not used in the language.',
+		rus:
+			'Большинство зарезервированных слов в этом списке не используются в языке.',
+		eng:
+			'Most of the RESERVED words in this list are not used in the language.',
 	},
 	{
 		rus:
@@ -145,8 +152,10 @@ const oldDictionary1: dictType[] = [
 			"You don't have a choice.The Web has become an important platform for application development, and JavaScript is the only language that is found in all browsers.",
 	},
 	{
-		rus: 'Хорошие части хороши достаточно для того чтобы скомпенсировать плохие части.',
-		eng: 'The good parts are good enough to compensate for the bad parts.',
+		rus:
+			'Хорошие части хороши достаточно для того чтобы скомпенсировать плохие части.',
+		eng:
+			'The good parts are good enough to compensate for the bad parts.',
 	},
 	{
 		rus:
@@ -157,7 +166,8 @@ const oldDictionary1: dictType[] = [
 	{
 		rus:
 			'Cтроки неизменяемы. Как только строка сделана, она никогда не может быть изменена.',
-		eng: 'Strings are immutable. Once it is made, a string can never be changed.',
+		eng:
+			'Strings are immutable. Once it is made, a string can never be changed.',
 	},
 	{
 		rus:
@@ -196,7 +206,8 @@ const oldDictionary1: dictType[] = [
 			' In JavaScript, arrays are objects, functions are objects, regular expressions are objects, and, of course, objects are objects.',
 	},
 	{
-		rus: 'Объекты в JavaScript являются мутабельными коллекциями ключей.',
+		rus:
+			'Объекты в JavaScript являются мутабельными коллекциями ключей.',
 		eng: 'Objects in JavaScript are mutable keyed collections.',
 	},
 	{
@@ -237,7 +248,8 @@ const oldDictionary1: dictType[] = [
 	},
 	{
 		rus: 'Объекты передаются по ссылке. Они никогда не копируются.',
-		eng: 'Objects are passed around by reference. They are never copied.',
+		eng:
+			'Objects are passed around by reference. They are never copied.',
 	},
 	{
 		rus:
@@ -258,16 +270,22 @@ const oldDictionary1: dictType[] = [
 			'You should use the hasOwnProperty method, which returns true if the object has a particular property. The hasOwnProperty method does not look at the prototype chain.',
 	},
 	{
-		rus: 'Литерал функции может появляться везде, где может появляться выражение.',
-		eng: 'A function literal can appear anywhere that an expression can appear.',
+		rus:
+			'Литерал функции может появляться везде, где может появляться выражение.',
+		eng:
+			'A function literal can appear anywhere that an expression can appear.',
 	},
 	{
-		rus: 'Кроме того, поскольку функции являются объектами, функции могут иметь методы.',
-		eng: 'Also, since functions are objects, functions can have methods.',
+		rus:
+			'Кроме того, поскольку функции являются объектами, функции могут иметь методы.',
+		eng:
+			'Also, since functions are objects, functions can have methods.',
 	},
 	{
-		rus: 'Особенность функции заключается в том, что они могут быть вызваны.',
-		eng: 'The thing that is special about functions is that they can be invoked.',
+		rus:
+			'Особенность функции заключается в том, что они могут быть вызваны.',
+		eng:
+			'The thing that is special about functions is that they can be invoked.',
 	},
 	{
 		rus:
@@ -324,7 +342,8 @@ const oldDictionary1: dictType[] = [
 			'When a function is stored as a property of an object, we call it a method. When a method is invoked, this is bound to that object.',
 	},
 	{
-		rus: 'Функции связаны с Function.prototype (который сам связан с Object.prototype.)',
+		rus:
+			'Функции связаны с Function.prototype (который сам связан с Object.prototype.)',
 		eng:
 			'Function objects are linked to Function.prototype (which is itself linked to Object.prototype).',
 	},
@@ -414,7 +433,8 @@ const oldDictionary1: dictType[] = [
 	},
 	{
 		rus: "Префикс 'new' также изменяет поведение оператора return.",
-		eng: "The 'new' prefix also changes the behavior of the return statement.",
+		eng:
+			"The 'new' prefix also changes the behavior of the return statement.",
 	},
 	{
 		rus:
@@ -462,8 +482,10 @@ const veryOldDictionary1: dictType[] = [
 			'The Sprint Goal is an objective set for the Sprint that can be met through the implementation of Product Backlog.',
 	},
 	{
-		rus: 'Ежедневный Scrum-это 15-минутное событие для команды разработчиков.',
-		eng: 'The Daily Scrum is a 15-minute time-boxed event for the Development Team.',
+		rus:
+			'Ежедневный Scrum-это 15-минутное событие для команды разработчиков.',
+		eng:
+			'The Daily Scrum is a 15-minute time-boxed event for the Development Team.',
 	},
 	{
 		rus:
@@ -526,7 +548,8 @@ const veryOldDictionary1: dictType[] = [
 			'Artifacts defined by Scrum are specifically designed to maximize transparency of key information so that everybody has the same understanding of the artifact.',
 	},
 	{
-		rus: 'Беклог продукта-это упорядоченный список всего, что необходимо в продукте.',
+		rus:
+			'Беклог продукта-это упорядоченный список всего, что необходимо в продукте.',
 		eng:
 			'The Product Backlog is an ordered list of everything that is known to be needed in the product.',
 	},
@@ -543,13 +566,16 @@ const veryOldDictionary1: dictType[] = [
 			'The Product Backlog lists all the features, functions, requirements, enhancements, and fixes that constitute the changes to be made to the product in future releases.',
 	},
 	{
-		rus: 'Новый спринт начинается сразу после завершения предыдущего спринта.',
-		eng: 'A new sprint starts immediately after the conclusion of the previous sprint.',
+		rus:
+			'Новый спринт начинается сразу после завершения предыдущего спринта.',
+		eng:
+			'A new sprint starts immediately after the conclusion of the previous sprint.',
 	},
 	{
 		rus:
 			'Во время спринта не вносится никаких изменений, которые могли бы поставить под угрозу цель спринта.',
-		eng: 'During the sprint no changes are made that would endanger the Sprint Goal.',
+		eng:
+			'During the sprint no changes are made that would endanger the Sprint Goal.',
 	},
 	{
 		rus:
@@ -592,12 +618,14 @@ const veryOldDictionary1: dictType[] = [
 			'Sprint Planning answers the following: What can be delivered in the Increment resulting from the upcoming Sprint.',
 	},
 	{
-		rus: 'Команда Scrum состоит из ПО, команды разработки и мастера Scrum.',
+		rus:
+			'Команда Scrum состоит из ПО, команды разработки и мастера Scrum.',
 		eng:
 			'The Scrum Team consists of a Product Owner, the Development Team and a Scrum Master.',
 	},
 	{
-		rus: 'Команды Scrum являются самоорганизующимися и кросс-функциональными.',
+		rus:
+			'Команды Scrum являются самоорганизующимися и кросс-функциональными.',
 		eng: 'Scrum Teams are self-organizing and cross-functional.',
 	},
 	{
@@ -643,7 +671,8 @@ const veryOldDictionary1: dictType[] = [
 			'The Product Owner is responsible for maximizing the value of the product resulting from work of the Development Team.',
 	},
 	{
-		rus: 'ПО является единственным лицом, ответственным за управление беклога продукта.',
+		rus:
+			'ПО является единственным лицом, ответственным за управление беклога продукта.',
 		eng:
 			'The Product Owner is the sole person responsible for managing the Product Backlog.',
 	},
@@ -664,12 +693,14 @@ const veryOldDictionary1: dictType[] = [
 		eng: 'PO is one person, not a committee.',
 	},
 	{
-		rus: 'Тот, кто хочет изменить приоритет элемента в беклоге, должен обратиться к ПО.',
+		rus:
+			'Тот, кто хочет изменить приоритет элемента в беклоге, должен обратиться к ПО.',
 		eng:
 			"Those wanting to change a Product Backlog item's priority must address the Product Owner.",
 	},
 	{
-		rus: 'Для успеха ПО вся организация должна уважать его или ее решения.',
+		rus:
+			'Для успеха ПО вся организация должна уважать его или ее решения.',
 		eng:
 			'For the PO to succeed, the entire organization must respect his or her decisions.',
 	},
@@ -692,8 +723,10 @@ const veryOldDictionary1: dictType[] = [
 			'Transparency requires those aspects be defined by common standard so observers share a common understanding of what is been seen.',
 	},
 	{
-		rus: 'Общий язык, относящийся к процессу, должен быть общим для всех участников.',
-		eng: 'A common language referring to the process must be shared by all participants.',
+		rus:
+			'Общий язык, относящийся к процессу, должен быть общим для всех участников.',
+		eng:
+			'A common language referring to the process must be shared by all participants.',
 	},
 	{
 		rus:
@@ -708,7 +741,8 @@ const veryOldDictionary1: dictType[] = [
 			'Scrum users must frequently inspect Scrum artifacts and progress towards a Sprint Goal to detect undesired variances.',
 	},
 	{
-		rus: 'Их осмотр не должен быть настолько частым, чтобы он мешал работе.',
+		rus:
+			'Их осмотр не должен быть настолько частым, чтобы он мешал работе.',
 		eng:
 			'Their inspection should not be so frequent that inspection gets in the way of the work.',
 	},
@@ -757,7 +791,8 @@ const veryOldDictionary1: dictType[] = [
 	{
 		rus:
 			'Постоянное внимание к техническому совершенству и хорошему дизайну повышает гибкость.',
-		eng: 'Continuous attention to technical excellence and good design enhances agility.',
+		eng:
+			'Continuous attention to technical excellence and good design enhances agility.',
 	},
 	{
 		rus:
@@ -820,7 +855,8 @@ const veryOldDictionary1: dictType[] = [
 	{
 		rus:
 			'Постоянное внимание к техническому совершенству и хорошему дизайну повышает гибкость.',
-		eng: 'Continuous attention to technical excellence and good design enhances agility.',
+		eng:
+			'Continuous attention to technical excellence and good design enhances agility.',
 	},
 	{
 		rus:
@@ -841,7 +877,8 @@ const veryOldDictionary1: dictType[] = [
 			'Scrum is a framework within which people can address complex adaptive problems, while productively and creatively delivering products of the highest possible value.',
 	},
 	{
-		rus: 'Scrum-это не методология. Scrum реализует научный метод эмпиризма.',
+		rus:
+			'Scrum-это не методология. Scrum реализует научный метод эмпиризма.',
 		eng:
 			'Scrum is not a methodology. Scrum implements the scientific method of empiricism.',
 	},
@@ -871,7 +908,8 @@ const veryOldDictionary1: dictType[] = [
 	},
 	{
 		rus: 'Правила Scrum описаны всюду по телу этого документа.',
-		eng: 'The rules of Scrum are described throughout the body of this document.',
+		eng:
+			'The rules of Scrum are described throughout the body of this document.',
 	},
 	{
 		rus:
@@ -910,7 +948,8 @@ const veryOldDictionary1: dictType[] = [
 	{
 		rus:
 			'Наличие более девяти членов команды разработчиков требует слишком большой координации.',
-		eng: 'Having more than nine Development Team members requires to much coordination.',
+		eng:
+			'Having more than nine Development Team members requires to much coordination.',
 	},
 	{
 		rus:
@@ -925,7 +964,8 @@ const veryOldDictionary1: dictType[] = [
 			'The Scrum Master is responsible for promoting and supporting Scrum as defined in the Scrum Guide.',
 	},
 	{
-		rus: 'Scrum Master помогает всем понять теорию, практику, правила и ценности Scrum.',
+		rus:
+			'Scrum Master помогает всем понять теорию, практику, правила и ценности Scrum.',
 		eng:
 			'The Scrum Master helps everyone understand Scrum theory, practices, rules, and values.',
 	},
@@ -941,7 +981,8 @@ const veryOldDictionary1: dictType[] = [
 	},
 	{
 		rus: 'Scrum Master служит продакт оунеру несколькими способами.',
-		eng: 'The Scrum Master servers the Product Owner in several ways.',
+		eng:
+			'The Scrum Master servers the Product Owner in several ways.',
 	},
 	{
 		rus:
@@ -992,7 +1033,8 @@ const veryOldDictionary1: dictType[] = [
 	{
 		rus:
 			'Каждый спринт можно рассматривать как проект с горизонтом не более одного месяца.',
-		eng: 'Each Sprint may be considered a project with no more than a one-month horizon.',
+		eng:
+			'Each Sprint may be considered a project with no more than a one-month horizon.',
 	},
 	{
 		rus: 'Каждый спринт имеет цель того, что должно быть построено.',
@@ -1006,8 +1048,10 @@ const dictionary20: dictType[] = [
 		eng: 'What kind of image would your company like to project?',
 	},
 	{
-		rus: 'Мне нужно больше деталей, чтобы составить мнение об этой новой технологии.',
-		eng: 'I need more details to form an opinion about this new technology.',
+		rus:
+			'Мне нужно больше деталей, чтобы составить мнение об этой новой технологии.',
+		eng:
+			'I need more details to form an opinion about this new technology.',
 	},
 	{
 		rus: 'Он был очень высокомерен, разговаривая со своим боссом.',
@@ -1018,12 +1062,16 @@ const dictionary20: dictType[] = [
 		eng: 'She comes accros as a friendly person.',
 	},
 	{
-		rus: 'Умная внешность производит благоприятное впечатление на собеседовании.',
-		eng: 'Smart appearance makes a favourable impression at an interview.',
+		rus:
+			'Умная внешность производит благоприятное впечатление на собеседовании.',
+		eng:
+			'Smart appearance makes a favourable impression at an interview.',
 	},
 	{
-		rus: 'Показной человек ведет себя или выглядит так, чтобы произвести впечатление',
-		eng: 'An ostentatious person behaves or looks in a way that is meant to impress.',
+		rus:
+			'Показной человек ведет себя или выглядит так, чтобы произвести впечатление',
+		eng:
+			'An ostentatious person behaves or looks in a way that is meant to impress.',
 	},
 	{
 		rus: 'Многие не считают политиков заслуживающими доверия.',
@@ -1031,7 +1079,8 @@ const dictionary20: dictType[] = [
 	},
 	{
 		rus: 'Я всегда был осторожен, давая людям свой номер телефона.',
-		eng: 'I have always been cautious about giving people my phone number.',
+		eng:
+			'I have always been cautious about giving people my phone number.',
 	},
 	{
 		rus: 'Они построили репутацию надежного сервиса.',
@@ -1039,30 +1088,40 @@ const dictionary20: dictType[] = [
 	},
 	{
 		rus: 'Важно построить хорошие отношения с вашей командой',
-		eng: "It's essential to build a good relationship with your team.",
+		eng:
+			"It's essential to build a good relationship with your team.",
 	},
 	{
 		rus: '(contact information)',
 		eng: 'I was given your details by my colleague.',
 	},
-	{ rus: '(calling about)', eng: "I'm calling about the email I sent you." },
+	{
+		rus: '(calling about)',
+		eng: "I'm calling about the email I sent you.",
+	},
 	{
 		rus: '(wanted to ask)',
-		eng: "I wondered if you'd had time to look through the portfolio I sent.",
+		eng:
+			"I wondered if you'd had time to look through the portfolio I sent.",
 	},
 	{
 		rus: '(interested in)',
-		eng: "I wanted to see if you're still interested in our proposal.",
+		eng:
+			"I wanted to see if you're still interested in our proposal.",
 	},
 	{ rus: '(answering)', eng: 'Thanks for responding so quickly.' },
 	{
 		rus: '(get together)',
 		eng: 'I suggest we meet to discuss things further.',
 	},
-	{ rus: '(any option works for me)', eng: "Fine, whatever's best for you." },
+	{
+		rus: '(any option works for me)',
+		eng: "Fine, whatever's best for you.",
+	},
 	{
 		rus: '(the date and time might be changed)',
-		eng: "Let's say, provisionally, Wednesday the 15th at 11 o'clock.",
+		eng:
+			"Let's say, provisionally, Wednesday the 15th at 11 o'clock.",
 	},
 	{
 		rus: '(say that our meeting will take place)',
@@ -1082,24 +1141,27 @@ const dictionary20: dictType[] = [
 	},
 	{
 		rus: 'takes minutes',
-		eng: 'It only takes 20 minutes to get from the office to the station',
+		eng:
+			'It only takes 20 minutes to get from the office to the station',
 	},
 	{
 		rus: '(take)',
-		eng: "How long's the meeting? Will I have time to catch the train at 5?",
+		eng:
+			"How long's the meeting? Will I have time to catch the train at 5?",
 	},
 	{ rus: '(inform me)', eng: 'Let me know if you need a taxi.' },
 	{ rus: '', eng: 'Does Tuesday work for you?' },
 	{
 		rus: '',
-		eng: 'Can we arrange a meeting to discuss any problems that might arise?',
+		eng:
+			'Can we arrange a meeting to discuss any problems that might arise?',
 	},
 	{
 		rus: '',
-		eng: 'I hope we can book a call to iron out any last-minute problems.',
+		eng:
+			'I hope we can book a call to iron out any last-minute problems.',
 	},
-];
-const dictionary2: dictType[] = [
+
 	{
 		rus: '',
 		eng:
@@ -1112,7 +1174,8 @@ const dictionary2: dictType[] = [
 	},
 	{
 		rus: '',
-		eng: 'Paris lies on the River Seine. // Use present simple to talk about states.',
+		eng:
+			'Paris lies on the River Seine. // Use present simple to talk about states.',
 	},
 	{
 		rus: '',
@@ -1160,8 +1223,10 @@ const dictionary2: dictType[] = [
 			'Common phrases used with present continuous are: currently, for the moment, at the moment, for the time being, tomorrow (afternoon), right now.',
 	},
 	{
-		rus: "CEO выразил признательность за всю нашу тяжелую работу. // (сказал 'спасибо')",
-		eng: "The CEO expressed appreciation of all our hard work. // (said 'thank you')",
+		rus:
+			"CEO выразил признательность за всю нашу тяжелую работу. // (сказал 'спасибо')",
+		eng:
+			"The CEO expressed appreciation of all our hard work. // (said 'thank you')",
 	},
 	{
 		rus:
@@ -1172,7 +1237,8 @@ const dictionary2: dictType[] = [
 	{
 		rus:
 			'Служебный автомобиль, медицинская страховка и бесплатные обеды-это льготы. // (выгоды)',
-		eng: 'A company car, medical insurance and free lunches are perks. // (benefits)',
+		eng:
+			'A company car, medical insurance and free lunches are perks. // (benefits)',
 	},
 	{
 		rus:
@@ -1181,8 +1247,10 @@ const dictionary2: dictType[] = [
 			'They deserve recognition for the great job they are doing. // (praise and reward for their work)',
 	},
 	{
-		rus: 'В декабре мы обычно получаем ежегодный бонус. // (раз в год)',
-		eng: 'In December we usually receive an annual bonus. // (paid once a year)',
+		rus:
+			'В декабре мы обычно получаем ежегодный бонус. // (раз в год)',
+		eng:
+			'In December we usually receive an annual bonus. // (paid once a year)',
 	},
 	{
 		rus:
@@ -1203,7 +1271,8 @@ const dictionary2: dictType[] = [
 			"I work flexible hours, which means I don't have to start work early in the morning.",
 	},
 	{
-		rus: 'Ваше достижение-это что-то важное, что вам удается сделать своими силами.',
+		rus:
+			'Ваше достижение-это что-то важное, что вам удается сделать своими силами.',
 		eng:
 			'Your achievement is something important that you succeed in doing by your own efforts.',
 	},
@@ -1215,7 +1284,8 @@ const dictionary2: dictType[] = [
 	},
 	{
 		rus: 'Приятно быть признанным и признанным за мои достижения.',
-		eng: "It's nice to be acknowledged and recognized for my achievements.",
+		eng:
+			"It's nice to be acknowledged and recognized for my achievements.",
 	},
 	{
 		rus:
@@ -1289,15 +1359,15 @@ const dictionary2: dictType[] = [
 		eng:
 			'Your communication skills could make all the difference at a job interview // (have a good effect).',
 	},
-];
-const oldDictionary2: dictType[] = [
+
 	{
 		eng: "Hi, I don't think we've met. I'm Paolo from Napoli.",
 		rus: 'Привет, не думаю, что мы встречались. Я Паоло из Неаполя.',
 	},
 	{
 		eng: "Hello. It's Adriana, isn't it? We met before dinner.",
-		rus: 'Привет. Это Адриана, не так ли? Мы встретились перед ужином.',
+		rus:
+			'Привет. Это Адриана, не так ли? Мы встретились перед ужином.',
 	},
 	{
 		eng:
@@ -1310,8 +1380,10 @@ const oldDictionary2: dictType[] = [
 		rus: 'Это ваше первое корпоративное мероприятие?',
 	},
 	{
-		eng: 'Are you from Calcutta? What a coincidence! My parents are from India, too.',
-		rus: 'Вы из Калькутты? Какое совпадение! Мои родители тоже из Индии.',
+		eng:
+			'Are you from Calcutta? What a coincidence! My parents are from India, too.',
+		rus:
+			'Вы из Калькутты? Какое совпадение! Мои родители тоже из Индии.',
 	},
 	{
 		eng:
@@ -1320,7 +1392,8 @@ const oldDictionary2: dictType[] = [
 			'Добрый вечер, Адриана. Я думал, что увижу тебя здесь. Вернулся на другое мероприятие компании? // (чувствовал, что могу встретиться)',
 	},
 	{
-		eng: "Currently I'm working on pension plans and other savings schemes. //",
+		eng:
+			"Currently I'm working on pension plans and other savings schemes. //",
 		rus:
 			'В настоящее время я работаю над пенсионными планами и другими накопительными планами. //(предлог)',
 	},
@@ -1335,11 +1408,14 @@ const oldDictionary2: dictType[] = [
 	{
 		eng:
 			"I injured my leg in January in a skiing accident. Oh dear, I'm sorry to hear that!",
-		rus: 'Я повредил ногу в январе в лыжной аварии. О Боже, мне очень жаль это слышать!',
+		rus:
+			'Я повредил ногу в январе в лыжной аварии. О Боже, мне очень жаль это слышать!',
 	},
 	{
-		eng: 'Have you seen the programme? It looks very entertaining. //(a lot of fun)',
-		rus: 'Вы видели программу? Выглядит очень занимательно. // (очень весело)',
+		eng:
+			'Have you seen the programme? It looks very entertaining. //(a lot of fun)',
+		rus:
+			'Вы видели программу? Выглядит очень занимательно. // (очень весело)',
 	},
 	{
 		eng:
@@ -1349,7 +1425,8 @@ const oldDictionary2: dictType[] = [
 	},
 	{
 		eng: "Hi, I'm Sumitra, based in the UK. // (working)",
-		rus: 'Привет, я Сумитра, базирующаяся в Великобритании. // (рабочий)',
+		rus:
+			'Привет, я Сумитра, базирующаяся в Великобритании. // (рабочий)',
 	},
 	{
 		eng: 'How are things? // (How are you?)',
@@ -1374,31 +1451,39 @@ const oldDictionary2: dictType[] = [
 			'Кстати, вы не видели Энн Смит? Я слышал, что она должна быть на этой конференции. // (изменение темы разговора)',
 	},
 	{
-		rus: 'Когда уезжает Мистер Патель? Вы знаете, когда мистер Патель уезжает?',
-		eng: 'When is Mr Patel leaving? Do you know when Mr. Patel is leaving?',
+		rus:
+			'Когда уезжает Мистер Патель? Вы знаете, когда мистер Патель уезжает?',
+		eng:
+			'When is Mr Patel leaving? Do you know when Mr. Patel is leaving?',
 	},
 	{
-		rus: 'Где работает Мистер Элмор?  Не подскажете, где работает Мистер Элмор?',
-		eng: 'Where does Mr Elmore work?  Could you tell me where Mr Elmore works?',
+		rus:
+			'Где работает Мистер Элмор?  Не подскажете, где работает Мистер Элмор?',
+		eng:
+			'Where does Mr Elmore work?  Could you tell me where Mr Elmore works?',
 	},
 	{
 		rus: 'Сколько это стоит? Можете сказать, сколько это стоит?',
 		eng: 'How much does it cost? Can you tell me how much it costs?',
 	},
 	{
-		rus: 'Кто оставил это сообщение? Вы знаете, кто оставил это сообщение?',
-		eng: 'Who left this message? Do you have any idea who left this message?',
+		rus:
+			'Кто оставил это сообщение? Вы знаете, кто оставил это сообщение?',
+		eng:
+			'Who left this message? Do you have any idea who left this message?',
 	},
 	{
 		rus: 'Завтра будет дождь? Ты знаешь, будет ли завтра дождь?',
-		eng: "Is it going to rain tomorrow? Do you know whether it's going to rain tomorrow?",
+		eng:
+			"Is it going to rain tomorrow? Do you know whether it's going to rain tomorrow?",
 	},
 	{
 		rus: 'Разве вы не в Милане?',
 		eng: "Aren't you based in Milan?",
 	},
 	{
-		rus: 'Разве они не продаете аппаратное и программное обеспечение?',
+		rus:
+			'Разве они не продаете аппаратное и программное обеспечение?',
 		eng: "Didn't they sell hardware as well as software?",
 	},
 	{
@@ -1410,7 +1495,8 @@ const oldDictionary2: dictType[] = [
 		eng: "//complain// Haven't you finished yet?",
 	},
 	{
-		rus: '// сделайте предложение // Почему бы вам не присоединиться к нам?',
+		rus:
+			'// сделайте предложение // Почему бы вам не присоединиться к нам?',
 		eng: "//make a suggestion// Why don't you join us?",
 	},
 	{
@@ -1418,7 +1504,8 @@ const oldDictionary2: dictType[] = [
 		eng: "//check information// Isn't it yours?",
 	},
 	{
-		rus: '// сделать запрос // Можем ли мы присоединиться к вам на встрече?',
+		rus:
+			'// сделать запрос // Можем ли мы присоединиться к вам на встрече?',
 		eng: "//make a request// Can't we join you at the meeting?",
 	},
 	{
@@ -1461,13 +1548,18 @@ const oldDictionary2: dictType[] = [
 		eng:
 			"// If the subject is no one, nobody - use 'they' in the tag.// No one knew about that, did they?",
 	},
+];
+const dictionary2: dictType[] = [
 	{
 		rus: 'Боюсь, у нас закончились деньги. // (денег не осталось)',
-		eng: "I'm afraid we've run out of money. // (there is no money left)",
+		eng:
+			"I'm afraid we've run out of money. // (there is no money left)",
 	},
 	{
-		rus: 'Постарайтесь отслеживать расходы, чтобы не превышать бюджет. // (монитор)',
-		eng: "Try to keep track of spending so that you don't go over budget. // (monitor)",
+		rus:
+			'Постарайтесь отслеживать расходы, чтобы не превышать бюджет. // (монитор)',
+		eng:
+			"Try to keep track of spending so that you don't go over budget. // (monitor)",
 	},
 	{
 		rus:
@@ -1488,17 +1580,22 @@ const oldDictionary2: dictType[] = [
 			"We're behind schedule now but hope to catch up with everything this week. // (doing work later than planned)",
 	},
 	{
-		rus: 'В данный момент все идет гладко. // (все идет по плану, проблем нет)',
+		rus:
+			'В данный момент все идет гладко. // (все идет по плану, проблем нет)',
 		eng:
 			"Things are running smoothly at the moment. // (everything's according to plan, there are no problems)",
 	},
 	{
-		rus: 'Наш менеджер пытается решить любые конфликты сразу. // (иметь дело)',
-		eng: 'Our manager tries to resolve any conflicts straight away. // (deal with)',
+		rus:
+			'Наш менеджер пытается решить любые конфликты сразу. // (иметь дело)',
+		eng:
+			'Our manager tries to resolve any conflicts straight away. // (deal with)',
 	},
 	{
-		rus: 'Основная причина задержки-отсутствие планирования. // (недостаточно)',
-		eng: 'The main reason for the delay is lack of planning. // (not enough)',
+		rus:
+			'Основная причина задержки-отсутствие планирования. // (недостаточно)',
+		eng:
+			'The main reason for the delay is lack of planning. // (not enough)',
 	},
 	{
 		rus:
@@ -1521,7 +1618,8 @@ const oldDictionary2: dictType[] = [
 	{
 		rus:
 			'Нам нужно убедиться, что мы в рамках бюджета. // (не тратьте слишком много денег)',
-		eng: "We need to make sure that we're within budget. // (don't spend too much money)",
+		eng:
+			"We need to make sure that we're within budget. // (don't spend too much money)",
 	},
 	{
 		rus:
@@ -1536,8 +1634,10 @@ const oldDictionary2: dictType[] = [
 			'Define checkpoints throughout the project so you can stay on track. // (be likely to achieve the result you want)',
 	},
 	{
-		rus: 'Нам нужно немедленно начать решать проблему. // (начать пытаться решить)',
-		eng: 'We need to address the problem immediately. // (start trying to solve it)',
+		rus:
+			'Нам нужно немедленно начать решать проблему. // (начать пытаться решить)',
+		eng:
+			'We need to address the problem immediately. // (start trying to solve it)',
 	},
 	{
 		rus:
@@ -1606,10 +1706,12 @@ const oldDictionary2: dictType[] = [
 	{
 		rus:
 			'Цель сегодняшнего заседания-информировать друг друга о достигнутом прогрессе. //( цель)',
-		eng: "The purpose of today's meeting is to update each other on progress. //( goal)",
+		eng:
+			"The purpose of today's meeting is to update each other on progress. //( goal)",
 	},
 	{
-		rus: 'До сих пор дата запуска назначена на 15 ноября. //( дата выпуска )',
+		rus:
+			'До сих пор дата запуска назначена на 15 ноября. //( дата выпуска )',
 		eng:
 			'Up to now the launch date has been set for the 15th of November. //( the release date)',
 	},
@@ -1620,15 +1722,18 @@ const oldDictionary2: dictType[] = [
 			'We booked the venue for the conference two weeks ago. //( a place for an event)',
 	},
 	{
-		rus: 'Все не так гладко, как мы надеялись. //( не достаточно хорошо )',
-		eng: "Things aren't r running as smoothly as we hoped. //( aren't going well enough)",
+		rus:
+			'Все не так гладко, как мы надеялись. //( не достаточно хорошо )',
+		eng:
+			"Things aren't r running as smoothly as we hoped. //( aren't going well enough)",
 	},
 	{
 		rus: 'У нас проблема с новой функциональностью. //( faced)',
 		eng: "We've hit a problem with the new functionality. //( faced)",
 	},
 	{
-		rus: 'Мы находимся на пути с развертыванием функции. //( все идет по плану)',
+		rus:
+			'Мы находимся на пути с развертыванием функции. //( все идет по плану)',
 		eng:
 			"We're on track with deploying the feature. //( everything's going according to plan)",
 	},
@@ -1637,45 +1742,58 @@ const oldDictionary2: dictType[] = [
 		eng: 'How does your side of things look? //( your view)',
 	},
 	{
-		rus: 'Как продвигается рекламная кампания? //( достижение прогресса)',
-		eng: "How's the advertising campaign coming along? //( making progress)",
+		rus:
+			'Как продвигается рекламная кампания? //( достижение прогресса)',
+		eng:
+			"How's the advertising campaign coming along? //( making progress)",
 	},
 	{
 		rus: 'И как далеко вы продвинулись в подготовке к запуску?',
-		eng: 'And how far are you with preparations for the launch party? // ',
+		eng:
+			'And how far are you with preparations for the launch party? // ',
 	},
+];
+const oldDictionary2: dictType[] = [
 	{
-		rus: 'Каково текущее состояние нагрузочного тестирования? //( существующий сейчас)',
-		eng: "What's the current status of the load testing? //( existing now)",
+		rus:
+			'Каково текущее состояние нагрузочного тестирования? //( существующий сейчас)',
+		eng:
+			"What's the current status of the load testing? //( existing now)",
 	},
 	{
 		rus: 'Что именно вы имеете в виду? (просьба разъяснить)',
 		eng: 'What do you mean exactly? (please clarify)',
 	},
 	{
-		rus: 'Итак, настоящая проблема заключается в производителях батарей? //( из-за )',
-		eng: 'So the real problem lies with the battery manufacturers? //( is because of)',
+		rus:
+			'Итак, настоящая проблема заключается в производителях батарей? //( из-за )',
+		eng:
+			'So the real problem lies with the battery manufacturers? //( is because of)',
 	},
 	{
 		rus:
 			'Почему бы нам не подождать и не посмотреть, что предлагают техники? //( давайте)',
-		eng: "Why don't we wait and see what the technicians suggest? //( let's)",
+		eng:
+			"Why don't we wait and see what the technicians suggest? //( let's)",
 	},
 	{
 		rus: 'Меня это не убеждает. //( не уверенный)',
 		eng: "I'm not convinced. //( not certain)",
 	},
 	{
-		rus: 'Это стоит попробовать. // (это хорошая идея, чтобы попробовать)',
+		rus:
+			'Это стоит попробовать. // (это хорошая идея, чтобы попробовать)',
 		eng: "It's worth a try. //( it's a good idea to try it)",
 	},
 	{
 		rus: 'Наши инженеры изучают проблему. // (исследование; предлог)',
-		eng: 'Our engineers are looking into the problem. //( investigating; preposition)',
+		eng:
+			'Our engineers are looking into the problem. //( investigating; preposition)',
 	},
 	{
 		rus: 'Возможно, придется перенести запуск. // (изменить дату)',
-		eng: 'We may have to reschedule the launch party. //( change the date)',
+		eng:
+			'We may have to reschedule the launch party. //( change the date)',
 	},
 	{
 		rus:
@@ -1700,12 +1818,15 @@ const oldDictionary2: dictType[] = [
 		eng: 'Can this problem be resolved? // fixed ',
 	},
 	{
-		rus: 'Почему бы нам не подождать и не посмотреть, что предлагают техники?',
+		rus:
+			'Почему бы нам не подождать и не посмотреть, что предлагают техники?',
 		eng: "Why don't we wait and see what the technicians suggest?",
 	},
 	{
-		rus: 'Как далеко вы продвинулись в подготовке к демо? /(каков ваш прогресс?)',
-		eng: "How far are you with preparing for the demo? //( what's your progress?)",
+		rus:
+			'Как далеко вы продвинулись в подготовке к демо? /(каков ваш прогресс?)',
+		eng:
+			"How far are you with preparing for the demo? //( what's your progress?)",
 	},
 	{
 		rus: 'Have you seen Anna this morning? (It is still morning)',
@@ -1754,7 +1875,8 @@ const oldDictionary2: dictType[] = [
 	},
 	{
 		rus: 'Вы видели Анну сегодня утром? (Сейчас полдень вечера)',
-		eng: 'Did you see Anna this morning? (It is now afternoon or evening)',
+		eng:
+			'Did you see Anna this morning? (It is now afternoon or evening)',
 	},
 	{
 		rus: 'Вы видели Тима в воскресенье?',
@@ -1775,16 +1897,21 @@ const oldDictionary2: dictType[] = [
 		eng: "We've never had a car.",
 	},
 	{
-		rus: "Вы читали 'Гамлета'? Нет, я не читал ни одной пьесы Шекспира.",
-		eng: "Have you read Hamlet? No, I haven't read any of Shakespeare's plays.",
+		rus:
+			"Вы читали 'Гамлета'? Нет, я не читал ни одной пьесы Шекспира.",
+		eng:
+			"Have you read Hamlet? No, I haven't read any of Shakespeare's plays.",
 	},
 	{
-		rus: 'Сьюзан очень нравится этот фильм. Она смотрела его восемь раз!',
+		rus:
+			'Сьюзан очень нравится этот фильм. Она смотрела его восемь раз!',
 		eng: "Susan really loves that film. She's seen it eight times!",
 	},
 	{
-		rus: 'Какой скучный фильм! Это самый скучный фильм, который я когда-либо видел.',
-		eng: "What a boring film! It's the most boring film I've ever seen.",
+		rus:
+			'Какой скучный фильм! Это самый скучный фильм, который я когда-либо видел.',
+		eng:
+			"What a boring film! It's the most boring film I've ever seen.",
 	},
 	{
 		rus: 'Я никогда не был в Китае. Вы там бывали?',
@@ -1800,7 +1927,8 @@ const oldDictionary2: dictType[] = [
 	},
 	{
 		rus: 'Все идет хорошо. У нас пока не было никаких проблем.',
-		eng: "Everything is going well. We haven't had any problems so far.",
+		eng:
+			"Everything is going well. We haven't had any problems so far.",
 	},
 	{
 		rus: 'Я голоден. Я ничего не ел с самого завтрака.',
@@ -1809,7 +1937,8 @@ const oldDictionary2: dictType[] = [
 	},
 	{
 		rus: 'Хорошо увидеть тебя снова. Мы давно не виделись.',
-		eng: "It's good to see you again. We haven't seen each other for a long time.",
+		eng:
+			"It's good to see you again. We haven't seen each other for a long time.",
 	},
 	{
 		rus:
@@ -1844,12 +1973,14 @@ const oldDictionary2: dictType[] = [
 			"Don is having a driving lesson. It's his first one. It's the first time he has driven a car. //(not drives)//. He has never driven a car before.",
 	},
 	{
-		rus: 'Сара снова потеряла паспорт. Это уже второй раз, как это происходит .',
+		rus:
+			'Сара снова потеряла паспорт. Это уже второй раз, как это происходит .',
 		eng:
 			'Sarah has lost her passport again. This is the second time this has happened. //(not happens)',
 	},
 	{
-		rus: 'Билл снова звонит своей девушке. Это уже третий раз он звонит ей за вечер.',
+		rus:
+			'Билл снова звонит своей девушке. Это уже третий раз он звонит ей за вечер.',
 		eng:
 			"Bill is phoning his girlfriend again. That's the third time he's phoned her this evening.",
 	},
@@ -1872,23 +2003,30 @@ const oldDictionary2: dictType[] = [
 		eng: "What were you doing at 10 o'clock last night?",
 	},
 	{
-		rus: 'Сравните прошлое непрерывное (я делал) и прошлое простое (я делал).',
-		eng: 'Compare the past continuous (I was doing) and past simple (I did).',
+		rus:
+			'Сравните прошлое непрерывное (я делал) и прошлое простое (я делал).',
+		eng:
+			'Compare the past continuous (I was doing) and past simple (I did).',
 	},
 	{
-		rus: 'Я шёл домой, когда встретил Дэна. (в середине прогулки домой)',
-		eng: 'I was walking home when I met Dan. (in the middle of walking home)',
+		rus:
+			'Я шёл домой, когда встретил Дэна. (в середине прогулки домой)',
+		eng:
+			'I was walking home when I met Dan. (in the middle of walking home)',
 	},
 	{
 		rus: 'Кейт смотрела телевизор, когда мы приехали.',
 		eng: 'Kate was watching TV when we arrived.',
 	},
 	{
-		rus: 'Я пошел домой после вчерашней вечеринки. ( полностью, полностью)',
-		eng: 'I walked home after the party last night. ( all the way, completely)',
+		rus:
+			'Я пошел домой после вчерашней вечеринки. ( полностью, полностью)',
+		eng:
+			'I walked home after the party last night. ( all the way, completely)',
 	},
 	{
-		rus: 'Кейт много смотрела телевизор, когда болела в прошлом году.',
+		rus:
+			'Кейт много смотрела телевизор, когда болела в прошлом году.',
 		eng: 'Kate watched television a lot when she was ill last year.',
 	},
 	{
@@ -1902,7 +2040,8 @@ const oldDictionary2: dictType[] = [
 		eng: 'It was raining when I got up.',
 	},
 	{
-		rus: 'Я видел тебя вчера в парке. Ты сидел на траве и читал книгу.',
+		rus:
+			'Я видел тебя вчера в парке. Ты сидел на траве и читал книгу.',
 		eng:
 			'I saw you in the park yesterday. You were sitting on the grass and reading a book.',
 	},
@@ -1917,13 +2056,16 @@ const oldDictionary2: dictType[] = [
 			'But we use the past simple to say that one thing happened after another: I was walking along the road when I saw Dan. So I stopped, and we had a chat.',
 	},
 	{
-		rus: 'Когда Карен приехала, мы ужинали. ( мы уже начали, прежде чем она приехала)',
+		rus:
+			'Когда Карен приехала, мы ужинали. ( мы уже начали, прежде чем она приехала)',
 		eng:
 			'When Karen arrived, we were having dinner. ( we had already started before she arrived)',
 	},
 	{
-		rus: 'Когда Карен приехала, мы ужинали. (Карен приехала, а потом мы поужинали)',
-		eng: 'When Karen arrived, we had dinner. ( Karen arrived, and then we had dinner)',
+		rus:
+			'Когда Карен приехала, мы ужинали. (Карен приехала, а потом мы поужинали)',
+		eng:
+			'When Karen arrived, we had dinner. ( Karen arrived, and then we had dinner)',
 	},
 	{
 		rus:
@@ -1932,12 +2074,16 @@ const oldDictionary2: dictType[] = [
 			'Some verbs (for example, know and want) are not normally used in the continuous.',
 	},
 	{
-		rus: 'Мы были хорошими друзьями. Мы хорошо знали друг друга. (мы не знали, что)',
-		eng: 'We were good friends. We knew each other well. (not We were knowing)',
+		rus:
+			'Мы были хорошими друзьями. Мы хорошо знали друг друга. (мы не знали, что)',
+		eng:
+			'We were good friends. We knew each other well. (not We were knowing)',
 	},
 	{
-		rus: 'Я наслаждалась вечеринкой, но Крис хотел домой. (не было желающих)',
-		eng: 'I was enjoying the party, but Chris wanted to go home. // (not was wanting)',
+		rus:
+			'Я наслаждалась вечеринкой, но Крис хотел домой. (не было желающих)',
+		eng:
+			'I was enjoying the party, but Chris wanted to go home. // (not was wanting)',
 	},
 	{
 		rus:
@@ -1990,7 +2136,8 @@ const oldDictionary2: dictType[] = [
 	{
 		rus:
 			"Вы можете сказать, что кто-то 'способен' что-то сделать, но 'может' более обычно.",
-		eng: "You can say that somebody 'is able' to do something, but 'can' is more usual.",
+		eng:
+			"You can say that somebody 'is able' to do something, but 'can' is more usual.",
 	},
 	{
 		rus: 'Мы можем увидеть озеро из нашего отеля.',
@@ -2008,7 +2155,8 @@ const oldDictionary2: dictType[] = [
 	},
 	{
 		rus: 'Том может прийти завтра.  Том мог бы прийти завтра.',
-		eng: 'Tom can come tomorrow. ( Tom might be able to come tomorrow.)',
+		eng:
+			'Tom can come tomorrow. ( Tom might be able to come tomorrow.)',
 	},
 	{
 		rus:
@@ -2028,7 +2176,8 @@ const oldDictionary2: dictType[] = [
 	},
 	{
 		rus: 'Я сидел в задней части театра и не слышали.',
-		eng: "I was sitting at the back of the theatre and couldn't hear very well.",
+		eng:
+			"I was sitting at the back of the theatre and couldn't hear very well.",
 	},
 	{
 		rus:
@@ -2043,7 +2192,8 @@ const oldDictionary2: dictType[] = [
 	{
 		rus:
 			'Мы были абсолютно свободны. Мы могли делать, что хотели. (нам разрешили это сделать)',
-		eng: 'We were totally free. We could do what we wanted. (we were allowed to do)',
+		eng:
+			'We were totally free. We could do what we wanted. (we were allowed to do)',
 	},
 	{
 		rus:
@@ -2070,7 +2220,8 @@ const oldDictionary2: dictType[] = [
 			'Jack was an excellent tennis player when he was younger. He could beat anybody. (he had the general ability to beat anybody) But Jack and Andy played a match yesterday. Andy played well, but Jack managed to beat him. ( he managed to beat him this time)',
 	},
 	{
-		rus: 'Негатив не мог (не мог) возможен во всех ситуациях: мой дед не умел плавать.',
+		rus:
+			'Негатив не мог (не мог) возможен во всех ситуациях: мой дед не умел плавать.',
 		eng:
 			"The negative couldn't (could not) is possible in all situations: My grandfather couldn't swim.",
 	},
@@ -2083,8 +2234,10 @@ const oldDictionary2: dictType[] = [
 		eng: "Andy played well, but he couldn't beat Jack.",
 	},
 	{
-		rus: 'Мы очень ценим возможность работать с вашей компанией. //спасибо тебе)',
-		eng: 'We really appreciate the opportunity to work with your company. //thank you)',
+		rus:
+			'Мы очень ценим возможность работать с вашей компанией. //спасибо тебе)',
+		eng:
+			'We really appreciate the opportunity to work with your company. //thank you)',
 	},
 	{
 		rus:
@@ -2127,20 +2280,25 @@ const oldDictionary2: dictType[] = [
 			"Now I'd like to move on to some other advantages of our product. //start talking about a new subject)",
 	},
 	{
-		rus: 'Другим важным преимуществом системы является ее гибкость. //важный, главный)',
-		eng: 'The other major advantage of the system is its flexibility. //important, main)',
+		rus:
+			'Другим важным преимуществом системы является ее гибкость. //важный, главный)',
+		eng:
+			'The other major advantage of the system is its flexibility. //important, main)',
 	},
 	{
 		rus: 'Это звучит нормально?',
 		eng: 'Does that sound ok?',
 	},
 	{
-		rus: 'Давайте посмотрим, что DiScan может предложить. //может обеспечить)',
+		rus:
+			'Давайте посмотрим, что DiScan может предложить. //может обеспечить)',
 		eng: "Let's look at what DiScan has to offer. //can provide)",
 	},
 	{
-		rus: 'С новой системой вы можете обрабатывать информацию гораздо быстрее.',
-		eng: 'With the new system you can process the information much faster.',
+		rus:
+			'С новой системой вы можете обрабатывать информацию гораздо быстрее.',
+		eng:
+			'With the new system you can process the information much faster.',
 	},
 	{
 		rus: 'И вот еще одна интересная вещь о новом приложении.',
@@ -2159,7 +2317,8 @@ const oldDictionary2: dictType[] = [
 			'The biggest potential benefit is that you can use the application off-line, too. //possible advantage)',
 	},
 	{
-		rus: 'Прежде всего, я хотел бы поблагодарить вас за приглашение. //для начала)',
+		rus:
+			'Прежде всего, я хотел бы поблагодарить вас за приглашение. //для начала)',
 		eng:
 			"First of all, I'd like to thank you for inviting me here today. //to start with)",
 	},
@@ -2198,8 +2357,10 @@ const oldDictionary2: dictType[] = [
 		eng: 'set up',
 	},
 	{
-		rus: 'Я подумываю уйти из компании, чтобы открыть собственный бизнес.',
-		eng: "I'm thinking of leaving the company to set up my own business.",
+		rus:
+			'Я подумываю уйти из компании, чтобы открыть собственный бизнес.',
+		eng:
+			"I'm thinking of leaving the company to set up my own business.",
 	},
 	{
 		rus:
@@ -2208,17 +2369,21 @@ const oldDictionary2: dictType[] = [
 			"We're over budget on this project - we need to do something to bring down the costs.",
 	},
 	{
-		rus: 'Это отличная идея - я знал, что ты придумаешь план решения проблемы.',
-		eng: "That's great idea - I knew you would come up with a plan to solve the problem.",
+		rus:
+			'Это отличная идея - я знал, что ты придумаешь план решения проблемы.',
+		eng:
+			"That's great idea - I knew you would come up with a plan to solve the problem.",
 	},
 	{
-		rus: 'Я очень рад, что компания приняла вызов рекрутинга по всему ЕС.',
+		rus:
+			'Я очень рад, что компания приняла вызов рекрутинга по всему ЕС.',
 		eng:
 			"I'm really pleased the company has taken up to the challenge of the recruiting across the EU.",
 	},
 	{
 		rus: 'Мы провели много тестов перед запуском продукта.',
-		eng: 'We carried out a lot of tests before we launch the product.',
+		eng:
+			'We carried out a lot of tests before we launch the product.',
 	},
 	{
 		rus:
@@ -2227,13 +2392,16 @@ const oldDictionary2: dictType[] = [
 			'Concern about global warming has brought about a number of changes to environmental guides.',
 	},
 	{
-		rus: 'Мы вложили много денег в эту идею - надеюсь, что инвестиции окупятся.',
-		eng: 'We put a lot of money into this idea - hopefully the investment will pay off.',
+		rus:
+			'Мы вложили много денег в эту идею - надеюсь, что инвестиции окупятся.',
+		eng:
+			'We put a lot of money into this idea - hopefully the investment will pay off.',
 	},
 	{
 		rus:
 			'Мы обошли проблему перемещения дополнительного персонала, набрав местный персонал.',
-		eng: 'We got around the problem of relocation extra staff by recruiting locally.',
+		eng:
+			'We got around the problem of relocation extra staff by recruiting locally.',
 	},
 	{
 		rus:
@@ -2281,7 +2449,8 @@ const oldDictionary2: dictType[] = [
 	{
 		rus:
 			'Эти возможности могут обеспечить ускорение процесса получения выгод от развития.',
-		eng: 'These opportunities can bring about accelerated developmental gains.',
+		eng:
+			'These opportunities can bring about accelerated developmental gains.',
 	},
 	{
 		rus:
@@ -2330,8 +2499,10 @@ const oldDictionary2: dictType[] = [
 		eng: 'All we can do is carry on.',
 	},
 	{
-		rus: 'Потому что ваше лицо выглядит так, как будто вы хотите продолжать говорить.',
-		eng: 'Because your face looks like it wants to carry on speaking.',
+		rus:
+			'Потому что ваше лицо выглядит так, как будто вы хотите продолжать говорить.',
+		eng:
+			'Because your face looks like it wants to carry on speaking.',
 	},
 	{
 		rus: 'Он предложил Бюро заняться этим вопросом.',
@@ -2360,19 +2531,23 @@ const oldDictionary2: dictType[] = [
 			"We're trying to reduce the impact that our manufacturing process has on the environment. // (=influence)",
 	},
 	{
-		rus: 'Наши сотрудники жертвуют время и деньги на благотворительные проекты.',
+		rus:
+			'Наши сотрудники жертвуют время и деньги на благотворительные проекты.',
 		eng: 'Our employees donate time and money to charity projects.',
 	},
 	{
-		rus: 'Мы остаемся верны нашим ценностям и принципам. // (предлог)',
+		rus:
+			'Мы остаемся верны нашим ценностям и принципам. // (предлог)',
 		eng: 'We stay true to our values and principles. // ',
 	},
 	{
-		rus: 'У нас всегда была сильная приверженность к нашей рабочей силе.',
+		rus:
+			'У нас всегда была сильная приверженность к нашей рабочей силе.',
 		eng: "We've always had a strong commitment to our workforce.",
 	},
 	{
-		rus: 'Все сотрудники должны соблюдать правила и положения компании. // (=следовать)',
+		rus:
+			'Все сотрудники должны соблюдать правила и положения компании. // (=следовать)',
 		eng:
 			'All members of staff should comply with company rules and regulations. // (=follow)',
 	},
@@ -2431,13 +2606,16 @@ const oldDictionary2: dictType[] = [
 			'Our business activity creates pollution as a by-product, so we try to act responsibly and use eco-friendly technologies.// (=work in a sensible way and be reliable)',
 	},
 	{
-		rus: 'Я управляю этой компанией более 10 лет и горжусь этим. // (=управляющий)',
+		rus:
+			'Я управляю этой компанией более 10 лет и горжусь этим. // (=управляющий)',
 		eng:
 			"I have been running this company for more than 10 years and I'm proud of it. // (=managing)",
 	},
 	{
-		rus: 'маршрут - план или список мест, которые вы посетите в путешествие',
-		eng: 'itinerary - a plan or list of the places you will visit on a journey',
+		rus:
+			'маршрут - план или список мест, которые вы посетите в путешествие',
+		eng:
+			'itinerary - a plan or list of the places you will visit on a journey',
 	},
 	{
 		rus:
@@ -2446,7 +2624,8 @@ const oldDictionary2: dictType[] = [
 			'This visit will give you a real insight into our daily work. // (=clear understanding)',
 	},
 	{
-		rus: 'Поездка будет включать в себя много автомобильных поездок. //(=включать)',
+		rus:
+			'Поездка будет включать в себя много автомобильных поездок. //(=включать)',
 		eng: 'The trip will involve a lot of road travel. //(=include)',
 	},
 	{
@@ -2456,8 +2635,10 @@ const oldDictionary2: dictType[] = [
 			'We strongly recommend you stay with our guide. // (=I advise you that very much)',
 	},
 	{
-		rus: 'С удовольствием познакомлю вас со своей командой. // (=очень счастливый)',
-		eng: "I'd be delighted to introduce you to my team. // (=very happy)",
+		rus:
+			'С удовольствием познакомлю вас со своей командой. // (=очень счастливый)',
+		eng:
+			"I'd be delighted to introduce you to my team. // (=very happy)",
 	},
 	{
 		rus:
@@ -2472,12 +2653,15 @@ const oldDictionary2: dictType[] = [
 			"Let's just run through the itinerary of your trip. // (=read quickly and explain)",
 	},
 	{
-		rus: 'Не стесняйтесь задавать любые вопросы. // (=добро пожаловать)',
-		eng: "Feel free to ask any questions you may have. // (=you're welcome)",
+		rus:
+			'Не стесняйтесь задавать любые вопросы. // (=добро пожаловать)',
+		eng:
+			"Feel free to ask any questions you may have. // (=you're welcome)",
 	},
 	{
 		rus: 'Мы организуем визит в наш новый офис. // (=организовать)',
-		eng: "We're going to arrange a visit to our new office. // (=organize)",
+		eng:
+			"We're going to arrange a visit to our new office. // (=organize)",
 	},
 	{
 		rus:
@@ -2487,14 +2671,18 @@ const oldDictionary2: dictType[] = [
 	},
 	{
 		rus: 'Это не совсем то, что я ищу. // (=Мне это не интересно)',
-		eng: "That's not really what I'm looking for. // (=I'm not interested)",
+		eng:
+			"That's not really what I'm looking for. // (=I'm not interested)",
 	},
 	{
-		rus: 'Это как раз то, что мне нужно. // (=Мне очень нравится ваше предложение)',
-		eng: "It's just the kind of thing I need. // (=I really like you suggestion)",
+		rus:
+			'Это как раз то, что мне нужно. // (=Мне очень нравится ваше предложение)',
+		eng:
+			"It's just the kind of thing I need. // (=I really like you suggestion)",
 	},
 	{
-		rus: 'Имеет смысл приехать за 5 минут до начала презентации. // (=это разумно)',
+		rus:
+			'Имеет смысл приехать за 5 минут до начала презентации. // (=это разумно)',
 		eng:
 			"It makes sense to arrive 5 minutes before the presentation starts. // (=it's reasonable)",
 	},
@@ -2535,7 +2723,8 @@ const oldDictionary2: dictType[] = [
 		eng: 'I hope you will have a nice time.',
 	},
 	{
-		rus: 'Благодарю. Я пришлю тебе открытку и свяжусь с тобой, когда вернусь.',
+		rus:
+			'Благодарю. Я пришлю тебе открытку и свяжусь с тобой, когда вернусь.',
 		eng:
 			"Thanks. I'll send you a postcard and I'll get in touch with you when I get back.",
 	},
@@ -2550,8 +2739,10 @@ const oldDictionary2: dictType[] = [
 			"On Saturday? I'm not sure. Some friends of mine are coming to stay with me next week. But I think they will leave by Saturday. But if they are still here I won't be able to come to party.",
 	},
 	{
-		rus: 'Ладно. Скажи мне, как только узнаешь. Я позвоню тебе в течение недели.',
-		eng: "OK. Tell me as soon as you know. I'll call you during the week.",
+		rus:
+			'Ладно. Скажи мне, как только узнаешь. Я позвоню тебе в течение недели.',
+		eng:
+			"OK. Tell me as soon as you know. I'll call you during the week.",
 	},
 	{
 		rus:
@@ -2584,7 +2775,8 @@ const oldDictionary2: dictType[] = [
 			"I just love working with thoughtful colleagues: they're kind and care about other people's feelings and needs.",
 	},
 	{
-		rus: 'Я хотел бы быть самодостаточным, когда мне не придется зависеть от других.',
+		rus:
+			'Я хотел бы быть самодостаточным, когда мне не придется зависеть от других.',
 		eng:
 			"I'd love to be self-contained when I wouldn't have to depend on others for support.",
 	},
@@ -2595,8 +2787,10 @@ const oldDictionary2: dictType[] = [
 			"Jane is really tactful: she's careful not to say or do anything that will annoy or upset other people.",
 	},
 	{
-		rus: 'Я методичный человек, который делает все тщательно и логично.',
-		eng: "I'm a methodical person, who does things in a careful and logical way.",
+		rus:
+			'Я методичный человек, который делает все тщательно и логично.',
+		eng:
+			"I'm a methodical person, who does things in a careful and logical way.",
 	},
 	{
 		rus:
@@ -2629,8 +2823,10 @@ const oldDictionary2: dictType[] = [
 			'My team lead is very pragmatic and always solves problems in a practical and sensible way.',
 	},
 	{
-		rus: 'Нам нужно принять рациональное решение. //(на основе разума, а не эмоций)',
-		eng: 'We need to make a rational decision. //(based on reason rather than emotions)',
+		rus:
+			'Нам нужно принять рациональное решение. //(на основе разума, а не эмоций)',
+		eng:
+			'We need to make a rational decision. //(based on reason rather than emotions)',
 	},
 	{
 		rus:
@@ -2639,7 +2835,8 @@ const oldDictionary2: dictType[] = [
 			'I usually weigh up all the information before making a decision. //(consider good and bad aspects)',
 	},
 	{
-		rus: 'Вы должны быть уверены в своих собственных суждениях. (предлог)',
+		rus:
+			'Вы должны быть уверены в своих собственных суждениях. (предлог)',
 		eng: 'You need to have confidence in your own judgment. //',
 	},
 	{
@@ -2653,8 +2850,10 @@ const oldDictionary2: dictType[] = [
 			'We need to consider all the possible solutions and then make a choice. //(think about them carefully)',
 	},
 	{
-		rus: 'Давайте отложим решение, пока не поговорим с клиентом. //(откладывать)',
-		eng: "Let's delay the decision until we've talked to the customer. //(postpone)",
+		rus:
+			'Давайте отложим решение, пока не поговорим с клиентом. //(откладывать)',
+		eng:
+			"Let's delay the decision until we've talked to the customer. //(postpone)",
 	},
 	{
 		rus:
@@ -2663,18 +2862,22 @@ const oldDictionary2: dictType[] = [
 			"I'm going to talk to my team lead to get a different perspective on the issue. //(view)",
 	},
 	{
-		rus: 'Когда мне трудно принять решение, я обычно полагаюсь на интуицию. //(доверие)',
+		rus:
+			'Когда мне трудно принять решение, я обычно полагаюсь на интуицию. //(доверие)',
 		eng:
 			'When I find it difficult to make a decision, I usually rely on my intuition. //(trust)',
 	},
 	{
 		rus:
 			'Я собираюсь поговорить со своей командой, чтобы получить другую точку зрения на этот вопрос.',
-		eng: "I'm going to talk to my team lead to get a different perspective on the issue.",
+		eng:
+			"I'm going to talk to my team lead to get a different perspective on the issue.",
 	},
 	{
-		rus: 'Вы должны быть уверены в своих собственных суждениях. //(обязательно)',
-		eng: 'You need to have confidence in your own judgment. //(be sure about)',
+		rus:
+			'Вы должны быть уверены в своих собственных суждениях. //(обязательно)',
+		eng:
+			'You need to have confidence in your own judgment. //(be sure about)',
 	},
 	{
 		rus:
@@ -2692,11 +2895,14 @@ const oldDictionary2: dictType[] = [
 		eng: '( little = not enough ) ( a little = some / enough )',
 	},
 	{
-		rus: 'Джозеф всегда был одним из самых эффективных членов команды.',
-		eng: 'Jozef was always one of the most effective members of the team.',
+		rus:
+			'Джозеф всегда был одним из самых эффективных членов команды.',
+		eng:
+			'Jozef was always one of the most effective members of the team.',
 	},
 	{
-		rus: 'Кроме того, он добросовестен и проявляет большой потенциал.',
+		rus:
+			'Кроме того, он добросовестен и проявляет большой потенциал.',
 		eng: 'Furthermore he is conscientious and shows great potential.',
 	},
 	{
@@ -2706,8 +2912,10 @@ const oldDictionary2: dictType[] = [
 			'Despite having little experience in the travel industry, he has quickly attained an excellent level of expertise.',
 	},
 	{
-		rus: 'Однако в последнее время появились опасения по поводу его работы.',
-		eng: 'However recently there have been concerns about his performance at work.',
+		rus:
+			'Однако в последнее время появились опасения по поводу его работы.',
+		eng:
+			'However recently there have been concerns about his performance at work.',
 	},
 	{
 		rus:
@@ -2720,8 +2928,10 @@ const oldDictionary2: dictType[] = [
 		eng: 'In addition he has had a lot of time off.',
 	},
 	{
-		rus: 'В связи с этим его коллегам пришлось взять на себя часть работы.',
-		eng: 'Owing to this, his colleagues have had to take on some of his workflow.',
+		rus:
+			'В связи с этим его коллегам пришлось взять на себя часть работы.',
+		eng:
+			'Owing to this, his colleagues have had to take on some of his workflow.',
 	},
 	{
 		rus:
@@ -2730,8 +2940,10 @@ const oldDictionary2: dictType[] = [
 			'Furthermore some of his team have reported that he has started to show signs of stress recently.',
 	},
 	{
-		rus: 'Поэтому я запросил встречу с Джозефом для обсуждения этих вопросов.',
-		eng: 'Consequently I requested a meeting with Jozef to discuss these matters.',
+		rus:
+			'Поэтому я запросил встречу с Джозефом для обсуждения этих вопросов.',
+		eng:
+			'Consequently I requested a meeting with Jozef to discuss these matters.',
 	},
 	{
 		rus:
@@ -2766,8 +2978,10 @@ const oldDictionary2: dictType[] = [
 		eng: "I'm not convinced. //(I think you're wrong.)",
 	},
 	{
-		rus: 'Я думаю, было бы безумием принять этот срок. /(Это плохая идея.)',
-		eng: "I think it would be crazy to accept this deadline. //(It's a bad idea.)",
+		rus:
+			'Я думаю, было бы безумием принять этот срок. /(Это плохая идея.)',
+		eng:
+			"I think it would be crazy to accept this deadline. //(It's a bad idea.)",
 	},
 	{
 		rus:
@@ -2782,8 +2996,10 @@ const oldDictionary2: dictType[] = [
 			"Let's draw up some action points on what we've discussed so far. //(prepare a list)",
 	},
 	{
-		rus: 'Майк, не мог бы ты начать, пожалуйста? //(начало обсуждения)',
-		eng: 'Mike, could you start us off, please? //(begin the discussion)',
+		rus:
+			'Майк, не мог бы ты начать, пожалуйста? //(начало обсуждения)',
+		eng:
+			'Mike, could you start us off, please? //(begin the discussion)',
 	},
 	{
 		rus:
@@ -2796,8 +3012,10 @@ const oldDictionary2: dictType[] = [
 		eng: "Let's turn to the next item on the agenda.",
 	},
 	{
-		rus: 'Подожди, давай послушаем, что Крис хочет сказать. (дело прерывая)',
-		eng: "Hang on, let's hear what Chris has to say. (dealing with interrupting)",
+		rus:
+			'Подожди, давай послушаем, что Крис хочет сказать. (дело прерывая)',
+		eng:
+			"Hang on, let's hear what Chris has to say. (dealing with interrupting)",
 	},
 	{
 		rus:
@@ -2816,8 +3034,10 @@ const oldDictionary2: dictType[] = [
 		eng: 'Can we move on to another issue? //(start talking about)',
 	},
 	{
-		rus: 'Хорошо, похоже, мы кое-куда продвинулись. //(Я думаю, мы делаем успехи)',
-		eng: "Good, we seem to be getting somewhere. //(I think we're making progress)",
+		rus:
+			'Хорошо, похоже, мы кое-куда продвинулись. //(Я думаю, мы делаем успехи)',
+		eng:
+			"Good, we seem to be getting somewhere. //(I think we're making progress)",
 	},
 	{
 		rus: 'Какова ваша позиция по этому вопросу? (предлог)',
@@ -2840,8 +3060,10 @@ const oldDictionary2: dictType[] = [
 			'The thing is that we need to find out why we have so much overtime.//(what the problem is)',
 	},
 	{
-		rus: 'Они попросили его уйти, - другими словами, он был уволен. //(те средства)',
-		eng: 'They asked him to leave - in other words he was fired. //(that means)',
+		rus:
+			'Они попросили его уйти, - другими словами, он был уволен. //(те средства)',
+		eng:
+			'They asked him to leave - in other words he was fired. //(that means)',
 	},
 	{
 		rus:
@@ -2852,18 +3074,23 @@ const oldDictionary2: dictType[] = [
 	{
 		rus:
 			'Я не хочу тратить на это слишком много времени. //(много времени для обсуждения)',
-		eng: "I don't want to spend too long on this point. //(much time to discuss)",
+		eng:
+			"I don't want to spend too long on this point. //(much time to discuss)",
 	},
 	{
-		rus: 'Я имею в виду, нам нужно больше информации об атмосфере в офисе.',
-		eng: 'What I mean is we need more information about the atmosphere in the office.',
+		rus:
+			'Я имею в виду, нам нужно больше информации об атмосфере в офисе.',
+		eng:
+			'What I mean is we need more information about the atmosphere in the office.',
 	},
 	{
 		rus: 'Ситуация серьезная. Нужно что-то сделать, пока не поздно.',
-		eng: "The situation is serious. Something must be done before it's too late.",
+		eng:
+			"The situation is serious. Something must be done before it's too late.",
 	},
 	{
-		rus: 'Я уже должен был получить письмо. Возможно, его отправили не по тому адресу.',
+		rus:
+			'Я уже должен был получить письмо. Возможно, его отправили не по тому адресу.',
 		eng:
 			'I should have received the letter by now. It might have been sent to the wrong address.',
 	},
@@ -2872,7 +3099,8 @@ const oldDictionary2: dictType[] = [
 		eng: 'A decision will not be made until the next meeting.',
 	},
 	{
-		rus: 'Считаете ли вы, что больше денег нужно было потратить на образование?',
+		rus:
+			'Считаете ли вы, что больше денег нужно было потратить на образование?',
 		eng: 'Do you think that more money should be spent on education?',
 	},
 	{
@@ -2893,7 +3121,8 @@ const oldDictionary2: dictType[] = [
 	},
 	{
 		rus: 'Если бы вы не толкнули полицейского, вас бы не арестовали.',
-		eng: "If you hadn't pushed the policeman, you wouldn't have been arrested.",
+		eng:
+			"If you hadn't pushed the policeman, you wouldn't have been arrested.",
 	},
 	{
 		rus:
@@ -2906,7 +3135,8 @@ const oldDictionary2: dictType[] = [
 		eng: 'Somebody has cleaned the room. The room has been cleaned.',
 	},
 	{
-		rus: 'Кто-то сейчас пользуется компьютером. Компьютер используется прямо сейчас.',
+		rus:
+			'Кто-то сейчас пользуется компьютером. Компьютер используется прямо сейчас.',
 		eng:
 			'Somebody is using the computer right now. The computer is being used right now.',
 	},
@@ -2944,15 +3174,19 @@ const oldDictionary2: dictType[] = [
 	},
 	{
 		rus: 'Мой зонтик исчез. Кто-то забрал мой зонтик.',
-		eng: 'My umbrella has disappeared. Somebody has taken my umbrella.',
+		eng:
+			'My umbrella has disappeared. Somebody has taken my umbrella.',
 	},
 	{
-		rus: 'Сэм теперь получает более высокую зарплату. Его повысили в должности.',
+		rus:
+			'Сэм теперь получает более высокую зарплату. Его повысили в должности.',
 		eng: 'Sam gets a higher salary now. He has been promoted.',
 	},
 	{
-		rus: 'Энн не сможет использовать свой офис на этой неделе. Он ремонтируется.',
-		eng: "Ann can't use her office this week. It is being redecorated.",
+		rus:
+			'Энн не сможет использовать свой офис на этой неделе. Он ремонтируется.',
+		eng:
+			"Ann can't use her office this week. It is being redecorated.",
 	},
 	{
 		rus:
@@ -2967,12 +3201,15 @@ const oldDictionary2: dictType[] = [
 			'When I went into the room, I saw that the table and chairs were not in the same place. The furniture had been moved.',
 	},
 	{
-		rus: 'Мой сосед исчез полгода назад.  С тех пор его никто не видел.',
-		eng: 'A neighbor of mine disappeared six month ago. He has not been seen since then.',
+		rus:
+			'Мой сосед исчез полгода назад.  С тех пор его никто не видел.',
+		eng:
+			'A neighbor of mine disappeared six month ago. He has not been seen since then.',
 	},
 	{
 		rus: 'Интересно, как Джейн сейчас. Я не видел ее целую вечность.',
-		eng: "I wonder how Jane is these days. I haven't seen her for ages.",
+		eng:
+			"I wonder how Jane is these days. I haven't seen her for ages.",
 	},
 	{
 		rus:
@@ -3051,7 +3288,8 @@ const oldDictionary2: dictType[] = [
 	},
 	{
 		rus: 'Ситуация серьезная. Нужно что-то сделать, пока не поздно.',
-		eng: "The situation is serious. Something must be done before it's too late.",
+		eng:
+			"The situation is serious. Something must be done before it's too late.",
 	},
 	{
 		rus: 'Тайна - это то, что невозможно объяснить.',
@@ -3059,7 +3297,8 @@ const oldDictionary2: dictType[] = [
 	},
 	{
 		rus: 'Музыка была очень громкой и слышалась издалека.',
-		eng: 'The music was very loud and could be heard from a long way away.',
+		eng:
+			'The music was very loud and could be heard from a long way away.',
 	},
 	{
 		rus: 'В следующем году будет построен новый супермаркет.',
@@ -3079,7 +3318,8 @@ const oldDictionary2: dictType[] = [
 	},
 	{
 		rus: 'Сначала были какие-то проблемы, но, похоже, они решены.',
-		eng: 'There were some problems at first, but they seem to have been solved.',
+		eng:
+			'There were some problems at first, but they seem to have been solved.',
 	},
 	{
 		rus: 'Комната выглядит хорошо. Кто-то убрал её.',
@@ -3111,11 +3351,13 @@ const oldDictionary2: dictType[] = [
 	},
 	{
 		rus: 'Овощи не очень вкусные. Их слишком долго готовили.',
-		eng: "The vegetables didn't taste good. They had been cooked too long.",
+		eng:
+			"The vegetables didn't taste good. They had been cooked too long.",
 	},
 	{
 		rus: 'Машине было три года, но она почти не использовалась.',
-		eng: "The car was three years old, but hadn't been used very much.",
+		eng:
+			"The car was three years old, but hadn't been used very much.",
 	},
 	{
 		rus: 'Кто-то убирает комнату в данный момент.',
@@ -3148,12 +3390,15 @@ const oldDictionary2: dictType[] = [
 			'Business process outsourcing (BPO) when the responsibility for running a particular system or service are given to people outside the company is getting more popular.',
 	},
 	{
-		rus: 'Оффшорное расположение базируется в иностранном государстве.',
+		rus:
+			'Оффшорное расположение базируется в иностранном государстве.',
 		eng: 'Offshore location is based in a foreign country.',
 	},
 	{
-		rus: 'Аутсорсинг может помочь компаниям снизить накладные расходы. //(get, reach)',
-		eng: 'Outsourcing can help companies achieve lower overheads. //(get, reach)',
+		rus:
+			'Аутсорсинг может помочь компаниям снизить накладные расходы. //(get, reach)',
+		eng:
+			'Outsourcing can help companies achieve lower overheads. //(get, reach)',
 	},
 	{
 		rus:
@@ -3164,7 +3409,8 @@ const oldDictionary2: dictType[] = [
 	{
 		rus:
 			'Аутсорсинг может привести к потере рабочих мест в европейских странах. //(привести)',
-		eng: 'Outsourcing can lead to job losses in European countries. //(result in)',
+		eng:
+			'Outsourcing can lead to job losses in European countries. //(result in)',
 	},
 	{
 		rus:
@@ -3199,7 +3445,8 @@ const oldDictionary2: dictType[] = [
 	{
 		rus:
 			'Правительство должно разработать стратегии борьбы с безработицей. //(создавать)',
-		eng: 'The government has to develop strategies to cope with unemployment. //(create)',
+		eng:
+			'The government has to develop strategies to cope with unemployment. //(create)',
 	},
 	{
 		rus:
@@ -3252,7 +3499,8 @@ const oldDictionary2: dictType[] = [
 	{
 		rus:
 			'Мы поедем на автобусе или на поезде? Если мы поедем на автобусе, это будет дешевле.',
-		eng: 'Shall we go by bus or by train? If we go by bus, it will be cheaper.',
+		eng:
+			'Shall we go by bus or by train? If we go by bus, it will be cheaper.',
 	},
 	{
 		rus:
@@ -3269,12 +3517,16 @@ const oldDictionary2: dictType[] = [
 		eng: 'If there was an election tomorrow, who would you vote for?',
 	},
 	{
-		rus: 'Кажется, я оставила свои часы у тебя дома. Если найдешь, можешь мне позвонить?',
-		eng: 'I think I left my watch at your house. If you find it, can you call me?',
+		rus:
+			'Кажется, я оставила свои часы у тебя дома. Если найдешь, можешь мне позвонить?',
+		eng:
+			'I think I left my watch at your house. If you find it, can you call me?',
 	},
 	{
-		rus: 'Если бы вы нашли бумажник на улице, что бы вы с ним сделали?',
-		eng: 'If you found a wallet in the street, what would you do with it?',
+		rus:
+			'Если бы вы нашли бумажник на улице, что бы вы с ним сделали?',
+		eng:
+			'If you found a wallet in the street, what would you do with it?',
 	},
 	{
 		rus:
@@ -3309,8 +3561,10 @@ const oldDictionary2: dictType[] = [
 			'If I won a lot of money, I might buy a house. //(= it is possible that I would buy a house)',
 	},
 	{
-		rus: 'Если бы дождь прекратился, мы могли бы выйти. //(= мы могли бы выйти)',
-		eng: 'If it stopped raining, we could go out. //(= we would be able to go out)',
+		rus:
+			'Если бы дождь прекратился, мы могли бы выйти. //(= мы могли бы выйти)',
+		eng:
+			'If it stopped raining, we could go out. //(= we would be able to go out)',
 	},
 	{
 		rus: 'Если бы я выиграл в лотерею, я бы купил большой дом.',
@@ -3359,12 +3613,14 @@ const oldDictionary2: dictType[] = [
 	{
 		rus:
 			'Я очень занята, поэтому, пожалуйста, не беспокойте меня, если это не чрезвычайная ситуация.',
-		eng: "I'm very busy so please don't disturb me unless it's an emergency.",
+		eng:
+			"I'm very busy so please don't disturb me unless it's an emergency.",
 	},
 	{
 		rus:
 			'При условии, что продажи не начнут падать, мы достигнем наших целей в этом году.',
-		eng: "Provided that sales don't start falling, we'll reach our targets this year.",
+		eng:
+			"Provided that sales don't start falling, we'll reach our targets this year.",
 	},
 	{
 		rus:
@@ -3373,8 +3629,10 @@ const oldDictionary2: dictType[] = [
 			"I should be able to get there by 10:30, but I'll let you know if there's a problem.",
 	},
 	{
-		rus: 'Пока мы получаем финансирование, мы можем продолжить проект в октябре.',
-		eng: 'As long as we get the funding, we can go ahead with the project in October.',
+		rus:
+			'Пока мы получаем финансирование, мы можем продолжить проект в октябре.',
+		eng:
+			'As long as we get the funding, we can go ahead with the project in October.',
 	},
 	{
 		rus: 'если нам помогут, мы сможем закончить вовремя.',
@@ -3389,7 +3647,8 @@ const oldDictionary2: dictType[] = [
 		eng: 'Supposing they offered you a job, would you take it?',
 	},
 	{
-		rus: 'Я буду дома к 5:30, если только совещание закончилось поздно.',
+		rus:
+			'Я буду дома к 5:30, если только совещание закончилось поздно.',
 		eng: "I'll be home by 5:30 unless the meeting finished late.",
 	},
 	{
@@ -3403,7 +3662,8 @@ const oldDictionary2: dictType[] = [
 		eng: "If I'm not promoted, I'll leave the company.",
 	},
 	{
-		rus: 'если вы приказываете 20 блоков, то мы передадим Вам скидка 15%.',
+		rus:
+			'если вы приказываете 20 блоков, то мы передадим Вам скидка 15%.',
 		eng: 'if you order 20 units, we will give you a 15% discount.',
 	},
 	{
@@ -3417,7 +3677,8 @@ const oldDictionary2: dictType[] = [
 			"What we need to decide on today is what solution we're going to offer the customer. //(=choose after thinking carefully)",
 	},
 	{
-		rus: 'Давайте посмотрим, какие у нас есть варианты. //(=усмотрение)',
+		rus:
+			'Давайте посмотрим, какие у нас есть варианты. //(=усмотрение)',
 		eng: "Let's look at what our options are. //(=choices)",
 	},
 	{
@@ -3426,11 +3687,14 @@ const oldDictionary2: dictType[] = [
 	},
 	{
 		rus: 'Нам нужно обсудить кадровый состав и бюджет. //(=тематика)',
-		eng: 'The areas we need to discuss are staffing and budget. //(=subjects)',
+		eng:
+			'The areas we need to discuss are staffing and budget. //(=subjects)',
 	},
 	{
-		rus: 'Давайте просто подведем итоги. //(=предоставить основную информацию)',
-		eng: "Let's just summarize the situation. //(=give the main information)",
+		rus:
+			'Давайте просто подведем итоги. //(=предоставить основную информацию)',
+		eng:
+			"Let's just summarize the situation. //(=give the main information)",
 	},
 	{
 		rus: 'Так что мы решили? //(=до настоящего времени)',
@@ -3439,15 +3703,18 @@ const oldDictionary2: dictType[] = [
 	{
 		rus:
 			'Позвольте мне только резюмировать то, что обсуждалось сегодня. //(=повторить основные моменты)',
-		eng: 'Let me just recap what has been discussed today. //(=repeat the main points)',
+		eng:
+			'Let me just recap what has been discussed today. //(=repeat the main points)',
 	},
 	{
 		rus: 'Я могу жить с этим.//(=это нормально для меня; предлог)',
 		eng: "I can live with that.//(=it's ok for me; preposition)",
 	},
 	{
-		rus: 'Я предлагаю получить отзывы клиентов о нашей новой системе. //(=предлагать)',
-		eng: 'What I propose is we get customer feedback on our new system. //(=suggest)',
+		rus:
+			'Я предлагаю получить отзывы клиентов о нашей новой системе. //(=предлагать)',
+		eng:
+			'What I propose is we get customer feedback on our new system. //(=suggest)',
 	},
 	{
 		rus:
@@ -3476,7 +3743,8 @@ const oldDictionary2: dictType[] = [
 	{
 		rus:
 			'Почему бы нам не назначить новую встречу для обсуждения этого вопроса? //(=Я предлагаю)',
-		eng: "Why don't we schedule a new meeting to discuss this issue? //(=I suggest)",
+		eng:
+			"Why don't we schedule a new meeting to discuss this issue? //(=I suggest)",
 	},
 	{
 		rus: 'Это не сработало бы для меня. //(=Я не согласен)',
@@ -3487,7 +3755,8 @@ const oldDictionary2: dictType[] = [
 		eng: 'That will solve the problem.//(=it can fix)',
 	},
 	{
-		rus: 'Один из вариантов заключался бы в проведении обследования среди персонала.',
+		rus:
+			'Один из вариантов заключался бы в проведении обследования среди персонала.',
 		eng: 'One option would be to conduct a survey among the staff.',
 	},
 	{
@@ -3515,20 +3784,26 @@ const oldDictionary2: dictType[] = [
 			"There are many things I'd like to do if I had more time, (but I don't have time)",
 	},
 	{
-		rus: 'Если бы я не хотела идти на вечеринку, я бы не пошла. (но я хочу пойти.)',
-		eng: "If I didn't want to go to the party, I wouldn't go. (but I want to go)",
+		rus:
+			'Если бы я не хотела идти на вечеринку, я бы не пошла. (но я хочу пойти.)',
+		eng:
+			"If I didn't want to go to the party, I wouldn't go. (but I want to go)",
 	},
 	{
-		rus: 'У нас не было бы денег, если бы мы не работали, (но мы работаем)',
-		eng: "We wouldn't have any money if we didn't work, (but we work)",
+		rus:
+			'У нас не было бы денег, если бы мы не работали, (но мы работаем)',
+		eng:
+			"We wouldn't have any money if we didn't work, (but we work)",
 	},
 	{
 		rus: 'На моем месте, что бы ты сделал?',
 		eng: 'If you were in my position, what would you do?',
 	},
 	{
-		rus: 'Жаль, что он не умеет водить. Было бы полезно, если бы мог.',
-		eng: "It's a pity he can't drive. It would be useful if he could.",
+		rus:
+			'Жаль, что он не умеет водить. Было бы полезно, если бы мог.',
+		eng:
+			"It's a pity he can't drive. It would be useful if he could.",
 	},
 	{
 		rus:
@@ -3537,15 +3812,18 @@ const oldDictionary2: dictType[] = [
 			'We use the past in the same way after wish (I wish I knew / I wish you were etc.). We use wish to say that we regret something, that something is not as we would like it to be.',
 	},
 	{
-		rus: 'Хотел бы я знать номер телефона пола. // (= Я не знаю, и я сожалею об этом)',
-		eng: "I wish I knew Paul's phone number. // (= I don't know it and I regret this)",
+		rus:
+			'Хотел бы я знать номер телефона пола. // (= Я не знаю, и я сожалею об этом)',
+		eng:
+			"I wish I knew Paul's phone number. // (= I don't know it and I regret this)",
 	},
 	{
 		rus: 'Ты когда-нибудь хотел летать? // (ты не можешь летать)',
 		eng: "Do you ever wish you could fly? // (you can't fly)",
 	},
 	{
-		rus: 'Здесь много дождей. Хотел бы я, чтобы не было так много дождя.',
+		rus:
+			'Здесь много дождей. Хотел бы я, чтобы не было так много дождя.',
 		eng: "It rains a lot here. I wish it didn't rain so much.",
 	},
 	{
@@ -3556,7 +3834,8 @@ const oldDictionary2: dictType[] = [
 	},
 	{
 		rus: 'Хотел бы я не работать завтра, но, к сожалению, работаю.',
-		eng: "I wish I didn't have to work tomorrow, but unfortunately I do.",
+		eng:
+			"I wish I didn't have to work tomorrow, but unfortunately I do.",
 	},
 	{
 		rus: 'На твоем месте я бы не покупал это пальто.',
@@ -3583,7 +3862,8 @@ const oldDictionary2: dictType[] = [
 		eng: 'I wish I had something to read.',
 	},
 	{
-		rus: 'Она могла бы найти работу получше, если бы говорила по-английски.',
+		rus:
+			'Она могла бы найти работу получше, если бы говорила по-английски.',
 		eng: 'She could get a better job if she could speak English.',
 	},
 	{
@@ -3615,8 +3895,10 @@ const oldDictionary2: dictType[] = [
 			"Unless we can secure more financial backing, we won't be able to go ahead with this project. //(=support)",
 	},
 	{
-		rus: 'Сеть контактов поможет вам найти новых клиентов для вашей компании.',
-		eng: 'A network of contacts can help you find new customers for your company.',
+		rus:
+			'Сеть контактов поможет вам найти новых клиентов для вашей компании.',
+		eng:
+			'A network of contacts can help you find new customers for your company.',
 	},
 	{
 		rus:
@@ -3643,12 +3925,14 @@ const oldDictionary2: dictType[] = [
 	{
 		rus:
 			'Это предложение совершенно нелепо, я никогда на него не соглашусь! //(=неразумный)',
-		eng: "This proposal is totally ridiculous, I'll never agree to it! //(=unreasonable)",
+		eng:
+			"This proposal is totally ridiculous, I'll never agree to it! //(=unreasonable)",
 	},
 	{
 		rus:
 			'К сожалению, новое устройство, которое я купил, абсолютно бесполезно. //(=неэффективный)',
-		eng: 'Unfortunately, the new device I bought is absolutely useless. //(=inefficient)',
+		eng:
+			'Unfortunately, the new device I bought is absolutely useless. //(=inefficient)',
 	},
 	{
 		rus:
@@ -3671,7 +3955,8 @@ const oldDictionary2: dictType[] = [
 	{
 		rus:
 			'Мой друг - потенциальный предприниматель, он пытается создать свой собственный бизнес.',
-		eng: "My friend is a would-be entrepreneur - he's trying to set up his own business.",
+		eng:
+			"My friend is a would-be entrepreneur - he's trying to set up his own business.",
 	},
 	{
 		rus:
@@ -3687,11 +3972,13 @@ const oldDictionary2: dictType[] = [
 	},
 	{
 		rus: 'В чем проблема? //(=как вы думаете, в чем проблема?)',
-		eng: 'What seems to be the problem? //(=what do you think is the problem?)',
+		eng:
+			'What seems to be the problem? //(=what do you think is the problem?)',
 	},
 	{ rus: 'Чем могу помочь?', eng: 'What can I do for you?' },
 	{
-		rus: 'У меня вопрос по поводу заказа, который мы сделали. //(=сделанный)',
+		rus:
+			'У меня вопрос по поводу заказа, который мы сделали. //(=сделанный)',
 		eng: 'I have a question about an order we placed. //(=made)',
 	},
 	{
@@ -3713,8 +4000,10 @@ const oldDictionary2: dictType[] = [
 		eng: 'My screen keeps going blank. //(=does it repeatedly)',
 	},
 	{
-		rus: 'Не могли бы вы объяснить, в чем проблема? //(=детально описать)',
-		eng: 'Could you explain exactly what the problem is? //(=describe in details)',
+		rus:
+			'Не могли бы вы объяснить, в чем проблема? //(=детально описать)',
+		eng:
+			'Could you explain exactly what the problem is? //(=describe in details)',
 	},
 	{
 		rus: 'Расскажи мне об этом. //(=опишите мне проблему)',
@@ -3733,8 +4022,10 @@ const oldDictionary2: dictType[] = [
 		eng: "Can you tell me if you've got an order number?",
 	},
 	{
-		rus: 'Как только я проверю детали, я вам перезвоню. //(=как только)',
-		eng: "Once I've checked the details, I'll call you back. //(=as soon as)",
+		rus:
+			'Как только я проверю детали, я вам перезвоню. //(=как только)',
+		eng:
+			"Once I've checked the details, I'll call you back. //(=as soon as)",
 	},
 	{
 		rus: 'Ваша доставка прибыла в нерабочее время. (предлог)',
@@ -3743,7 +4034,8 @@ const oldDictionary2: dictType[] = [
 	{
 		rus:
 			'Не могли бы вы дать мне знать, сколько времени это займет? //(=сколько времени требуется)',
-		eng: 'Could you let me know how long it will take? //(=how much time is required)',
+		eng:
+			'Could you let me know how long it will take? //(=how much time is required)',
 	},
 	{
 		rus: 'Мой экран продолжает гаснуть.',
@@ -3756,7 +4048,8 @@ const oldDictionary2: dictType[] = [
 	{
 		rus:
 			'Могу я уточнить, о чем вы говорите? //(=перефразировать, чтобы сделать его более ясным)',
-		eng: "Could I just clarify what you're saying? //(=rephrase to make it clearer)",
+		eng:
+			"Could I just clarify what you're saying? //(=rephrase to make it clearer)",
 	},
 	{
 		rus: 'Я займусь этим прямо сейчас. //(=сразу)',
@@ -3765,7 +4058,8 @@ const oldDictionary2: dictType[] = [
 	{
 		rus:
 			'Если я правильно вас понял, компьютер продолжает перезагружаться. //(=получить это право)',
-		eng: 'If I understand you correctly, the computer keeps rebooting. //(=get it right)',
+		eng:
+			'If I understand you correctly, the computer keeps rebooting. //(=get it right)',
 	},
 	{
 		rus:
@@ -3780,13 +4074,15 @@ const oldDictionary2: dictType[] = [
 			"On this project we're going to collaborate with some colleagues from the UK office. //(=work together)",
 	},
 	{
-		rus: 'На этой встрече я хотел бы сосредоточиться на кадровых вопросах. (предлог)',
+		rus:
+			'На этой встрече я хотел бы сосредоточиться на кадровых вопросах. (предлог)',
 		eng: "In this meeting I'd like to focus on our staffing issues. ",
 	},
 	{
 		rus:
 			'Удобный интерфейс позволяет легко взаимодействовать с нашим приложением. (предлог)',
-		eng: 'The user-friendly interface makes it very easy to interact with our app. ',
+		eng:
+			'The user-friendly interface makes it very easy to interact with our app. ',
 	},
 	{
 		rus:
@@ -3795,8 +4091,10 @@ const oldDictionary2: dictType[] = [
 			"At the moment we can't understand the impact that our changes in the application will have on the end users. //(=effect)",
 	},
 	{
-		rus: 'Развитие технологий оказало огромное влияние на то, как мы работаем. (предлог)',
-		eng: 'The developments in technology have had a huge impact on the way we work. ',
+		rus:
+			'Развитие технологий оказало огромное влияние на то, как мы работаем. (предлог)',
+		eng:
+			'The developments in technology have had a huge impact on the way we work. ',
 	},
 	{
 		rus:
@@ -3805,8 +4103,10 @@ const oldDictionary2: dictType[] = [
 			"One of the things that we've built into the software development kit is the ability to integrate applications with one another. //(=combine)",
 	},
 	{
-		rus: 'Необходимо подключить USB-кабель с компьютера к устройству. (предлог)',
-		eng: 'You need to connect the USB cable from your computer to your device. ',
+		rus:
+			'Необходимо подключить USB-кабель с компьютера к устройству. (предлог)',
+		eng:
+			'You need to connect the USB cable from your computer to your device. ',
 	},
 	{
 		rus:
@@ -3827,12 +4127,16 @@ const oldDictionary2: dictType[] = [
 			"My new car is really economical, it doesn't use much petrol. //(=using resources carefully, without wasting any)",
 	},
 	{
-		rus: 'Я подал заявление на перевод в другой отдел. //(=двигаться)',
-		eng: "I've applied for a transfer to another department. //(=move)",
+		rus:
+			'Я подал заявление на перевод в другой отдел. //(=двигаться)',
+		eng:
+			"I've applied for a transfer to another department. //(=move)",
 	},
 	{
-		rus: 'Вчера на тренировке было пятнадцать участников. //(=присутствующий)',
-		eng: 'We had fifteen participants at the training session yesterday. //(=attendees)',
+		rus:
+			'Вчера на тренировке было пятнадцать участников. //(=присутствующий)',
+		eng:
+			'We had fifteen participants at the training session yesterday. //(=attendees)',
 	},
 	{
 		rus:
@@ -3847,7 +4151,8 @@ const oldDictionary2: dictType[] = [
 			'Our new product has innovative design. //(=new, different and better than those that existed before)',
 	},
 	{
-		rus: 'В проекте приняли участие более десяти разработчиков. (предлог)',
+		rus:
+			'В проекте приняли участие более десяти разработчиков. (предлог)',
 		eng: 'More than ten developers were involved in the project. ',
 	},
 	{
@@ -3877,7 +4182,8 @@ const oldDictionary2: dictType[] = [
 	{
 		rus:
 			'Наша компания имеет строгую политику по установке нового программного обеспечения. (предлог)',
-		eng: 'Our company has a strict policy on installing new software. ',
+		eng:
+			'Our company has a strict policy on installing new software. ',
 	},
 	{
 		rus:
@@ -3886,8 +4192,10 @@ const oldDictionary2: dictType[] = [
 			'The mobile connection is terrible here! Can you call me on the landline? //(=a telephone connection that uses wires)',
 	},
 	{
-		rus: 'Цифровые технологии привели к огромным изменениям в процессе работы. (предлог)',
-		eng: 'Digital technologies have brought about huge changes in our work process. ',
+		rus:
+			'Цифровые технологии привели к огромным изменениям в процессе работы. (предлог)',
+		eng:
+			'Digital technologies have brought about huge changes in our work process. ',
 	},
 	{
 		rus:
@@ -3929,7 +4237,8 @@ const veryOldDictionary2: dictType[] = [
 			"A type system doesn't magically eliminate bugs; it points out the unhandled conditions and asks you to cover them.",
 	},
 	{
-		rus: "Способность правильно моделировать 'то или это' имеет решающее значение.",
+		rus:
+			"Способность правильно моделировать 'то или это' имеет решающее значение.",
 		eng: "The ability to model 'this or that' correctly is crucial.",
 	},
 	{
@@ -3989,7 +4298,8 @@ const veryOldDictionary2: dictType[] = [
 	{
 		rus:
 			'Чтобы уменьшить избыточность, мы предоставляем punning для типов и значений записей.',
-		eng: "To reduce redundancy, we provide punning for a record's types and values.",
+		eng:
+			"To reduce redundancy, we provide punning for a record's types and values.",
 	},
 	{
 		rus:
@@ -4020,8 +4330,10 @@ const veryOldDictionary2: dictType[] = [
 			'If the type definition resides in another file, you need to explicitly indicate which file it is.',
 	},
 	{
-		rus: 'Если вам нужна такая возможность, используйте объекты Reason, описанные здесь.',
-		eng: 'If you need such capability, use Reason objects, described here.',
+		rus:
+			'Если вам нужна такая возможность, используйте объекты Reason, описанные здесь.',
+		eng:
+			'If you need such capability, use Reason objects, described here.',
 	},
 	{
 		rus:
@@ -4070,21 +4382,26 @@ const veryOldDictionary2: dictType[] = [
 			"Most data structures in most languages are about 'this and that'. A variant allows us to express 'this or that'.",
 	},
 	{
-		rus: 'Примечание: конструкторы варианта должны быть с большой буквы.',
+		rus:
+			'Примечание: конструкторы варианта должны быть с большой буквы.',
 		eng: "Note: a variant's constructors need to be capitalized.",
 	},
 	{
-		rus: 'Вместе с variant приходит одна из самых важных фич Reason, выражение switch.',
+		rus:
+			'Вместе с variant приходит одна из самых важных фич Reason, выражение switch.',
 		eng:
 			'Along with a variant comes one of the most important features of Reason, the switch expression.',
 	},
 	{
 		rus: 'Switch позволяет проверить все возможные кейсы variant.',
-		eng: 'Switch allows you to check every possible case of a variant.',
+		eng:
+			'Switch allows you to check every possible case of a variant.',
 	},
 	{
-		rus: 'Вариант имеет чрезвычайно богатое количество системной помощи от типизации.',
-		eng: 'A variant has an extremely rich amount of type system assistance.',
+		rus:
+			'Вариант имеет чрезвычайно богатое количество системной помощи от типизации.',
+		eng:
+			'A variant has an extremely rich amount of type system assistance.',
 	},
 	{
 		rus:
@@ -4128,8 +4445,10 @@ const veryOldDictionary2: dictType[] = [
 			"Use structural equal tastefully. It's convenient, but might accidentally make you compare two deeply nested data structures and incur a big performance hit. It's also not always clear what counts as 'equal'.",
 	},
 	{
-		rus: 'Нахрена я не могу просто использовать перегруженный + для обоих int и float?',
-		eng: "Why the heck can't I just use an overloaded + for both int and float?",
+		rus:
+			'Нахрена я не могу просто использовать перегруженный + для обоих int и float?',
+		eng:
+			"Why the heck can't I just use an overloaded + for both int and float?",
 	},
 	{
 		rus:
@@ -4144,8 +4463,10 @@ const veryOldDictionary2: dictType[] = [
 			'The standard library provides fst and snd, convenience functions that allow you to access the first and second element of a 2-tuple.',
 	},
 	{
-		rus: 'Обычно, вы получаете доступ к членам tuple путем деструктурирования.',
-		eng: "Generally, you'd access tuple members through destructuring.",
+		rus:
+			'Обычно, вы получаете доступ к членам tuple путем деструктурирования.',
+		eng:
+			"Generally, you'd access tuple members through destructuring.",
 	},
 	{
 		rus:
@@ -4258,7 +4579,8 @@ const veryOldDictionary2: dictType[] = [
 	{
 		rus:
 			'Счетное существительное может быть в единственном числе (банан) или во множественном (бананы).',
-		eng: 'A countable noun can be singular (banana) or plural (bananas).',
+		eng:
+			'A countable noun can be singular (banana) or plural (bananas).',
 	},
 	{
 		rus: 'Несчетное существительное имеет только одну форму (рис).',
@@ -4289,7 +4611,8 @@ const veryOldDictionary2: dictType[] = [
 		eng: 'Do you have a ten-pound note?',
 	},
 	{
-		rus: 'Это была не твоя вина. Это был несчастный случай. В рации нет батареек.',
+		rus:
+			'Это была не твоя вина. Это был несчастный случай. В рации нет батареек.',
 		eng:
 			"It wasn't your fault. It was an accident. There were no batteries in the radio.",
 	},
@@ -4376,35 +4699,44 @@ const veryOldDictionary2: dictType[] = [
 		eng: 'Did you hear a noise just now? // (a specific noise)',
 	},
 	{
-		rus: 'Я не могу здесь работать. Слишком много шума. // (шум в целом)',
-		eng: "I can't work here. There's too much  noise. // (noise in general)",
+		rus:
+			'Я не могу здесь работать. Слишком много шума. // (шум в целом)',
+		eng:
+			"I can't work here. There's too much  noise. // (noise in general)",
 	},
 	{
 		rus: 'Я купил газету, чтобы почитать. // (= газета)',
 		eng: 'I bought a paper to read. // (= a newspaper)',
 	},
 	{
-		rus: 'Мне нужна бумага, чтобы писать. // (= материал для написания на)',
-		eng: 'I need some paper to write on. // (= material for writing on)',
+		rus:
+			'Мне нужна бумага, чтобы писать. // (= материал для написания на)',
+		eng:
+			'I need some paper to write on. // (= material for writing on)',
 	},
 	{
 		rus: 'У меня в супе волосок остался! // (= один волос)',
 		eng: "There's a hair in my soup! // (= one single hair)",
 	},
 	{
-		rus: 'У тебя очень длинные волосы // (не волосы - все волосы на голове)',
-		eng: "You've got very long hair. // (not hairs - all the hair on your head)",
+		rus:
+			'У тебя очень длинные волосы // (не волосы - все волосы на голове)',
+		eng:
+			"You've got very long hair. // (not hairs - all the hair on your head)",
 	},
 	{
-		rus: 'Ты можешь остаться с нами. Есть свободная комната. // (= комната в доме)',
-		eng: "You can stay with us. There's a spare room. // (= a room in a house)",
+		rus:
+			'Ты можешь остаться с нами. Есть свободная комната. // (= комната в доме)',
+		eng:
+			"You can stay with us. There's a spare room. // (= a room in a house)",
 	},
 	{
 		rus: 'Ты не можешь здесь сидеть. Нет.  // (= пространство)',
 		eng: "You can't sit here. There isn't room.  // (= space)",
 	},
 	{
-		rus: 'Во время путешествия у меня было несколько интересных впечатлений.',
+		rus:
+			'Во время путешествия у меня было несколько интересных впечатлений.',
 		eng: 'I had some interesting experiences while I was travelling.',
 	},
 	{
@@ -4431,7 +4763,8 @@ const veryOldDictionary2: dictType[] = [
 	},
 	{
 		rus: 'Я ищу работу. Я ищу работу. // (не работа)',
-		eng: "I'm looking for a job. I'm looking for work. // (not a work)",
+		eng:
+			"I'm looking for a job. I'm looking for work. // (not a work)",
 	},
 	{
 		rus: 'Какой прекрасный вид! Какой прекрасный пейзаж!',
@@ -4442,8 +4775,10 @@ const veryOldDictionary2: dictType[] = [
 		eng: "It's a nice day today. It's nice weather today.",
 	},
 	{
-		rus: 'У нас было много сумок и чемоданов. У нас было много багажа, багажа.',
-		eng: 'We had a lot of bags and cases. We had a lot of baggage, luggage.',
+		rus:
+			'У нас было много сумок и чемоданов. У нас было много багажа, багажа.',
+		eng:
+			'We had a lot of bags and cases. We had a lot of baggage, luggage.',
 	},
 	{
 		rus: 'Эти стулья принадлежат мне. Эта мебель принадлежит мне.',
@@ -4482,12 +4817,16 @@ const oldOldDictionary2: dictType[] = [
 			'Since components should only update their own state, FilterableProductTable will pass callbacks to SearchBar that will fire whenever the state should be updated.',
 	},
 	{
-		rus: 'Хотя это звучит сложно, на самом деле это всего лишь несколько строк кода.',
-		eng: "Though this sounds complex, it's really just a few lines of code.",
+		rus:
+			'Хотя это звучит сложно, на самом деле это всего лишь несколько строк кода.',
+		eng:
+			"Though this sounds complex, it's really just a few lines of code.",
 	},
 	{
-		rus: 'И это действительно ясно, как ваши данные текут по всему приложению.',
-		eng: "And it's really explicit how your data is flowing throughout the app.",
+		rus:
+			'И это действительно ясно, как ваши данные текут по всему приложению.',
+		eng:
+			"And it's really explicit how your data is flowing throughout the app.",
 	},
 	{
 		rus:
@@ -4496,7 +4835,8 @@ const oldOldDictionary2: dictType[] = [
 			'Hopefully, this gives you an idea of how to think about building components and applications with React.',
 	},
 	{
-		rus: 'Хотя это может быть немного больше печатания, чем вы привыкли.',
+		rus:
+			'Хотя это может быть немного больше печатания, чем вы привыкли.',
 		eng: "While it may be a little more typing than you're used to",
 	},
 	{
@@ -4512,25 +4852,34 @@ const oldOldDictionary2: dictType[] = [
 			"As you start to build large libraries of components, you'll appreciate this explicitness and modularity.",
 	},
 	{
-		rus: 'И при переиспользовании кода ваши строки кода начнут сжиматься.',
-		eng: 'And with code reuse, your lines of code will start to shrink.',
+		rus:
+			'И при переиспользовании кода ваши строки кода начнут сжиматься.',
+		eng:
+			'And with code reuse, your lines of code will start to shrink.',
 	},
 	{
-		rus: 'ОК, мы определили, что такое минимальный набор состояния приложения.',
-		eng: "OK, so we've identified what the minimal set of app state is.",
+		rus:
+			'ОК, мы определили, что такое минимальный набор состояния приложения.',
+		eng:
+			"OK, so we've identified what the minimal set of app state is.",
 	},
 	{
 		rus:
 			'Далее нам нужно определить, какой компонент мутирует или владеет этим состоянием.',
-		eng: 'Next, we need to identify which component mutates, or owns, this state.',
+		eng:
+			'Next, we need to identify which component mutates, or owns, this state.',
 	},
 	{
-		rus: 'Запомните: React это односторонний поток данных по иерархии компонентов.',
-		eng: 'Remember: React is all about one-way data flow down the component hierarchy.',
+		rus:
+			'Запомните: React это односторонний поток данных по иерархии компонентов.',
+		eng:
+			'Remember: React is all about one-way data flow down the component hierarchy.',
 	},
 	{
-		rus: 'Может быть, не сразу ясно, какой компонент должен владеть каким состоянием.',
-		eng: 'It may not be immediately clear which component should own what state.',
+		rus:
+			'Может быть, не сразу ясно, какой компонент должен владеть каким состоянием.',
+		eng:
+			'It may not be immediately clear which component should own what state.',
 	},
 	/* https:reactjs.org/docs/reconciliation.html */
 	{
@@ -4630,8 +4979,10 @@ const oldOldDictionary2: dictType[] = [
 			'This HOC has the same functionality as the mutating version while avoiding the potential for clashes.',
 	},
 	{
-		rus: 'Он одинаково хорошо работает с класс и функциональными компонентами.',
-		eng: 'It works equally well with class and functional components.',
+		rus:
+			'Он одинаково хорошо работает с класс и функциональными компонентами.',
+		eng:
+			'It works equally well with class and functional components.',
 	},
 	{
 		rus:
@@ -4660,15 +5011,20 @@ const oldOldDictionary2: dictType[] = [
 	{
 		rus:
 			'HOCs можно рассматривать как параметризованные определения контейнер-компонента.',
-		eng: 'You can think of HOCs as parameterized container component definitions.',
+		eng:
+			'You can think of HOCs as parameterized container component definitions.',
 	},
 	{
-		rus: 'Соглашение: Передавать несвязанные props через обернутый компонент.',
-		eng: 'Convention: Pass Unrelated Props Through to the Wrapped Component',
+		rus:
+			'Соглашение: Передавать несвязанные props через обернутый компонент.',
+		eng:
+			'Convention: Pass Unrelated Props Through to the Wrapped Component',
 	},
 	{
-		rus: 'HOCs должны пропускать props, которые не связаны с его конкретной работой.',
-		eng: 'HOCs should pass through props that are unrelated to its specific concern.',
+		rus:
+			'HOCs должны пропускать props, которые не связаны с его конкретной работой.',
+		eng:
+			'HOCs should pass through props that are unrelated to its specific concern.',
 	},
 	{
 		rus: 'Конвенция: максимизация Композиционности',
@@ -4681,7 +5037,8 @@ const oldOldDictionary2: dictType[] = [
 			'Not all HOCs look the same. Sometimes they accept only a single argument, the wrapped component. WithRouter.',
 	},
 	{
-		rus: 'Соглашение: Оберните отображаемоё имя для упрощения отладки.',
+		rus:
+			'Соглашение: Оберните отображаемоё имя для упрощения отладки.',
 		eng: 'Convention: Wrap the Display Name for Easy Debugging.',
 	},
 	{
@@ -4733,7 +5090,8 @@ const oldOldDictionary2: dictType[] = [
 	{
 		rus:
 			'Теперь вопрос: Как мы можем переиспользовать это поведение в другом компоненте?',
-		eng: 'Now the question is: How can we reuse this behavior in another component?',
+		eng:
+			'Now the question is: How can we reuse this behavior in another component?',
 	},
 	{
 		rus:
@@ -4756,7 +5114,8 @@ const oldOldDictionary2: dictType[] = [
 	{
 		rus:
 			'Этот метод делает поведение, которое нам нужно разделить, чрезвычайно портативным.',
-		eng: 'This technique makes the behavior that we need to share extremely portable.',
+		eng:
+			'This technique makes the behavior that we need to share extremely portable.',
 	},
 	{
 		rus:
@@ -4771,8 +5130,10 @@ const oldOldDictionary2: dictType[] = [
 			'One interesting thing to note about render props is that you can implement most higher-order components (HOC) using a regular component with a render prop.',
 	},
 	{
-		rus: 'Таким образом, использование Render prop позволяет использовать любой шаблон.',
-		eng: 'So using a render prop makes it possible to use either pattern.',
+		rus:
+			'Таким образом, использование Render prop позволяет использовать любой шаблон.',
+		eng:
+			'So using a render prop makes it possible to use either pattern.',
 	},
 	{
 		rus:
@@ -4801,7 +5162,8 @@ const oldOldDictionary2: dictType[] = [
 	{
 		rus:
 			'Ключ должен быть уникальным только среди своих братьев и сестер, а не глобально уникальным.',
-		eng: 'The key only has to be unique among its siblings, not globally unique.',
+		eng:
+			'The key only has to be unique among its siblings, not globally unique.',
 	},
 	{
 		rus:
@@ -4810,7 +5172,8 @@ const oldOldDictionary2: dictType[] = [
 			'Reorders can also cause issues with component state when indexes are used as keys.',
 	},
 	{
-		rus: 'Важно помнить, что алгоритм согласования - это деталь реализации.',
+		rus:
+			'Важно помнить, что алгоритм согласования - это деталь реализации.',
 		eng:
 			'It is important to remember that the reconciliation algorithm is an implementation detail.',
 	},
@@ -4845,8 +5208,10 @@ const oldOldDictionary2: dictType[] = [
 			'Because React relies on heuristics, if the assumptions behind them are not met, performance will suffer.',
 	},
 	{
-		rus: 'Алгоритм не будет пытаться сопоставить поддеревья различных типов компонентов.',
-		eng: 'The algorithm will not try to match subtrees of different component types.',
+		rus:
+			'Алгоритм не будет пытаться сопоставить поддеревья различных типов компонентов.',
+		eng:
+			'The algorithm will not try to match subtrees of different component types.',
 	},
 	{
 		rus:
@@ -4869,7 +5234,8 @@ const oldOldDictionary2: dictType[] = [
 	},
 	{
 		rus: 'Значение ref отличается в зависимости от типа узла.',
-		eng: 'The value of the ref differs depending on the type of the node.',
+		eng:
+			'The value of the ref differs depending on the type of the node.',
 	},
 	{
 		rus:
@@ -4949,7 +5315,8 @@ const oldOldDictionary2: dictType[] = [
 			'In the typical React dataflow, props are the only way that parent components interact with their children.',
 	},
 	{
-		rus: 'Чтобы изменить ребенка, вы перерисовываете его с новыми реквизитами.',
+		rus:
+			'Чтобы изменить ребенка, вы перерисовываете его с новыми реквизитами.',
 		eng: 'To modify a child, you re-render it with new props.',
 	},
 	{
@@ -4971,8 +5338,10 @@ const oldOldDictionary2: dictType[] = [
 			'There are a few good use cases for refs: Managing focus, text selection, or media playback. Triggering imperative animations. Integrating with third-party DOM libraries.',
 	},
 	{
-		rus: 'Избегайте использования ссылок для всего, что может быть сделано декларативно.',
-		eng: 'Avoid using refs for anything that can be done declaratively.',
+		rus:
+			'Избегайте использования ссылок для всего, что может быть сделано декларативно.',
+		eng:
+			'Avoid using refs for anything that can be done declaratively.',
 	},
 	{
 		rus:
@@ -4983,7 +5352,8 @@ const oldOldDictionary2: dictType[] = [
 	{
 		rus:
 			"Ваше первое намерение может быть использовать ref-ы, чтобы 'сделать, чтобы что-то произошло' в вашем приложении.",
-		eng: "Your first inclination may be to use refs to 'make things happen' in your app.",
+		eng:
+			"Your first inclination may be to use refs to 'make things happen' in your app.",
 	},
 	{
 		rus:
@@ -5000,7 +5370,8 @@ const oldOldDictionary2: dictType[] = [
 	{
 		rus:
 			'По мере роста вашего приложения, вы можете поймать много ошибок с помощью проверки типов.',
-		eng: 'As your app grows, you can catch a lot of bugs with typechecking.',
+		eng:
+			'As your app grows, you can catch a lot of bugs with typechecking.',
 	},
 	{
 		rus:
@@ -5009,7 +5380,8 @@ const oldOldDictionary2: dictType[] = [
 			'For some applications, you can use JavaScript extensions like Flow or TypeScript to typecheck your whole application.',
 	},
 	{
-		rus: 'React имеет некоторые встроенные возможности проверки типов.',
+		rus:
+			'React имеет некоторые встроенные возможности проверки типов.',
 		eng: 'React has some built-in typechecking abilities.',
 	},
 	{
@@ -5033,7 +5405,8 @@ const oldOldDictionary2: dictType[] = [
 	{
 		rus:
 			'По соображениям производительности propTypes проверяется только в development режиме.',
-		eng: 'For performance reasons, propTypes is only checked in development mode.',
+		eng:
+			'For performance reasons, propTypes is only checked in development mode.',
 	},
 	{
 		rus:
@@ -5108,7 +5481,8 @@ const oldOldDictionary2: dictType[] = [
 			'The form components deep in the hierarchy need to update the state in the other component.',
 	},
 	{
-		rus: 'Теперь пришло время поддерживать поток данных следующих в другом направлении.',
+		rus:
+			'Теперь пришло время поддерживать поток данных следующих в другом направлении.',
 		eng: "Now it's time to support data flowing the other way.",
 	},
 	{
@@ -5136,12 +5510,16 @@ const oldOldDictionary2: dictType[] = [
 			'Since components should only update their own state, FilterableProductTable will pass callbacks to SearchBar that will fire whenever the state should be updated.',
 	},
 	{
-		rus: 'Хотя это звучит сложно, на самом деле это всего лишь несколько строк кода.',
-		eng: "Though this sounds complex, it's really just a few lines of code.",
+		rus:
+			'Хотя это звучит сложно, на самом деле это всего лишь несколько строк кода.',
+		eng:
+			"Though this sounds complex, it's really just a few lines of code.",
 	},
 	{
-		rus: 'И это действительно ясно, как ваши данные текут по всему приложению.',
-		eng: "And it's really explicit how your data is flowing throughout the app.",
+		rus:
+			'И это действительно ясно, как ваши данные текут по всему приложению.',
+		eng:
+			"And it's really explicit how your data is flowing throughout the app.",
 	},
 	{
 		rus:
@@ -5150,7 +5528,8 @@ const oldOldDictionary2: dictType[] = [
 			'Hopefully, this gives you an idea of how to think about building components and applications with React.',
 	},
 	{
-		rus: 'Хотя это может быть немного больше печатания, чем вы привыкли.',
+		rus:
+			'Хотя это может быть немного больше печатания, чем вы привыкли.',
 		eng: "While it may be a little more typing than you're used to",
 	},
 	{
@@ -5166,25 +5545,34 @@ const oldOldDictionary2: dictType[] = [
 			"As you start to build large libraries of components, you'll appreciate this explicitness and modularity.",
 	},
 	{
-		rus: 'И при переиспользовании кода ваши строки кода начнут сжиматься.',
-		eng: 'And with code reuse, your lines of code will start to shrink.',
+		rus:
+			'И при переиспользовании кода ваши строки кода начнут сжиматься.',
+		eng:
+			'And with code reuse, your lines of code will start to shrink.',
 	},
 	{
-		rus: 'ОК, мы определили, что такое минимальный набор состояния приложения.',
-		eng: "OK, so we've identified what the minimal set of app state is.",
+		rus:
+			'ОК, мы определили, что такое минимальный набор состояния приложения.',
+		eng:
+			"OK, so we've identified what the minimal set of app state is.",
 	},
 	{
 		rus:
 			'Далее нам нужно определить, какой компонент мутирует или владеет этим состоянием.',
-		eng: 'Next, we need to identify which component mutates, or owns, this state.',
+		eng:
+			'Next, we need to identify which component mutates, or owns, this state.',
 	},
 	{
-		rus: 'Запомните: React это односторонний поток данных по иерархии компонентов.',
-		eng: 'Remember: React is all about one-way data flow down the component hierarchy.',
+		rus:
+			'Запомните: React это односторонний поток данных по иерархии компонентов.',
+		eng:
+			'Remember: React is all about one-way data flow down the component hierarchy.',
 	},
 	{
-		rus: 'Может быть, не сразу ясно, какой компонент должен владеть каким состоянием.',
-		eng: 'It may not be immediately clear which component should own what state.',
+		rus:
+			'Может быть, не сразу ясно, какой компонент должен владеть каким состоянием.',
+		eng:
+			'It may not be immediately clear which component should own what state.',
 	},
 ];
 

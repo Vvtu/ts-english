@@ -1,4 +1,5 @@
 import { dictType, dictionariesType } from '../Types';
+import { NUMBER_OF_PAIRS_FROM_OLD_DICTIONARY } from '../Constants/constants';
 
 export const getRandomInt = (min: number, max: number) => {
 	min = Math.ceil(min);
@@ -29,21 +30,28 @@ export const filterDeletedOff = (arr: dictType[]) => {
 const DICT = 'DICT';
 const DICT_NUMBER = '2';
 
-const OLD_LENGTH = 6;
-
-export const getDictionaryWithMix = (dictionaries: dictionariesType) => {
+export const getDictionaryWithMix = (
+	dictionaries: dictionariesType,
+) => {
 	const whichDict = localStorage.getItem(DICT);
 	let d: dictType[];
 	let oldD: dictType[];
 	if (whichDict === DICT_NUMBER) {
 		d = dictionaries.dictionary2;
-		oldD = dictionaries.oldDictionary2.concat(dictionaries.dictionary20);
+		oldD = dictionaries.oldDictionary2.concat(
+			dictionaries.dictionary20,
+		);
 	} else {
 		d = dictionaries.dictionary1;
-		oldD = dictionaries.oldDictionary1.concat(dictionaries.dictionary10);
+		oldD = dictionaries.oldDictionary1.concat(
+			dictionaries.dictionary10,
+		);
 	}
 	d = reshuffle(filterDeletedOff(d));
-	oldD = reshuffle(filterDeletedOff(oldD)).slice(0, OLD_LENGTH);
+	oldD = reshuffle(filterDeletedOff(oldD)).slice(
+		0,
+		NUMBER_OF_PAIRS_FROM_OLD_DICTIONARY,
+	);
 
 	return oldD.concat(d);
 };

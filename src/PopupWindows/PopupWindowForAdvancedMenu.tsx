@@ -36,7 +36,7 @@ interface State {
 class PopupWindowForAdvancedMenu extends PureComponent<Props, State> {
 	constructor(props: Props) {
 		super(props);
-		this.setState({ increaseOpacity: false });
+		this.state = { increaseOpacity: false };
 	}
 
 	componentDidMount() {
