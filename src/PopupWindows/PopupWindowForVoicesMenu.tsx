@@ -6,10 +6,22 @@ import { ANIMATION_INTERVAL } from '../Constants/constants';
 
 const TRANSITION = 'opacity ' + ANIMATION_INTERVAL + 's ease';
 
+export interface Props {
+voicesArray : array;
+ handleClosePopupClicked: function;
+ handleVoiceDidSelect: ;
+ selectedVoiceIndex: string;
+
+}
+
+interface State {
+	increaseOpacity: boolean;
+}
+
 class PopupWindowForVoicesMenu extends PureComponent {
-	constructor(props) {
+	constructor(props: Props) {
 		super(props);
-		this.state = {};
+		this.state = {increaseOpacity:false};
 	}
 
 	componentDidMount() {
@@ -24,10 +36,13 @@ class PopupWindowForVoicesMenu extends PureComponent {
 				key={voice.name}
 				className={
 					'popup__row' +
-					(this.props.selectedVoiceIndex === String(index) ? ' popup__row_selected' : '')
+					(this.props.selectedVoiceIndex === String(index)
+						? ' popup__row_selected'
+						: '')
 				}
 				onClick={() => this.props.handleVoiceDidSelect(String(index))}
-				onDoubleClick={() => this.props.handleVoiceDidSelect(String(index))}
+				onDoubleClick={() =>
+					this.props.handleVoiceDidSelect(String(index))}
 			>
 				{/* <menuItem.Icon {...menuItem.props} /> */}
 				<div className="popup__gap" />
@@ -49,7 +64,9 @@ class PopupWindowForVoicesMenu extends PureComponent {
 		const styles = getComputedStyle(document.documentElement);
 		//	const greenColor = String(styles.getPropertyValue('--english-text-color')).trim();
 		//	const redColor = String(styles.getPropertyValue('--danger-color')).trim();
-		const whiteColor = String(styles.getPropertyValue('--base-text-color')).trim();
+		const whiteColor = String(
+			styles.getPropertyValue('--base-text-color'),
+		).trim();
 		//  const blackColor = String(styles.getPropertyValue('--background-color')).trim();
 
 		const { voicesArray, handleClosePopupClicked } = this.props;
@@ -62,8 +79,10 @@ class PopupWindowForVoicesMenu extends PureComponent {
 					opacity: this.state.increaseOpacity === true ? '1' : '0',
 					transition: TRANSITION,
 				}}
-				onClick={(e) => this.handleClicked(e, handleClosePopupClicked)}
-				onDoubleClick={(e) => this.handleClicked(e, handleClosePopupClicked)}
+				onClick={(e) =>
+					this.handleClicked(e, handleClosePopupClicked)}
+				onDoubleClick={(e) =>
+					this.handleClicked(e, handleClosePopupClicked)}
 			>
 				<div className="popup__full_screen_div_opacity" />
 				<div className="popup__full_screen_div">
@@ -72,13 +91,17 @@ class PopupWindowForVoicesMenu extends PureComponent {
 							<CancelIcon
 								fill={whiteColor}
 								height={16}
-								onClick={(e) => this.handleClicked(e, handleClosePopupClicked)}
-								onDoubleClick={(e) => this.handleClicked(e, handleClosePopupClicked)}
+								onClick={(e) =>
+									this.handleClicked(e, handleClosePopupClicked)}
+								onDoubleClick={(e) =>
+									this.handleClicked(e, handleClosePopupClicked)}
 								width={16}
 							/>
 						</div>
 						<div className="popup__list">
-							{voicesArray.map((voice, index) => this.menuRow(voice, String(index)))}
+							{voicesArray.map((voice, index) =>
+								this.menuRow(voice, String(index)),
+							)}
 						</div>
 					</div>
 				</div>
