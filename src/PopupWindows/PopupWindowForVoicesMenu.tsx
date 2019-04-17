@@ -1,4 +1,4 @@
-import React, { PureComponent } from 'react';
+import React, { PureComponent, SyntheticEvent } from 'react';
 
 import CancelIcon from './svg/CancelIcon';
 
@@ -6,22 +6,23 @@ import { ANIMATION_INTERVAL } from '../Constants/constants';
 
 const TRANSITION = 'opacity ' + ANIMATION_INTERVAL + 's ease';
 
-export interface Props {
-voicesArray : array;
- handleClosePopupClicked: function;
- handleVoiceDidSelect: ;
- selectedVoiceIndex: string;
+type Voice = { name: string; lang: string };
 
+export interface Props {
+	selectedVoiceIndex: string | null;
+	voicesArray: Voice[];
+	handleClosePopupClicked(): void;
+	handleVoiceDidSelect(index: string): void;
 }
 
 interface State {
 	increaseOpacity: boolean;
 }
 
-class PopupWindowForVoicesMenu extends PureComponent {
+class PopupWindowForVoicesMenu extends PureComponent<Props, State> {
 	constructor(props: Props) {
 		super(props);
-		this.state = {increaseOpacity:false};
+		this.state = { increaseOpacity: false };
 	}
 
 	componentDidMount() {
@@ -30,19 +31,18 @@ class PopupWindowForVoicesMenu extends PureComponent {
 		});
 	}
 
-	menuRow = (voice, index) =>
+	menuRow = (voice: Voice, index: string) =>
 		voice.lang || voice.name ? (
 			<div
 				key={voice.name}
 				className={
 					'popup__row' +
-					(this.props.selectedVoiceIndex === String(index)
+					(this.props.selectedVoiceIndex === index
 						? ' popup__row_selected'
 						: '')
 				}
-				onClick={() => this.props.handleVoiceDidSelect(String(index))}
-				onDoubleClick={() =>
-					this.props.handleVoiceDidSelect(String(index))}
+				onClick={() => this.props.handleVoiceDidSelect(index)}
+				onDoubleClick={() => this.props.handleVoiceDidSelect(index)}
 			>
 				{/* <menuItem.Icon {...menuItem.props} /> */}
 				<div className="popup__gap" />
@@ -50,8 +50,7 @@ class PopupWindowForVoicesMenu extends PureComponent {
 			</div>
 		) : null;
 
-	handleClicked = (e, func) => {
-		e.preventDefault();
+	handleClicked = (e: SyntheticEvent, func: () => void) => {
 		e.stopPropagation();
 		this.setState({ increaseOpacity: false });
 		setTimeout(() => {
@@ -76,7 +75,7 @@ class PopupWindowForVoicesMenu extends PureComponent {
 		return (
 			<div
 				style={{
-					opacity: this.state.increaseOpacity === true ? '1' : '0',
+					opacity: this.state.increaseOpacity === true ? 1 : 0,
 					transition: TRANSITION,
 				}}
 				onClick={(e) =>
@@ -91,15 +90,15 @@ class PopupWindowForVoicesMenu extends PureComponent {
 							<CancelIcon
 								fill={whiteColor}
 								height={16}
-								onClick={(e) =>
+								onClick={(e: SyntheticEvent) =>
 									this.handleClicked(e, handleClosePopupClicked)}
-								onDoubleClick={(e) =>
+								onDoubleClick={(e: SyntheticEvent) =>
 									this.handleClicked(e, handleClosePopupClicked)}
 								width={16}
 							/>
 						</div>
 						<div className="popup__list">
-							{voicesArray.map((voice, index) =>
+							{voicesArray.map((voice: Voice, index: number) =>
 								this.menuRow(voice, String(index)),
 							)}
 						</div>
