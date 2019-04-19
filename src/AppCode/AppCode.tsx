@@ -219,7 +219,14 @@ class AppCode extends PureComponent<Props, State> {
 				},
 				6000, // in case of utterThis.onend failed
 			);
-			utterThis.text = text;
+
+			const tempArr = (text || '').split('//');
+			const textWithNoComments = tempArr.reduce(
+				(accumulator: string, currentValue: string, index: number) =>
+					index % 2 ? accumulator : accumulator + currentValue,
+				'',
+			);
+			utterThis.text = textWithNoComments;
 			synth.speak(utterThis);
 		}
 	};
