@@ -1,4 +1,8 @@
-import React, { PureComponent, SyntheticEvent, MouseEvent } from 'react';
+import React, {
+	PureComponent,
+	SyntheticEvent,
+	MouseEvent,
+} from 'react';
 import PropTypes from 'prop-types';
 
 import PopupWindowForAdvancedMenu from '../PopupWindows/PopupWindowForAdvancedMenu';
@@ -71,10 +75,12 @@ class AppCode extends PureComponent<Props, State> {
 	incrementLocalStorage = () => {
 		const { activeIndex, randomDictionary, showEnglish } = this.state;
 		if (showEnglish) {
-			const activeObj = activeIndex !== undefined && randomDictionary[activeIndex];
+			const activeObj =
+				activeIndex !== undefined && randomDictionary[activeIndex];
 			const russian = activeObj && activeObj.rus;
 			if (russian) {
-				const item: string | null = localStorage.getItem(russian) || '';
+				const item: string | null =
+					localStorage.getItem(russian) || '';
 				const shown = parseInt(item, 10) || 0;
 				const newItem = String(shown + 1);
 				localStorage.setItem(russian, newItem);
@@ -138,7 +144,10 @@ class AppCode extends PureComponent<Props, State> {
 
 	handleHideItemClicked = () => {
 		const { activeIndex, randomDictionary } = this.state;
-		if (activeIndex !== undefined && activeIndex < randomDictionary.length) {
+		if (
+			activeIndex !== undefined &&
+			activeIndex < randomDictionary.length
+		) {
 			const activeObj = randomDictionary[activeIndex];
 			const russian = activeObj.rus;
 			if (russian) {
@@ -196,7 +205,9 @@ class AppCode extends PureComponent<Props, State> {
 				this.voicesArray &&
 				this.voicesArray[parseInt(this.state.voiceIndex || '0', 10)]
 			) {
-				utterThis.voice = this.voicesArray[parseInt(this.state.voiceIndex || '0', 10)];
+				utterThis.voice = this.voicesArray[
+					parseInt(this.state.voiceIndex || '0', 10)
+				];
 			}
 
 			// utterThis.voiceURI = 'Google UK English Female';
@@ -220,12 +231,16 @@ class AppCode extends PureComponent<Props, State> {
 				6000, // in case of utterThis.onend failed
 			);
 
-			const tempArr = (text || '').split('//');
-			const textWithNoComments = tempArr.reduce(
-				(accumulator: string, currentValue: string, index: number) =>
-					index % 2 ? accumulator : accumulator + currentValue,
-				'',
-			);
+			const textWithNoComments = text
+				.split('//')
+				.reduce(
+					(
+						accumulator: string,
+						currentValue: string,
+						index: number,
+					) => (index % 2 ? accumulator : accumulator + currentValue),
+					'',
+				);
 			utterThis.text = textWithNoComments;
 			synth.speak(utterThis);
 		}
@@ -273,15 +288,23 @@ class AppCode extends PureComponent<Props, State> {
 
 		// element.style.setProperty('--screen-height', height + 'px');
 		// element.style.setProperty('--screen-width', width + 'px');
-		const voiceIndex = localStorage.getItem(VOICE_INDEX_IN_VOICES_ARRAY);
+		const voiceIndex = localStorage.getItem(
+			VOICE_INDEX_IN_VOICES_ARRAY,
+		);
 
 		const styles = getComputedStyle(element);
 		this.setState({
 			...initialState,
 			randomDictionary: getDictionaryWithMix(this.props.dictionaries),
-			greenColor: String(styles.getPropertyValue('--english-text-color')).trim(),
-			advancedColor: String(styles.getPropertyValue('--settings-color')).trim(),
-			whiteColor: String(styles.getPropertyValue('--base-text-color')).trim(),
+			greenColor: String(
+				styles.getPropertyValue('--english-text-color'),
+			).trim(),
+			advancedColor: String(
+				styles.getPropertyValue('--settings-color'),
+			).trim(),
+			whiteColor: String(
+				styles.getPropertyValue('--base-text-color'),
+			).trim(),
 			voiceIndex,
 		});
 		// get voices array
@@ -322,7 +345,8 @@ class AppCode extends PureComponent<Props, State> {
 		}
 
 		const activeObj =
-			(activeIndex !== undefined && randomDictionary[activeIndex]) || nullObj;
+			(activeIndex !== undefined && randomDictionary[activeIndex]) ||
+			nullObj;
 		const russian = activeObj.rus;
 
 		const english = activeObj.eng;
@@ -380,7 +404,9 @@ class AppCode extends PureComponent<Props, State> {
 							onDoubleClick={this.handleStatisticClicked}
 						>
 							<span>{activeIndex + 1 + '/' + count}</span>
-							<span className="appcode__eng_text_color">{'(' + shown + ')'}</span>
+							<span className="appcode__eng_text_color">
+								{'(' + shown + ')'}
+							</span>
 						</div>
 
 						<ArrowIcon
@@ -407,7 +433,8 @@ class AppCode extends PureComponent<Props, State> {
 				<div
 					className="appcode__english"
 					onClick={(e) => this.handleTextToSpeachClicked(e, english)}
-					onDoubleClick={(e) => this.handleTextToSpeachClicked(e, english)}
+					onDoubleClick={(e) =>
+						this.handleTextToSpeachClicked(e, english)}
 				>
 					{showEnglish ? (
 						<div className="appcode__center">
@@ -431,9 +458,13 @@ class AppCode extends PureComponent<Props, State> {
 					<PopupWindowForAdvancedMenu
 						handleClosePopupClicked={this.handleClosePopupClicked}
 						handleHideItemClicked={this.handleHideItemClicked}
-						handleUnhideAllItemsClicked={this.handleUnhideAllItemsClicked}
+						handleUnhideAllItemsClicked={
+							this.handleUnhideAllItemsClicked
+						}
 						handleDictClicked={this.handleDictClickedLocal}
-						handleShowSetVoicePopupClicked={this.handleShowSetVoicePopupClicked}
+						handleShowSetVoicePopupClicked={
+							this.handleShowSetVoicePopupClicked
+						}
 					/>
 				) : (
 					<div />
