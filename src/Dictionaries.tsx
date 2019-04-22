@@ -1548,8 +1548,7 @@ const dictionary20: dictType[] = [
 		eng:
 			"// If the subject is no one, nobody - use 'they' in the tag.// No one knew about that, did they?",
 	},
-];
-const dictionary2: dictType[] = [
+
 	{
 		rus: 'Боюсь, у нас закончились деньги. // (денег не осталось)',
 		eng:
@@ -1753,7 +1752,7 @@ const dictionary2: dictType[] = [
 			'And how far are you with preparations for the launch party? // ',
 	},
 ];
-const oldDictionary2: dictType[] = [
+const dictionary2: dictType[] = [
 	{
 		rus:
 			'Каково текущее состояние нагрузочного тестирования? //( существующий сейчас)',
@@ -1857,6 +1856,7 @@ const oldDictionary2: dictType[] = [
 		eng:
 			'I did a lot of work yesterday.// We use the past simple for a finished time in the past. For example: yesterday,last week,from 2007 to 2010.',
 	},
+
 	{
 		rus: 'На этой неделе не было дождя.',
 		eng: "It hasn't rained this week.",
@@ -1966,6 +1966,8 @@ const oldDictionary2: dictType[] = [
 		rus: 'Мы говорим: это первый раз, когда что-то произошло.',
 		eng: "We say: It's the first time something has happened.",
 	},
+];
+const oldDictionary2: dictType[] = [
 	{
 		rus:
 			'У Дона урок вождения. Это его первый урок. Это первый раз, когда он водит машину. Он никогда раньше не водил машину.',
