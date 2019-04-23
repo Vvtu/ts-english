@@ -301,6 +301,13 @@ const oldDictionary1: dictType[] = [
 	},
 	{
 		rus:
+			'Необходимо помнить, что когда функция объявляется, она содержит определение функции и closure. Closure - это набор всех переменных в области видимости на момент создания функции.',
+		eng:
+			'The key to remember is that when a function gets declared, it contains a function definition and a closure. The closure is a collection of all the variables in scope at the time of creation of the function.',
+	},
+
+	{
+		rus:
 			'Вызов функции приостанавливает выполнение текущей функции, передавая управление и параметры новой функции. Помимо объявленных параметров, каждая функция получает два дополнительных параметра: this и arguments.',
 		eng:
 			'Invoking a function suspends the execution of the current function, passing control and parameters to the new function. In addition to the declared parameters, every function receives two additional parameters: this and arguments.',
@@ -1724,7 +1731,7 @@ const dictionary20: dictType[] = [
 		rus:
 			'Все не так гладко, как мы надеялись. //( не достаточно хорошо )',
 		eng:
-			"Things aren't r running as smoothly as we hoped. //( aren't going well enough)",
+			"Things aren't running as smoothly as we hoped. //( aren't going well enough)",
 	},
 	{
 		rus: 'У нас проблема с новой функциональностью. //( faced)',
