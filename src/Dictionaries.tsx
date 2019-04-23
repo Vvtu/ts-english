@@ -308,6 +308,13 @@ const oldDictionary1: dictType[] = [
 
 	{
 		rus:
+			'То, как я всегда буду помнить closure, - это аналогия с рюкзаком. Когда функция создается и передается или возвращается из другой функции, она несет с собой рюкзак. И в рюкзаке все переменные, которые были в области видимости, когда функция была объявлена.',
+		eng:
+			'The way I will always remember closures is through the backpack analogy. When a function gets created and passed around or returned from another function, it carries a backpack with it. And in the backpack are all the variables that were in scope when the function was declared.',
+	},
+
+	{
+		rus:
 			'Вызов функции приостанавливает выполнение текущей функции, передавая управление и параметры новой функции. Помимо объявленных параметров, каждая функция получает два дополнительных параметра: this и arguments.',
 		eng:
 			'Invoking a function suspends the execution of the current function, passing control and parameters to the new function. In addition to the declared parameters, every function receives two additional parameters: this and arguments.',
