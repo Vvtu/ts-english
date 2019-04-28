@@ -1765,8 +1765,7 @@ const dictionary20: dictType[] = [
 		eng:
 			'And how far are you with preparations for the launch party? // ',
 	},
-];
-const dictionary2: dictType[] = [
+
 	{
 		rus:
 			'Каково текущее состояние нагрузочного тестирования? //( существующий сейчас)',
@@ -1981,7 +1980,7 @@ const dictionary2: dictType[] = [
 		eng: "We say: It's the first time something has happened.",
 	},
 ];
-const oldDictionary2: dictType[] = [
+const dictionary2: dictType[] = [
 	{
 		rus:
 			'У Дона урок вождения. Это его первый урок. Это первый раз, когда он водит машину. Он никогда раньше не водил машину.',
@@ -2119,6 +2118,8 @@ const oldDictionary2: dictType[] = [
 		eng:
 			'I cycled home yesterday when a man was stepping out into the road in front of me. I was going quite fast, but luckily I managed to stop in time and not hit him.',
 	},
+];
+const oldDictionary2: dictType[] = [
 	{
 		rus:
 			"Мы используем 'can', чтобы сказать, что что-то возможно или разрешено, или что у кого-то есть способность делать нечто. Мы используем 'can' + инфинитив (can do, can see etc.).",
