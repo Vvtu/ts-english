@@ -1979,8 +1979,7 @@ const dictionary20: dictType[] = [
 		rus: 'Мы говорим: это первый раз, когда что-то произошло.',
 		eng: "We say: It's the first time something has happened.",
 	},
-];
-const dictionary2: dictType[] = [
+
 	{
 		rus:
 			'У Дона урок вождения. Это его первый урок. Это первый раз, когда он водит машину. Он никогда раньше не водил машину.',
@@ -2119,7 +2118,7 @@ const dictionary2: dictType[] = [
 			'I cycled home yesterday when a man was stepping out into the road in front of me. I was going quite fast, but luckily I managed to stop in time and not hit him.',
 	},
 ];
-const oldDictionary2: dictType[] = [
+const dictionary2: dictType[] = [
 	{
 		rus:
 			"Мы используем 'can', чтобы сказать, что что-то возможно или разрешено, или что у кого-то есть способность делать нечто. Мы используем 'can' + инфинитив (can do, can see etc.).",
@@ -2179,13 +2178,13 @@ const oldDictionary2: dictType[] = [
 		rus:
 			'Мария говорит на французском, испанском и английском языках. ( Кандидаты на работу должны уметь говорить на двух иностранных языках.)',
 		eng:
-			'Maria can speak French, Spanish and English. ( Applicants for the job must be able to speak two foreign languages.)',
+			'Maria can speak French, Spanish and English. Applicants for the job must be able to speak two foreign languages.',
 	},
 	{
 		rus:
 			"Иногда 'could' это прошедшее время от 'can'. особенно с: вижу, слышу запах, вкус, чувствовать, помнить, понимать. У нас был прекрасный номер в гостинице. Мы могли видеть озеро.",
 		eng:
-			"Sometimes 'could' is the past of 'can'. especially with: see, hear, smell, taste, feel, remember, understand. We had a lovely room in the hotel. We could see the lake.",
+			"Sometimes 'could' is the past of 'can'. Especially this is with: see, hear, smell, taste, feel, remember, understand. We had a lovely room in the hotel. We could see the lake.",
 	},
 	{
 		rus: 'Как только я вошел в комнату, я почувствовал запах газа.',
@@ -2345,6 +2344,8 @@ const oldDictionary2: dictType[] = [
 		eng:
 			'To sum up, using Agile will help you to enhance the team performance. //to recap)',
 	},
+];
+const oldDictionary2: dictType[] = [
 	{
 		rus: 'В этой презентации я хотел бы сделать три вещи.',
 		eng: "What I'd like to do in this presentation is three things.",
