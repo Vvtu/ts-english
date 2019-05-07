@@ -2151,7 +2151,7 @@ const dictionary2: dictType[] = [
 	},
 	{
 		rus:
-			"Вы можете сказать, что кто-то 'способен' что-то сделать, но 'может' более обычно.",
+			"Вы можете сказать, что кто-то 'is able' что-то сделать, но 'can' более обычно.",
 		eng:
 			"You can say that somebody 'is able' to do something, but 'can' is more usual.",
 	},
@@ -2197,7 +2197,7 @@ const dictionary2: dictType[] = [
 	},
 	{
 		rus:
-			'Мы также используем могли бы сказать, что кто-то имел общую способность или разрешение сделать что-то:',
+			'Мы также используем "could" бы сказать, что кто-то имел общую способность или разрешение сделать что-то:',
 		eng:
 			'We also use could to say that somebody had the general ability or permission to do something:',
 	},
@@ -2227,7 +2227,7 @@ const dictionary2: dictType[] = [
 		rus:
 			'Мы не знали, где Дэвид, но нам удалось найти его в конце концов. (не смог найти)',
 		eng:
-			"We didn't know where David was, but we managed to find ( were able to find him in the end. not could find)",
+			"We didn't know where David was, but we managed to find him in the end ( were able to find him in the end. not could find him in the end)",
 	},
 	{
 		rus:
