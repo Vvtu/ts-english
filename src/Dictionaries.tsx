@@ -312,6 +312,12 @@ const oldDictionary1: dictType[] = [
 		eng:
 			'The way I will always remember closures is through the backpack analogy. When a function gets created and passed around or returned from another function, it carries a backpack with it. And in the backpack are all the variables that were in scope when the function was declared.',
 	},
+	{
+		rus:
+			'Асинхронные функции облегчают написание асинхронного JavaScript, но они поставляется с собственным набором подводных камней, что делает жизнь трудной для начинающих.',
+		eng:
+			'Asynchronous functions make it easier to write asynchronous JavaScript, but it comes with its own set of gotchas that makes life hard for beginners.',
+	},
 
 	{
 		rus:
@@ -2117,8 +2123,7 @@ const dictionary20: dictType[] = [
 		eng:
 			'I cycled home yesterday when a man was stepping out into the road in front of me. I was going quite fast, but luckily I managed to stop in time and not hit him.',
 	},
-];
-const dictionary2: dictType[] = [
+
 	{
 		rus:
 			"Мы используем 'can', чтобы сказать, что что-то возможно или разрешено, или что у кого-то есть способность делать нечто. Мы используем 'can' + инфинитив (can do, can see etc.).",
@@ -2345,7 +2350,7 @@ const dictionary2: dictType[] = [
 			'To sum up, using Agile will help you to enhance the team performance. //to recap)',
 	},
 ];
-const oldDictionary2: dictType[] = [
+const dictionary2: dictType[] = [
 	{
 		rus: 'В этой презентации я хотел бы сделать три вещи.',
 		eng: "What I'd like to do in this presentation is three things.",
@@ -2458,6 +2463,8 @@ const oldDictionary2: dictType[] = [
 		rus: 'Она больше не может передвигаться.',
 		eng: "She can't get around anymore.",
 	},
+];
+const oldDictionary2: dictType[] = [
 	{
 		rus:
 			'Одна из присущих промышленно развитым странам проблем заключается в том, что работодатели могут обходить законодательство, реклассифицируя рабочие места.',
