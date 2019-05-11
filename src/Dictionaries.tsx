@@ -2477,48 +2477,6 @@ const dictionary2: dictType[] = [
 			'These opportunities can bring about accelerated developmental gains.',
 	},
 	{
-		rus:
-			'Лишь ответственное и подотчетное управление может обеспечить необходимые изменения и прогресс для всех.',
-		eng:
-			'Only responsible and accountable governance can bring about necessary changes and progress for all.',
-	},
-	{
-		rus:
-			'На проведенных после этого с талибскими властями переговорах Организации Объединенных Наций не удалось добиться изменения позиции «Талибана».',
-		eng:
-			"The ensuing negotiations between the United Nations and the Taliban authorities did not bring about change in the Taliban's position.",
-	},
-	{
-		rus:
-			'Никто не может считать, что только своими действиями Организация Объединенных Наций способна добиться явно относимых на ее счет существенных перемен на уровне стран.',
-		eng:
-			'Nobody could pretend that United Nations action alone could bring about easily attributable and significant change at the country level.',
-	},
-	{
-		rus:
-			'Г-н Тюгесен отметил, что на международном уровне использование национальных административных источников может привести к возникновению методологических расхождений.',
-		eng:
-			'Mr. Thygesen pointed out that at the international level, the use of national administrative sources may bring about methodological inconsistencies.',
-	},
-	{
-		rus:
-			'Он призвал сомалийских лидеров предложить новые идеи о том, как решить их проблемы.',
-		eng:
-			'He called on the Somali leaders to come up with new ideas on how to solve their problems.',
-	},
-	{
-		rus:
-			'Журналисты, работающие в частных средствах массовой информации, больше не имеют возможности свободно осуществлять свои функции.',
-		eng:
-			'Journalists working for private media can no longer carry out their functions freely.',
-	},
-	{
-		rus:
-			'Вместе с тем, важнейшее требование заключается в том, что эту проверку объединения должны проводить постоянно.',
-		eng:
-			'But the crucial requirement is that the Associations must carry out this verification continuously.',
-	},
-	{
 		rus: 'Всё, что мы можем сделать - это продолжать в том же духе.',
 		eng: 'All we can do is carry on.',
 	},
@@ -2711,10 +2669,7 @@ const dictionary2: dictType[] = [
 		eng:
 			"It makes sense to arrive 5 minutes before the presentation starts. // (=it's reasonable)",
 	},
-	{
-		rus: 'Звучит очень интересно. // (=Похоже)',
-		eng: 'That sounds really interesting. // (=It seems)',
-	},
+
 	{
 		rus:
 			'Звучит очень интересно. Я бы хотел обсудить это с тобой. // (=Я рад принять ваше приглашение)',
