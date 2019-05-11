@@ -2349,8 +2349,7 @@ const dictionary20: dictType[] = [
 		eng:
 			'To sum up, using Agile will help you to enhance the team performance. //to recap)',
 	},
-];
-const dictionary2: dictType[] = [
+
 	{
 		rus: 'В этой презентации я хотел бы сделать три вещи.',
 		eng: "What I'd like to do in this presentation is three things.",
@@ -2464,7 +2463,7 @@ const dictionary2: dictType[] = [
 		eng: "She can't get around anymore.",
 	},
 ];
-const oldDictionary2: dictType[] = [
+const dictionary2: dictType[] = [
 	{
 		rus:
 			'Одна из присущих промышленно развитым странам проблем заключается в том, что работодатели могут обходить законодательство, реклассифицируя рабочие места.',
@@ -2636,6 +2635,7 @@ const oldDictionary2: dictType[] = [
 		eng:
 			"I have been running this company for more than 10 years and I'm proud of it. // (=managing)",
 	},
+
 	{
 		rus:
 			'маршрут - план или список мест, которые вы посетите в путешествие',
@@ -2721,6 +2721,8 @@ const oldDictionary2: dictType[] = [
 		eng:
 			"That sounds really interesting. I'd like to take you up on that. // (=I'm happy to accept your invitation)",
 	},
+];
+const oldDictionary2: dictType[] = [
 	{
 		rus:
 			'Я решил попробовать выучить иностранный язык. Да ну? Какой язык вы собираетесь изучать?',
