@@ -2462,8 +2462,7 @@ const dictionary20: dictType[] = [
 		rus: 'Она больше не может передвигаться.',
 		eng: "She can't get around anymore.",
 	},
-];
-const dictionary2: dictType[] = [
+
 	{
 		rus:
 			'Одна из присущих промышленно развитым странам проблем заключается в том, что работодатели могут обходить законодательство, реклассифицируя рабочие места.',
@@ -2677,7 +2676,7 @@ const dictionary2: dictType[] = [
 			"That sounds really interesting. I'd like to take you up on that. // (=I'm happy to accept your invitation)",
 	},
 ];
-const oldDictionary2: dictType[] = [
+const dictionary2: dictType[] = [
 	{
 		rus:
 			'Я решил попробовать выучить иностранный язык. Да ну? Какой язык вы собираетесь изучать?',
@@ -2867,6 +2866,7 @@ const oldDictionary2: dictType[] = [
 		eng:
 			'It is still too soon to form a judgement about this suggestion. //(opinion after thinking carefully)',
 	},
+
 	{ rus: 'Хорошие новости!', eng: 'The news is good!' },
 	{
 		rus: '( few = not enough ) ( a few = several )',
@@ -2876,6 +2876,9 @@ const oldDictionary2: dictType[] = [
 		rus: '( little = not enough ) ( a little = some / enough )',
 		eng: '( little = not enough ) ( a little = some / enough )',
 	},
+];
+
+const oldDictionary2: dictType[] = [
 	{
 		rus:
 			'Джозеф всегда был одним из самых эффективных членов команды.',
