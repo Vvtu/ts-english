@@ -2462,8 +2462,7 @@ const dictionary20: dictType[] = [
 		rus: 'Она больше не может передвигаться.',
 		eng: "She can't get around anymore.",
 	},
-];
-const dictionary2: dictType[] = [
+
 	{
 		rus:
 			'Одна из присущих промышленно развитым странам проблем заключается в том, что работодатели могут обходить законодательство, реклассифицируя рабочие места.',
@@ -2676,8 +2675,7 @@ const dictionary2: dictType[] = [
 		eng:
 			"That sounds really interesting. I'd like to take you up on that. // (=I'm happy to accept your invitation)",
 	},
-];
-const oldDictionary2: dictType[] = [
+
 	{
 		rus:
 			'Я решил попробовать выучить иностранный язык. Да ну? Какой язык вы собираетесь изучать?',
@@ -2876,6 +2874,8 @@ const oldDictionary2: dictType[] = [
 		rus: '( little = not enough ) ( a little = some / enough )',
 		eng: '( little = not enough ) ( a little = some / enough )',
 	},
+];
+const dictionary2: dictType[] = [
 	{
 		rus:
 			'Джозеф всегда был одним из самых эффективных членов команды.',
@@ -2955,10 +2955,7 @@ const oldDictionary2: dictType[] = [
 		eng:
 			"As far as I'm concerned, we'd hardly make any progress this way. //(in my opinion)",
 	},
-	{
-		rus: 'Меня это не убедило. /(Я думаю, что ты ошибаешься.)',
-		eng: "I'm not convinced. //(I think you're wrong.)",
-	},
+
 	{
 		rus:
 			'Я думаю, было бы безумием принять этот срок. /(Это плохая идея.)',
@@ -3085,6 +3082,8 @@ const oldDictionary2: dictType[] = [
 			'Считаете ли вы, что больше денег нужно было потратить на образование?',
 		eng: 'Do you think that more money should be spent on education?',
 	},
+];
+const oldDictionary2: dictType[] = [
 	{
 		rus:
 			'Дорога находится в очень плохом состоянии. Она должна была быть отремонтирована давным-давно.',
