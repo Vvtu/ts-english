@@ -1,13 +1,13 @@
 {
-  "main.css": "/ts-english/static/css/main.b0d93974.chunk.css",
-  "main.js": "/ts-english/static/js/main.16b9aed9.chunk.js",
-  "main.js.map": "/ts-english/static/js/main.16b9aed9.chunk.js.map",
+  "main.css": "/ts-english/static/css/main.5924d505.chunk.css",
+  "main.js": "/ts-english/static/js/main.d0dd183f.chunk.js",
+  "main.js.map": "/ts-english/static/js/main.d0dd183f.chunk.js.map",
   "runtime~main.js": "/ts-english/static/js/runtime~main.532fc985.js",
   "runtime~main.js.map": "/ts-english/static/js/runtime~main.532fc985.js.map",
   "static/js/2.7e675ef3.chunk.js": "/ts-english/static/js/2.7e675ef3.chunk.js",
   "static/js/2.7e675ef3.chunk.js.map": "/ts-english/static/js/2.7e675ef3.chunk.js.map",
   "index.html": "/ts-english/index.html",
-  "precache-manifest.01a55e777841d4d5acc50dec98bba9c5.js": "/ts-english/precache-manifest.01a55e777841d4d5acc50dec98bba9c5.js",
+  "precache-manifest.d3af94dce510a0714cd6f12bf0780b7d.js": "/ts-english/precache-manifest.d3af94dce510a0714cd6f12bf0780b7d.js",
   "service-worker.js": "/ts-english/service-worker.js",
-  "static/css/main.b0d93974.chunk.css.map": "/ts-english/static/css/main.b0d93974.chunk.css.map"
+  "static/css/main.5924d505.chunk.css.map": "/ts-english/static/css/main.5924d505.chunk.css.map"
 }
