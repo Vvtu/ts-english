@@ -2874,8 +2874,7 @@ const dictionary20: dictType[] = [
 		rus: '( little = not enough ) ( a little = some / enough )',
 		eng: '( little = not enough ) ( a little = some / enough )',
 	},
-];
-const dictionary2: dictType[] = [
+
 	{
 		rus:
 			'Джозеф всегда был одним из самых эффективных членов команды.',
@@ -3083,7 +3082,8 @@ const dictionary2: dictType[] = [
 		eng: 'Do you think that more money should be spent on education?',
 	},
 ];
-const oldDictionary2: dictType[] = [
+
+const dictionary2: dictType[] = [
 	{
 		rus:
 			'Дорога находится в очень плохом состоянии. Она должна была быть отремонтирована давным-давно.',
@@ -3310,6 +3310,8 @@ const oldDictionary2: dictType[] = [
 		rus: 'Комната выглядит хорошо. Она была убрана.',
 		eng: 'The room looks nice. It has been cleaned.',
 	},
+];
+const oldDictionary2: dictType[] = [
 	{
 		rus: 'Вы слышали? Поездка была отменена.',
 		eng: 'Have you heard? The trip has been cancelled.',
