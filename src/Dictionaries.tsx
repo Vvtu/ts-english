@@ -3081,9 +3081,7 @@ const dictionary20: dictType[] = [
 			'Считаете ли вы, что больше денег нужно было потратить на образование?',
 		eng: 'Do you think that more money should be spent on education?',
 	},
-];
 
-const dictionary2: dictType[] = [
 	{
 		rus:
 			'Дорога находится в очень плохом состоянии. Она должна была быть отремонтирована давным-давно.',
@@ -3311,7 +3309,8 @@ const dictionary2: dictType[] = [
 		eng: 'The room looks nice. It has been cleaned.',
 	},
 ];
-const oldDictionary2: dictType[] = [
+
+const dictionary2: dictType[] = [
 	{
 		rus: 'Вы слышали? Поездка была отменена.',
 		eng: 'Have you heard? The trip has been cancelled.',
@@ -3634,6 +3633,8 @@ const oldDictionary2: dictType[] = [
 			'Я буду дома к 5:30, если только совещание закончилось поздно.',
 		eng: "I'll be home by 5:30 unless the meeting finished late.",
 	},
+];
+const oldDictionary2: dictType[] = [
 	{
 		rus:
 			"Мы используем 'на всякий случай', чтобы поговорить о действиях, предпринятых, чтобы чего-то избежать.: Я возьму запасную батарею на случай, если основная закончится.",
