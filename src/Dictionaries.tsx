@@ -3631,9 +3631,7 @@ const dictionary20: dictType[] = [
 			'Я буду дома к 5:30, если только совещание закончилось поздно.',
 		eng: "I'll be home by 5:30 unless the meeting finished late.",
 	},
-];
 
-const dictionary2: dictType[] = [
 	{
 		rus:
 			"Мы используем 'на всякий случай', чтобы поговорить о действиях, предпринятых, чтобы чего-то избежать.: Я возьму запасную батарею на случай, если основная закончится.",
@@ -3971,7 +3969,8 @@ const dictionary2: dictType[] = [
 			"Could you give me the order number and I'll look into it. //(=investigate the problem)",
 	},
 ];
-const oldDictionary2: dictType[] = [
+
+const dictionary2: dictType[] = [
 	{
 		rus: 'Позвольте мне уточнить. //(=прояснить)',
 		eng: 'Let me get this straight. //(=clarify)',
@@ -4195,6 +4194,8 @@ const oldDictionary2: dictType[] = [
 			"We've conducted a survey to find out if the employees are satisfied with the current perks. //(=carried out)",
 	},
 ];
+
+const oldDictionary2: dictType[] = [];
 
 const veryOldDictionary2: dictType[] = [
 	{
