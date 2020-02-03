@@ -87,7 +87,7 @@ class AppCode extends PureComponent<Props, State> {
     event.stopPropagation();
     this.incrementLocalStorage();
 
-    const { activeIndex, randomDictionary } = this.state;
+    const { activeIndex } = this.state;
 
     const newActiveIndex = activeIndex + 1;
     // console.log('handleForwardClicked newActiveIndex = ', newActiveIndex);
@@ -102,7 +102,7 @@ class AppCode extends PureComponent<Props, State> {
     event.stopPropagation();
     this.incrementLocalStorage();
 
-    const { activeIndex, randomDictionary } = this.state;
+    const { activeIndex } = this.state;
     const newActiveIndex = activeIndex === 0 ? 0 : activeIndex - 1;
     // console.log('handleBackClicked newActiveIndex = ', newActiveIndex);
     this.setState({

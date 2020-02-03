@@ -57,14 +57,6 @@ body {
 ============================================================= */
 
 .appcode__grid {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  overflow: hidden;
-  text-size-adjust: none;
-
   background-color: var(--background-color);
   color: var(--base-text-color);
   display: grid;
