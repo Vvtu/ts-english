@@ -322,7 +322,10 @@ class AppCode extends PureComponent<Props, State> {
       whiteColor
     } = this.state;
 
-    if (activeIndex >= randomDictionary.length) {
+    if (
+      activeIndex >= randomDictionary.length &&
+      randomDictionary.length > 0
+    ) {
       return (
         <div
           className="popup__full_screen_div"
