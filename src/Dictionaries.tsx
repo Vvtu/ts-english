@@ -6,7 +6,7 @@ const dictionary1: dictType[] = [
   {
     eng:
       "The first thing you’ll want to do is to draw boxes around every component (and subcomponent) in the mock and give them all names. Separate your UI into components, where each component matches one piece of your data model.",
-    rus: "Break The UI Into A Component Hierarchy:"
+    rus: "The first thing - Break The UI Into A Component Hierarchy:"
   },
 
   {
@@ -26,28 +26,35 @@ const dictionary1: dictType[] = [
       "React’s one-way data flow (also called one-way binding) keeps everything modular and fast:"
   },
   {
-    eng: "",
-    rus: ""
+    eng:
+      "Components let you split the UI into independent, reusable pieces, and think about each piece in isolation.",
+    rus: "Components isolation."
   },
   {
-    eng: "",
-    rus: ""
+    eng:
+      "Conceptually, components are like JavaScript functions. They accept arbitrary inputs (called “props”) and return React elements describing what should appear on the screen.",
+    rus: "Conceptually, components ..."
   },
   {
-    eng: "",
-    rus: ""
+    eng:
+      "Don’t be afraid to split components into smaller components.",
+    rus: "Don’t be afraid to split ..."
   },
   {
-    eng: "",
-    rus: ""
+    eng:
+      "But in most cases, it’s convenient to have a JavaScript function that handles the submission of the form and has access to the data that the user entered into the form. The standard way to achieve this is with a technique called 'controlled components'",
+    rus:
+      "A JavaScript function that handles the submission of the form ..."
   },
   {
-    eng: "",
-    rus: ""
+    eng:
+      "Concretely, a higher-order component is a function that takes a component and returns a new component. A HOC is a pure function with zero side-effects.",
+    rus: "Concretely, a higher-order component is ..."
   },
   {
-    eng: "",
-    rus: ""
+    eng:
+      "Apply HOCs outside the component definition so that the resulting component is created only once. Then, its identity will be consistent across renders. This is usually what you want, anyway.",
+    rus: "Apply HOCs outside the component definition so ..."
   },
   {
     eng: "",
