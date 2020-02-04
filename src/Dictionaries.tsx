@@ -28,7 +28,7 @@ const dictionary1: dictType[] = [
   {
     eng:
       "Components let you split the UI into independent, reusable pieces, and think about each piece in isolation.",
-    rus: "Components isolation."
+    rus: "Components let you split the ..."
   },
   {
     eng:
@@ -55,6 +55,50 @@ const dictionary1: dictType[] = [
     eng:
       "Apply HOCs outside the component definition so that the resulting component is created only once. Then, its identity will be consistent across renders. This is usually what you want, anyway.",
     rus: "Apply HOCs outside the component definition so ..."
+  },
+  // *******************************************************************************
+  {
+    eng:
+      "In the typical React dataflow, props are the only way that parent components interact with their children. To modify a child, you re-render it with new props. However, there are a few cases where you need to imperatively modify a child outside of the typical dataflow.",
+    rus: "In the typical React dataflow, props are ..."
+  },
+  {
+    eng: "useRef returns ...",
+    rus:
+      "useRef returns a mutable ref object whose .current property is initialized to the passed argument (initialValue). The returned object will persist for the full lifetime of the component. Essentially, useRef is like a “box” that can hold a mutable value in its .current property."
+  },
+  {
+    eng: "The only difference between useRef() and ...",
+    rus:
+      "The only difference between useRef() and creating a {current: ...} object yourself is that useRef will give you the same ref object on every render."
+  },
+  {
+    eng: "",
+    rus: ""
+  },
+  {
+    eng: "",
+    rus: ""
+  },
+  {
+    eng: "",
+    rus: ""
+  },
+  {
+    eng: "",
+    rus: ""
+  },
+  {
+    eng: "",
+    rus: ""
+  },
+  {
+    eng: "",
+    rus: ""
+  },
+  {
+    eng: "",
+    rus: ""
   },
   {
     eng: "",
