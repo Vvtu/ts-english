@@ -75,20 +75,24 @@ const dictionary1: dictType[] = [
   // *******************************************************************************
 
   {
-    eng: "",
-    rus: ""
+    eng: "We recommend dispatching real DOM events ...",
+    rus:
+      "We recommend dispatching real DOM events on DOM elements, and then asserting on the result."
   },
   {
-    eng: "",
-    rus: ""
+    eng: "Snapshot tests are a very useful tool ...",
+    rus:
+      "Snapshot tests are a very useful tool whenever you want to make sure your UI does not change unexpectedly."
   },
   {
-    eng: "",
-    rus: ""
+    eng: "The React Testing Library provides ...",
+    rus:
+      "The React Testing Library provides light utility functions on top of react-dom and react-dom/test-utils, in a way that encourages better testing practices."
   },
   {
-    eng: "",
-    rus: ""
+    eng: "Its primary guiding principle is: ",
+    rus:
+      "Its primary guiding principle is: The more your tests resemble the way your software is used, the more confidence they can give you."
   },
   {
     eng: "",
