@@ -63,15 +63,17 @@ const dictionary1: dictType[] = [
     rus: "In the typical React dataflow, props are ..."
   },
   {
-    eng: "useRef returns ...",
-    rus:
-      "useRef returns a mutable ref object whose .current property is initialized to the passed argument (initialValue). The returned object will persist for the full lifetime of the component. Essentially, useRef is like a “box” that can hold a mutable value in its .current property."
+    eng:
+      "useRef returns a mutable ref object whose .current property is initialized to the passed argument (initialValue). The returned object will persist for the full lifetime of the component. Essentially, useRef is like a “box” that can hold a mutable value in its .current property.",
+    rus: "useRef returns ..."
   },
   {
-    eng: "The only difference between useRef() and ...",
-    rus:
-      "The only difference between useRef() and creating a {current: ...} object yourself is that useRef will give you the same ref object on every render."
+    eng:
+      "The only difference between useRef() and creating a {current: ...} object yourself is that useRef will give you the same ref object on every render.",
+    rus: "The only difference between useRef() and ..."
   },
+  // *******************************************************************************
+
   {
     eng: "",
     rus: ""
