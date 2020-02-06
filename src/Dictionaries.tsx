@@ -95,16 +95,19 @@ const dictionary1: dictType[] = [
       "Its primary guiding principle is: The more your tests resemble the way your software is used, the more confidence they can give you."
   },
   {
-    eng: "",
-    rus: ""
+    eng:
+      "ReactCSSTransitionGroup is a high-level API based on ReactTransitionGroup and is an easy way to perform CSS transitions and animations when a React component enters or leaves the DOM.",
+    rus: "ReactCSSTransitionGroup is ..."
   },
   {
-    eng: "",
-    rus: ""
+    eng:
+      "React Router is a collection of navigational components that compose declaratively with your application. Whether you want to have bookmarkable URLs for your web app, React Router works wherever React is rendering--so take your pick!",
+    rus: "React Router is ..."
   },
   {
-    eng: "",
-    rus: ""
+    eng:
+      "The scrollRestoration property of History interface allows web applications to explicitly set default scroll restoration behavior on history navigation.",
+    rus: "The scrollRestoration property ..."
   },
   {
     eng: "",
