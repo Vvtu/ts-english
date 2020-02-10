@@ -109,9 +109,31 @@ const dictionary1: dictType[] = [
       "The scrollRestoration property of History interface allows web applications to explicitly set default scroll restoration behavior on history navigation.",
     rus: "The scrollRestoration property ..."
   },
+  // *******************************************************************
   {
-    eng: "",
-    rus: ""
+    eng:
+      "Eliminates some JavaScript silent errors by changing them to throw errors.",
+    rus: "1 Strict mode change"
+  },
+  {
+    eng:
+      "Fixes mistakes that make it difficult for JavaScript engines to perform optimizations: strict mode code can sometimes be made to run faster than identical code that's not strict mode.",
+    rus: "2 Strict mode change"
+  },
+  {
+    eng:
+      "Prohibits some syntax likely to be defined in future versions of ECMAScript.",
+    rus: "3 Strict mode change"
+  },
+  {
+    eng:
+      "The 'export' statement is used when creating JavaScript modules to export functions, objects, or primitive values from the module so they can be used by other programs with the import statement. Exported modules are in strict mode whether you declare them as such or not. The export statement cannot be used in embedded scripts.",
+    rus: "The 'export' statement is used ..."
+  },
+  {
+    eng: "There are two types of exports: ...",
+    rus:
+      "There are two types of exports: Named Exports (Zero or more exports per module) Default Exports (One per module)"
   },
   {
     eng: "",
