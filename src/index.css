@@ -112,6 +112,7 @@ body {
     width: calc(var(--screen-width) / 2 - var(--main_gap));
     overflow-y: scroll;
     overflow-wrap: break-word;
+    white-space: pre-wrap;
   }
 }
 

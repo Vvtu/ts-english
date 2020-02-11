@@ -49,6 +49,8 @@ export const getDictionaryWithMix = (
   }
   d = d.filter(({ rus, eng }) => !(rus === "" && eng === ""));
   d = reshuffle(filterDeletedOff(d));
+
+  oldD = oldD.filter(({ rus, eng }) => !(rus === "" && eng === ""));
   oldD = reshuffle(filterDeletedOff(oldD)).slice(
     0,
     NUMBER_OF_PAIRS_FROM_OLD_DICTIONARY

@@ -3,6 +3,207 @@ import { dictType } from "./Types";
 const dictionary10: dictType[] = [];
 
 const dictionary1: dictType[] = [
+  // *******************************************************************
+  {
+    eng:
+      "Eliminates some JavaScript silent errors by changing them to throw errors.",
+    rus: "1 Strict mode change"
+  },
+  {
+    eng:
+      "Fixes mistakes that make it difficult for JavaScript engines to perform optimizations: strict mode code can sometimes be made to run faster than identical code that's not strict mode.",
+    rus: "2 Strict mode change"
+  },
+  {
+    eng:
+      "Prohibits some syntax likely to be defined in future versions of ECMAScript.",
+    rus: "3 Strict mode change"
+  },
+  {
+    eng:
+      "The 'export' statement is used when creating JavaScript modules to export functions, objects, or primitive values from the module so they can be used by other programs with the import statement. Exported modules are in strict mode whether you declare them as such or not. The export statement cannot be used in embedded scripts.",
+    rus: "The 'export' statement is used ..."
+  },
+  {
+    eng:
+      "There are two types of exports: Named Exports (Zero or more exports per module) Default Exports (One per module)",
+    rus: "There are two types of exports: ..."
+  },
+  {
+    eng:
+      "It’s not that only HTML elements get their node, but also the attributes of the HTML elements have their nodes (attribute nodes), every piece of text has its node (text nodes), and there are many other node types.",
+    rus: "elements nodes, attribute nodes, text nodes ... "
+  },
+  {
+    eng:
+      "By accessing a DOM node of a given element we can manipulate its properties, such as position, appearance, content, behavior, etc.",
+    rus: "By accessing a DOM node  ..."
+  },
+  {
+    eng:
+      "Having the access to a certain node in the DOM, there are ways to traverse through the DOM using its related nodes. We can move up or down the DOM tree, or we can move sideways staying at the same DOM level.",
+    rus:
+      "Having the access to a certain node in the DOM, there are ways ..."
+  },
+  {
+    rus: "DOM traversing functions",
+    eng: `
+    node.parentNode
+    node.childNodes - array
+    node.childNodes.length
+    parentNode.removeChild(children[i]);
+    const elem = document.querySelector('#main')
+    const list = document.querySelector("li[data-active='1']")
+    const elem = document.getElementById("id001");
+    const previous = current.previousSibling;`
+  },
+  {
+    eng: "",
+    rus: ""
+  },
+  {
+    eng: "",
+    rus: ""
+  },
+  {
+    eng: "",
+    rus: ""
+  },
+  {
+    eng: "",
+    rus: ""
+  },
+  {
+    eng: "",
+    rus: ""
+  },
+  {
+    eng: "",
+    rus: ""
+  },
+  {
+    eng: "",
+    rus: ""
+  },
+  {
+    eng: "",
+    rus: ""
+  },
+  {
+    eng: "",
+    rus: ""
+  },
+  {
+    eng: "",
+    rus: ""
+  },
+  {
+    eng: "",
+    rus: ""
+  },
+  {
+    eng: "",
+    rus: ""
+  },
+  {
+    eng: "",
+    rus: ""
+  },
+  {
+    eng: "",
+    rus: ""
+  },
+  {
+    eng: "",
+    rus: ""
+  },
+  {
+    eng: "",
+    rus: ""
+  },
+  {
+    eng: "",
+    rus: ""
+  },
+  {
+    eng: "",
+    rus: ""
+  },
+  {
+    eng: "",
+    rus: ""
+  },
+  {
+    eng: "",
+    rus: ""
+  },
+  {
+    eng: "",
+    rus: ""
+  },
+  {
+    eng: "",
+    rus: ""
+  },
+  {
+    eng: "",
+    rus: ""
+  },
+  {
+    eng: "",
+    rus: ""
+  },
+  {
+    eng: "",
+    rus: ""
+  },
+  {
+    eng: "",
+    rus: ""
+  },
+  {
+    eng: "",
+    rus: ""
+  },
+  {
+    eng: "",
+    rus: ""
+  },
+  {
+    eng: "",
+    rus: ""
+  },
+  {
+    eng: "",
+    rus: ""
+  },
+  {
+    eng: "",
+    rus: ""
+  },
+  {
+    eng: "",
+    rus: ""
+  },
+  {
+    eng: "",
+    rus: ""
+  },
+  {
+    eng: "",
+    rus: ""
+  },
+  {
+    eng: "",
+    rus: ""
+  },
+  {
+    eng: "",
+    rus: ""
+  }
+];
+
+const oldDictionary1: dictType[] = [
   {
     eng:
       "The first thing you’ll want to do is to draw boxes around every component (and subcomponent) in the mock and give them all names. Separate your UI into components, where each component matches one piece of your data model.",
@@ -108,44 +309,8 @@ const dictionary1: dictType[] = [
     eng:
       "The scrollRestoration property of History interface allows web applications to explicitly set default scroll restoration behavior on history navigation.",
     rus: "The scrollRestoration property ..."
-  },
-  // *******************************************************************
-  {
-    eng:
-      "Eliminates some JavaScript silent errors by changing them to throw errors.",
-    rus: "1 Strict mode change"
-  },
-  {
-    eng:
-      "Fixes mistakes that make it difficult for JavaScript engines to perform optimizations: strict mode code can sometimes be made to run faster than identical code that's not strict mode.",
-    rus: "2 Strict mode change"
-  },
-  {
-    eng:
-      "Prohibits some syntax likely to be defined in future versions of ECMAScript.",
-    rus: "3 Strict mode change"
-  },
-  {
-    eng:
-      "The 'export' statement is used when creating JavaScript modules to export functions, objects, or primitive values from the module so they can be used by other programs with the import statement. Exported modules are in strict mode whether you declare them as such or not. The export statement cannot be used in embedded scripts.",
-    rus: "The 'export' statement is used ..."
-  },
-  {
-    eng: "There are two types of exports: ...",
-    rus:
-      "There are two types of exports: Named Exports (Zero or more exports per module) Default Exports (One per module)"
-  },
-  {
-    eng: "",
-    rus: ""
-  },
-  {
-    eng: "",
-    rus: ""
   }
 ];
-
-const oldDictionary1: dictType[] = [];
 const oldDictionary2: dictType[] = [];
 
 // const veryOldDictionary1: dictType[] = [];
