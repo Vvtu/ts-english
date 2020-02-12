@@ -58,24 +58,31 @@ const dictionary1: dictType[] = [
     const previous = current.previousSibling;`
   },
   {
-    eng: "",
-    rus: ""
+    eng:
+      "Every time we write a CSS declaration (or rule), it will enter the CSS Cascade, which will determine whether or not it will end up as the final style. The further down the cascade a declaration falls, the less likely it will end up as the final style.",
+    rus: "Every time we write a CSS declaration ..."
+  },
+  // **********************************************
+  {
+    eng:
+      "For security reasons, browsers restrict cross-origin HTTP requests initiated from scripts. For example, XMLHttpRequest and the Fetch API follow the same-origin policy. This means that a web application using those APIs can only request resources from the same origin the application was loaded from, unless the response from other origins includes the right CORS headers.",
+    rus: "For security reasons, browsers restrict cross-origin..."
   },
   {
-    eng: "",
-    rus: ""
+    eng:
+      "A task is any JavaScript code which is scheduled to be run by the standard mechanisms such as initially starting to run a program, an event callback being run, or an interval or timeout being fired. These all get scheduled on the task queue.",
+    rus: "A task is any JavaScript code ..."
   },
   {
-    eng: "",
-    rus: ""
+    eng:
+      "A microtask is a short function which is executed after the function or program which created it exits and only if the JavaScript execution stack is empty",
+    rus: "A microtask is a short function ..."
   },
   {
-    eng: "",
-    rus: ""
-  },
-  {
-    eng: "",
-    rus: ""
+    eng:
+      "Second, if a microtask adds more microtasks to the queue ...",
+    rus:
+      "Second, if a microtask adds more microtasks to the queue by calling queueMicrotask(), those newly-added microtasks execute before the next task is run. That's because the event loop will keep calling microtasks until there are none left in the queue, even if more keep getting added."
   },
   {
     eng: "",
