@@ -79,9 +79,9 @@ const dictionary1: dictType[] = [
     rus: "A microtask is a short function ..."
   },
   {
-    eng:
-      "Second, if a microtask adds more microtasks to the queue ...",
     rus:
+      "Second, if a microtask adds more microtasks to the queue ...",
+    eng:
       "Second, if a microtask adds more microtasks to the queue by calling queueMicrotask(), those newly-added microtasks execute before the next task is run. That's because the event loop will keep calling microtasks until there are none left in the queue, even if more keep getting added."
   },
   {
