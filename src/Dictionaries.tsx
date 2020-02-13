@@ -85,12 +85,16 @@ const dictionary1: dictType[] = [
       "Second, if a microtask adds more microtasks to the queue by calling queueMicrotask(), those newly-added microtasks execute before the next task is run. That's because the event loop will keep calling microtasks until there are none left in the queue, even if more keep getting added."
   },
   {
-    eng: "",
-    rus: ""
+    rus: "performance.now()",
+    eng:
+      "performance.now() returns a timestamp, measured in milliseconds, accurate to one thousandth of a millisecond. This timestamp is equal to the number of milliseconds since the navigationStart attribute of the performance.timing interface. The Navigation Timing API is much more accurate and reliable"
   },
   {
-    eng: "",
-    rus: ""
+    eng: `To compute the total amount of time it took to load the page, you can use the following code:
+    const perfData = window.performance.timing;
+    const pageLoadTime = perfData.loadEventEnd - perfData.navigationStart;
+    This subtracts the time at which navigation began (navigationStart) from the time at which the load event handler returns (loadEventEnd). This gives you the perceived page load time.`,
+    rus: "To compute the total amount of time ..."
   },
   {
     eng: "",
@@ -210,7 +214,8 @@ const dictionary1: dictType[] = [
   }
 ];
 
-const oldDictionary1: dictType[] = [
+const oldDictionary1: dictType[] = [];
+const veryOldDictionary1: dictType[] = [
   {
     eng:
       "The first thing you’ll want to do is to draw boxes around every component (and subcomponent) in the mock and give them all names. Separate your UI into components, where each component matches one piece of your data model.",
@@ -320,8 +325,6 @@ const oldDictionary1: dictType[] = [
 ];
 const oldDictionary2: dictType[] = [];
 
-// const veryOldDictionary1: dictType[] = [];
-
 const dictionary20: dictType[] = [];
 
 const dictionary2: dictType[] = [];
@@ -332,5 +335,7 @@ export default {
   dictionary10,
   dictionary2,
   dictionary20,
-  oldDictionary2
+  oldDictionary2,
+  //
+  veryOldDictionary1
 };
