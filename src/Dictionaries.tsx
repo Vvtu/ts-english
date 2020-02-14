@@ -97,88 +97,111 @@ const dictionary1: dictType[] = [
     rus: "To compute the total amount of time ..."
   },
   {
-    eng: "",
-    rus: ""
+    eng:
+      "Encapsulation is an object-oriented programming concept that binds together the data and functions that manipulate the data, and that keeps both safe from outside interference and misuse. Data encapsulation led to the important OOP concept of data hiding.",
+    rus: "Encapsulation is ..."
   },
   {
-    eng: "",
-    rus: ""
+    eng:
+      "If a class does not allow calling code to access internal object data and permits access through methods only, this is a strong form of abstraction or information hiding known as encapsulation.",
+    rus:
+      "A strong form of abstraction or information hiding known as encapsulation."
   },
   {
-    eng: "",
-    rus: ""
+    eng:
+      "Subtyping – a form of polymorphism – is when calling code can be agnostic as to which class in the supported hierarchy it is operating on – the parent class or one of its descendants. Meanwhile, the same operation name among objects in an inheritance hierarchy may behave differently.",
+    rus: "Subtyping – a form of polymorphism - is ..."
   },
   {
-    eng: "",
-    rus: ""
+    eng:
+      "The static method Object.defineProperty() defines a new property directly on an object, or modifies an existing property on an object, and returns the object. By default, values added using Object.defineProperty() are immutable.",
+    rus: "The static method Object.defineProperty() ..."
   },
   {
-    eng: "",
-    rus: ""
+    eng: "var _discount; // private member",
+    rus: `var _discount; // private member
+    Object.defineProperty(this,"discount",{
+      get: function() { return _discount; },
+      set: function(value) { _discount = value; if(_discount>80) _discount = 80; }
+    });`
   },
   {
-    eng: "",
-    rus: ""
+    eng: "Object.freeze(yourObject)...",
+    rus:
+      "Object.freeze(yourObject) - properties can not be changed (effectively sets 'writable': 'false' to all properties with data descriptor)."
   },
   {
-    eng: "",
-    rus: ""
+    eng: `In JavaScript, this is "free", its value is calculated at the time of calling the method and does not depend on where the method was declared, but depends on which object calls the method (which object is "before the point").`,
+    rus:
+      "В JavaScript this является «свободным», его значение вычисляется в момент вызова метода и не зависит от того, где этот метод был объявлен, а зависит от того, какой объект вызывает метод (какой объект стоит 'перед точкой')."
   },
   {
-    eng: "",
-    rus: ""
+    eng:
+      "The 'get' syntax binds an object property to a function that will be called when that property is looked up.",
+    rus: "The 'get' syntax binds ..."
   },
   {
-    eng: "",
-    rus: ""
+    eng:
+      "The 'set' syntax binds an object property to a function to be called when there is an attempt to set that property.",
+    rus: "The 'set' syntax binds ..."
   },
   {
-    eng: "",
-    rus: ""
+    eng:
+      "An arrow function expression is a syntactically compact alternative to a regular function expression, although without its own bindings to the this, arguments, super, or new.target keywords. Arrow function expressions are ill suited as methods, and they cannot be used as constructors.",
+    rus: "An arrow function expression ..."
   },
   {
-    eng: "",
-    rus: ""
+    eng:
+      "The 'instanceof' operator tests whether the prototype property of a constructor appears anywhere in the prototype chain of an object.",
+    rus: "The 'instanceof' operator tests whether ..."
   },
   {
-    eng: "",
-    rus: ""
+    eng:
+      "A strict definition of hoisting suggests that variable and function declarations are physically moved to the top of your code, but this is not in fact what happens.Instead, the variable and function declarations are put into memory during the compile phase, but stay exactly where you typed them in your code.",
+    rus: "A strict definition of hoisting suggests ..."
   },
   {
-    eng: "",
-    rus: ""
+    eng:
+      "The immediate function pattern is a syntax that enables you to execute a function as soon as it is defined. It helps you wrap an amount of work you want to do without leaving any global variables behind.",
+    rus: "The immediate function pattern is ..."
   },
   {
-    eng: "",
-    rus: ""
+    eng: `Classes are in fact "special functions", and just as you can define function expressions and function declarations, the class syntax has two components: class expressions and class declarations.`,
+    rus: "Classes are in fact ..."
   },
   {
-    eng: "",
-    rus: ""
+    eng:
+      "The main difference between a function expression and a function declaration is the function name, which can be omitted in function expressions to create anonymous functions",
+    rus: "The main difference between a function expression and ..."
   },
   {
-    eng: "",
-    rus: ""
+    eng:
+      "An important difference between function declarations and class declarations is that function declarations are hoisted and class declarations are not.",
+    rus:
+      "An important difference between function declarations and class declarations is ..."
   },
   {
-    eng: "",
-    rus: ""
+    eng: `The constructor method is a special method for creating and initializing an object created with a class. There can only be one special method with the name "constructor" in a class.`,
+    rus: "The constructor method is ..."
   },
   {
-    eng: "",
-    rus: ""
+    eng: `A constructor can use the 'super' keyword to call the constructor of the super class.`,
+    rus: "A constructor can use the 'super' ..."
   },
   {
-    eng: "",
-    rus: ""
+    eng:
+      "The 'static' keyword defines a static method for a class. So called 'class method'.",
+    rus: "The 'static' keyword defines ..."
   },
   {
-    eng: "",
-    rus: ""
+    eng:
+      "It's an error to reference private fields from outside of the class; they can only be read or written within the class body. // #height",
+    rus: "It's an error to reference private fields ..."
   },
   {
-    eng: "",
-    rus: ""
+    eng:
+      "The 'extends' keyword is used in class declarations or class expressions to create a class as a child of another class. If there is a constructor present in the subclass, it needs to first call super() before using 'this'.",
+    rus: "The 'extends' keyword is used ..."
   },
   {
     eng: "",
