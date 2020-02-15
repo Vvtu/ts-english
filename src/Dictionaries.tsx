@@ -1,9 +1,6 @@
 import { dictType } from "./Types";
 
-const dictionary10: dictType[] = [];
-
-const dictionary1: dictType[] = [
-  // *******************************************************************
+const dictionary10: dictType[] = [
   {
     eng:
       "Eliminates some JavaScript silent errors by changing them to throw errors.",
@@ -19,16 +16,7 @@ const dictionary1: dictType[] = [
       "Prohibits some syntax likely to be defined in future versions of ECMAScript.",
     rus: "3 Strict mode change"
   },
-  {
-    eng:
-      "The 'export' statement is used when creating JavaScript modules to export functions, objects, or primitive values from the module so they can be used by other programs with the import statement. Exported modules are in strict mode whether you declare them as such or not. The export statement cannot be used in embedded scripts.",
-    rus: "The 'export' statement is used ..."
-  },
-  {
-    eng:
-      "There are two types of exports: Named Exports (Zero or more exports per module) Default Exports (One per module)",
-    rus: "There are two types of exports: ..."
-  },
+
   {
     eng:
       "It’s not that only HTML elements get their node, but also the attributes of the HTML elements have their nodes (attribute nodes), every piece of text has its node (text nodes), and there are many other node types.",
@@ -48,14 +36,14 @@ const dictionary1: dictType[] = [
   {
     rus: "DOM traversing functions",
     eng: `
-    node.parentNode
-    node.childNodes - array
-    node.childNodes.length
-    parentNode.removeChild(children[i]);
-    const elem = document.querySelector('#main')
-    const list = document.querySelector("li[data-active='1']")
-    const elem = document.getElementById("id001");
-    const previous = current.previousSibling;`
+  node.parentNode
+  node.childNodes - array
+  node.childNodes.length
+  parentNode.removeChild(children[i]);
+  const elem = document.querySelector('#main')
+  const list = document.querySelector("li[data-active='1']")
+  const elem = document.getElementById("id001");
+  const previous = current.previousSibling;`
   },
   {
     eng:
@@ -63,21 +51,7 @@ const dictionary1: dictType[] = [
     rus: "Every time we write a CSS declaration ..."
   },
   // **********************************************
-  {
-    eng:
-      "For security reasons, browsers restrict cross-origin HTTP requests initiated from scripts. For example, XMLHttpRequest and the Fetch API follow the same-origin policy. This means that a web application using those APIs can only request resources from the same origin the application was loaded from, unless the response from other origins includes the right CORS headers.",
-    rus: "For security reasons, browsers restrict cross-origin..."
-  },
-  {
-    eng:
-      "A task is any JavaScript code which is scheduled to be run by the standard mechanisms such as initially starting to run a program, an event callback being run, or an interval or timeout being fired. These all get scheduled on the task queue.",
-    rus: "A task is any JavaScript code ..."
-  },
-  {
-    eng:
-      "A microtask is a short function which is executed after the function or program which created it exits and only if the JavaScript execution stack is empty",
-    rus: "A microtask is a short function ..."
-  },
+
   {
     rus:
       "Second, if a microtask adds more microtasks to the queue ...",
@@ -91,11 +65,16 @@ const dictionary1: dictType[] = [
   },
   {
     eng: `To compute the total amount of time it took to load the page, you can use the following code:
-    const perfData = window.performance.timing;
-    const pageLoadTime = perfData.loadEventEnd - perfData.navigationStart;
-    This subtracts the time at which navigation began (navigationStart) from the time at which the load event handler returns (loadEventEnd). This gives you the perceived page load time.`,
+  const perfData = window.performance.timing;
+  const pageLoadTime = perfData.loadEventEnd - perfData.navigationStart;
+  This subtracts the time at which navigation began (navigationStart) from the time at which the load event handler returns (loadEventEnd). This gives you the perceived page load time.`,
     rus: "To compute the total amount of time ..."
-  },
+  }
+];
+
+const dictionary1: dictType[] = [
+  // *******************************************************************
+
   {
     eng:
       "Encapsulation is an object-oriented programming concept that binds together the data and functions that manipulate the data, and that keeps both safe from outside interference and misuse. Data encapsulation led to the important OOP concept of data hiding.",
@@ -131,9 +110,9 @@ const dictionary1: dictType[] = [
       "Object.freeze(yourObject) - properties can not be changed (effectively sets 'writable': 'false' to all properties with data descriptor)."
   },
   {
-    eng: `In JavaScript, this is "free", its value is calculated at the time of calling the method and does not depend on where the method was declared, but depends on which object calls the method (which object is "before the point").`,
+    eng: `In JavaScript, 'this' is "free", its value is calculated at the time of calling the method and does not depend on where the method was declared, but depends on which object calls the method (which object is "before the point").`,
     rus:
-      "В JavaScript this является «свободным», его значение вычисляется в момент вызова метода и не зависит от того, где этот метод был объявлен, а зависит от того, какой объект вызывает метод (какой объект стоит 'перед точкой')."
+      "В JavaScript 'this' является «свободным», его значение вычисляется в момент вызова метода и не зависит от того, где этот метод был объявлен, а зависит от того, какой объект вызывает метод (какой объект стоит 'перед точкой')."
   },
   {
     eng:
@@ -204,36 +183,277 @@ const dictionary1: dictType[] = [
     rus: "The 'extends' keyword is used ..."
   },
   {
-    eng: "",
-    rus: ""
+    eng: `The iterable protocol allows JavaScript objects to define or customize their iteration behavior, such as what values are looped over in a for...of construct. In order to be iterable, an object must implement the @@iterator method // [Symbol.iterator]: function() { return this }`,
+    rus: "The iterable protocol allows ..."
   },
   {
-    eng: "",
-    rus: ""
+    eng: "Every symbol value returned from Symbol() is unique.",
+    rus: "Every symbol value returned from Symbol() is unique."
   },
   {
-    eng: "",
-    rus: ""
+    eng: `'Symbol' has static properties that expose several members of built-in objects, has static methods that expose the global symbol registry, and resembles a built-in object class, but is incomplete as a constructor because it does not support the syntax "new Symbol()".`,
+    rus:
+      "'Symbol' has static properties that expose several members of built-in objects ... "
   },
   {
-    eng: "",
-    rus: ""
+    eng: `Generators are functions which can be exited and later re-entered. Their context (variable bindings) will be saved across re-entrances.`,
+    rus: `Generators are functions which ...`
   },
   {
-    eng: "",
-    rus: ""
+    eng: `A return statement in a generator, when executed, will make the generator finish`,
+    rus: `A return statement in a generator, when executed, will make the generator finish`
   },
   {
-    eng: "",
-    rus: ""
+    eng: ``,
+    rus: ``
   },
   {
-    eng: "",
-    rus: ""
+    eng: ``,
+    rus: ``
   },
   {
-    eng: "",
-    rus: ""
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
   }
 ];
 
