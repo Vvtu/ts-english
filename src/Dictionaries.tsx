@@ -204,8 +204,8 @@ const dictionary1: dictType[] = [
     rus: `A return statement in a generator, when executed, will make the generator finish`
   },
   {
-    eng: ``,
-    rus: ``
+    eng: `The HTML Inline Frame element (<iframe>) represents a nested browsing context, embedding another HTML page into the current one.`,
+    rus: `The HTML Inline Frame element (<iframe>) represents a nested browsing context, embedding another HTML page into the current one.`
   },
   {
     eng: ``,
