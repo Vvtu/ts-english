@@ -69,11 +69,7 @@ const dictionary10: dictType[] = [
   const pageLoadTime = perfData.loadEventEnd - perfData.navigationStart;
   This subtracts the time at which navigation began (navigationStart) from the time at which the load event handler returns (loadEventEnd). This gives you the perceived page load time.`,
     rus: "To compute the total amount of time ..."
-  }
-];
-
-const dictionary1: dictType[] = [
-  // *******************************************************************
+  },
 
   {
     eng:
@@ -207,41 +203,45 @@ const dictionary1: dictType[] = [
     eng: `The HTML Inline Frame element (<iframe>) represents a nested browsing context, embedding another HTML page into the current one.`,
     rus: `The HTML Inline Frame element (<iframe>) represents a nested browsing context, embedding another HTML page into the current one.`
   },
+];
+
+const dictionary1: dictType[] = [
+  // *******************************************************************
   {
-    eng: ``,
-    rus: ``
+    eng: `The API reference documentation provides detailed information about a function or object in Node.js. This documentation indicates what arguments a method accepts, the return value of that method, and what errors may be related to that method.`,
+    rus: `he API reference documentation provides ...`
   },
   {
-    eng: ``,
-    rus: ``
+    eng: `In the first part of this guide we will create a simple web application in Node.js, then we will build a Docker image for that application, and lastly we will instantiate a container from that image.`,
+    rus: `In the first part of this guide we will create a simple...`
   },
   {
-    eng: ``,
-    rus: ``
+    eng: `Docker allows you to package an application with its environment and all of its dependencies into a "box", called a container.`,
+    rus: `Docker allows you to ...`
   },
   {
-    eng: ``,
-    rus: ``
+    eng: `Usually, a container consists of an application running in a stripped-to-basics version of a Linux operating system. An image is the blueprint for a container, a container is a running instance of an image.`,
+    rus: `Usually, a container consists ...`
   },
   {
-    eng: ``,
-    rus: ``
+    eng: `Blocking is when the execution of additional JavaScript in the Node.js process must wait until a non-JavaScript operation completes. This happens because the event loop is unable to continue running JavaScript while a blocking operation is occurring.`,
+    rus: `Blocking is when the ...`
   },
   {
-    eng: ``,
-    rus: ``
+    eng: `All of the I/O methods in the Node.js standard library provide asynchronous versions, which are non-blocking, and accept callback functions.`,
+    rus: `All of the I/O methods ...`
   },
   {
-    eng: ``,
-    rus: ``
+    eng: `Blocking methods execute synchronously and non-blocking methods execute asynchronously.`,
+    rus: `Blocking methods execute ...`
   },
   {
-    eng: ``,
-    rus: ``
+    eng: `JavaScript execution in Node.js is single threaded, so concurrency refers to the event loop's capacity to execute JavaScript callback functions after completing other work.`,
+    rus: `JavaScript execution in Node.js is ...`
   },
   {
-    eng: ``,
-    rus: ``
+    eng: `The event loop is different than models in many other languages where additional threads may be created to handle concurrent work.`,
+    rus: `The event loop is different than models in many other ...`
   },
   {
     eng: ``,
