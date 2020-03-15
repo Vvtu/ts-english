@@ -1,6 +1,6 @@
 import { dictType } from "./Types";
 
-const dictionary10: dictType[] = [
+const oldDictionary1: dictType[] = [
   {
     eng:
       "Eliminates some JavaScript silent errors by changing them to throw errors.",
@@ -239,10 +239,6 @@ const dictionary10: dictType[] = [
     eng: `The event loop is different than models in many other languages where additional threads may be created to handle concurrent work.`,
     rus: `The event loop is different than models in many other ...`
   },
-];
-
-const dictionary1: dictType[] = [
-  // *******************************************************************
   {
     eng:
       "The first thing you’ll want to do is to draw boxes around every component (and subcomponent) in the mock and give them all names. Separate your UI into components, where each component matches one piece of your data model.",
@@ -349,53 +345,59 @@ const dictionary1: dictType[] = [
       "The scrollRestoration property of History interface allows web applications to explicitly set default scroll restoration behavior on history navigation.",
     rus: "The scrollRestoration property ..."
   },
+];
+
+const dictionary10: dictType[] = [
+];
+const dictionary1: dictType[] = [
+  // *******************************************************************
   {
-    eng: ``,
-    rus: ``
+    eng: `In this tutorial, we'll build an interactive app for reserving a seat on an upcoming SpaceX launch.`,
+    rus: `In this tutorial, we'll ...`
   },
   {
-    eng: ``,
-    rus: ``
+    eng: `Every data graph uses a schema to define the types of data it includes.`,
+    rus: `Every data graph ...`
   },
   {
-    eng: ``,
-    rus: ``
+    eng: `The two packages you need to get started with Apollo Server are apollo-server and graphql.`,
+    rus: `The two packages you need ...`
   },
   {
-    eng: ``,
-    rus: ``
+    eng: `Your GraphQL schema defines what types of data a client can read and write to your data graph. Schemas are strongly typed, which unlocks powerful developer tooling.`,
+    rus: `Your GraphQL schema defines ...`
   },
   {
-    eng: ``,
-    rus: ``
+    eng: `Because the schema sits directly between your application clients and your underlying data services, front-end and back-end teams should collaborate on its structure. `,
+    rus: `Because the schema sits directly ... `
   },
   {
-    eng: ``,
-    rus: ``
+    eng: `An exclamation point (!) after a declared field's type means "this field's value can never be null."`,
+    rus: `An exclamation point (!) ..."`
   },
   {
-    eng: ``,
-    rus: ``
+    eng: `When you query for a field that takes an argument, the field's value can vary depending on the provided argument's value. In this case, the value you provide for size will determine which size of the mission's associated patch is returned (the SMALL size or the LARGE size).`,
+    rus: `When you query for a field that takes an argument, ...`
   },
   {
-    eng: ``,
-    rus: ``
+    eng: `A field's type can be either an object type or a scalar type.`,
+    rus: `A field's type can be ...`
   },
   {
-    eng: ``,
-    rus: ``
+    eng: `A scalar type is a primitive (like ID, String, Boolean, or Int) that resolves to a single value. In addition to GraphQL's built-in scalar types, you can define custom scalar types.`,
+    rus: `A scalar type is a primitive ...`
   },
   {
-    eng: ``,
-    rus: ``
+    eng: `We've defined the objects that exist in our data graph, but clients don't yet have a way to fetch those objects. To resolve that, our schema needs to define queries that clients can execute against the data graph.`,
+    rus: `We've defined the objects that exist...`
   },
   {
-    eng: ``,
-    rus: ``
+    eng: `Queries enable clients to fetch data, but not to modify data. To enable clients to modify data, our schema needs to define some mutations.`,
+    rus: `Queries enable clients to fetch data, ...`
   },
   {
-    eng: ``,
-    rus: ``
+    eng: `A mutation's return type is entirely up to you, but we recommend defining special object types specifically for mutation responses.`,
+    rus: `A mutation's return type is entirely ...`
   },
   {
     eng: ``,
@@ -563,10 +565,7 @@ const dictionary1: dictType[] = [
   }
 ];
 
-const oldDictionary1: dictType[] = [];
-const veryOldDictionary1: dictType[] = [
-
-];
+const veryOldDictionary1: dictType[] = [];
 const oldDictionary2: dictType[] = [];
 
 const dictionary20: dictType[] = [];
