@@ -400,12 +400,12 @@ const dictionary1: dictType[] = [
     rus: `A mutation's return type is entirely ...`
   },
   {
-    eng: ``,
-    rus: ``
+    eng: `GraphQL APIs are extremely flexible because you can layer them on top of any service, including any business logic, REST APIs, databases, or gRPC services.`,
+    rus: `GraphQL APIs are extremely flexible ...`
   },
   {
-    eng: ``,
-    rus: ``
+    eng: `<Apollo data source> is a class that encapsulates all of the data fetching logic, as well as caching and deduplication, for a particular service.`,
+    rus: `<Apollo data source> ...`
   },
   {
     eng: ``,
