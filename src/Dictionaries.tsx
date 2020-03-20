@@ -570,7 +570,288 @@ const oldDictionary2: dictType[] = [];
 
 const dictionary20: dictType[] = [];
 
-const dictionary2: dictType[] = [];
+const dictionary2: dictType[] = [
+{
+    eng: `Individuals and interactions over proccesses and tools`,
+    rus: `Индивиды и взяимодействие превыше процессов и планов`
+  },
+  {
+    eng: `Working software over comprehensive documentation`,
+    rus: `Рабочае приложение превыше исчерпывающей документации`
+  },
+  {
+    eng: `Cuctomer collaboration over contract negotiation`,
+    rus: `Работа с кастомерами превыше обсуждения контракта`
+  },
+  {
+    eng: `Resoponding to change over following a plan`,
+    rus: `Реагирование на изменения превыше следования плану`
+  },
+  {
+    eng: `We are uncovering better ways of developing software by doing it and helping other's do it`,
+    rus: `Мы открываем лучшие пути разработки ПО, делая его и помогая другим`
+  },
+  {
+    eng: `Through this work we have come to value`,
+    rus: `Через эту работу мы пришли к ценностям`
+  },
+  {
+    eng: `Scrum four values (pillars) and twelve principals`,
+    rus: `Четыре ценности и двенадцать принципов`
+  },
+  {
+    eng: `Our highest priority is to sutisfy the customer through early and continuous delivery of valuable software`,
+    rus: ``
+  },
+  {
+    eng: `Welcome changing requirements even late in developing.`,
+    rus: ``
+  },
+  {
+    eng: `Deliver working software frequently from a couple of weeks to a couple of months.`,
+    rus: ``
+  },
+  {
+    eng: `Business people and developers must work together daily throughout the project`,
+    rus: ``
+  },
+  {
+    eng: `Build porjects around motivated individuals. Give them the enviroment and support they need, and trust them to get the work done.`,
+    rus: ``
+  },
+  {
+    eng: `The most efficient and effective method of conveying information is face to face conversation.`,
+    rus: ``
+  },
+  {
+    eng: `Working software is the primary measure of progress.`,
+    rus: ``
+  },
+  {
+    eng: `Continuous attention to technical execllence and good design enhances agility`,
+    rus: ``
+  },
+  {
+    eng: `Simplicity is essential`,
+    rus: ``
+  },
+  {
+    eng: `Agile processes promote sustainable development`,
+    rus: ``
+  },
+  {
+    eng: `The best architectures, requrements and design emerge from self-organizing teams.`,
+    rus: ``
+  },
+  {
+    eng: `At regular intervals, the team reflects on how to become more effective, then  tunes and adjusts its behaviour accordingly.`,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+  {
+    eng: ``,
+    rus: ``
+  },
+];
 
 export default {
   dictionary1,
