@@ -601,51 +601,51 @@ const dictionary2: dictType[] = [
   },
   {
     eng: `Our highest priority is to sutisfy the customer through early and continuous delivery of valuable software`,
-    rus: ``
+    rus: `  Наш самый высокий приоритет заключается в удовлетворении потребностей клиента посредством ранней и непрерывной поставки ценного программного обеспечения    `
   },
   {
     eng: `Welcome changing requirements even late in developing.`,
-    rus: ``
+    rus: `Приветствуйте изменение требований даже на поздних стадиях разработки.`
   },
   {
     eng: `Deliver working software frequently from a couple of weeks to a couple of months.`,
-    rus: ``
+    rus: `Поставляйте работающее программное обеспечение часто от пары недель до пары месяцев.`
   },
   {
     eng: `Business people and developers must work together daily throughout the project`,
-    rus: ``
+    rus: `Деловые люди и разработчики должны ежедневно работать вместе на протяжении всего проекта`
   },
   {
     eng: `Build porjects around motivated individuals. Give them the enviroment and support they need, and trust them to get the work done.`,
-    rus: ``
+    rus: `Создавайте порции вокруг мотивированных людей. Дайте им окружающую среду и поддержку, в которых они нуждаются, и доверьте им выполнять свою работу.`
   },
   {
     eng: `The most efficient and effective method of conveying information is face to face conversation.`,
-    rus: ``
+    rus: `Самый эффективный и действенный способ передачи информации - это разговор лицом к лицу.`
   },
   {
     eng: `Working software is the primary measure of progress.`,
-    rus: ``
+    rus: `Рабочее программное обеспечение - это основной показатель прогресса.`
   },
   {
     eng: `Continuous attention to technical execllence and good design enhances agility`,
-    rus: ``
+    rus: `Постоянное внимание к техническому исполнению и хорошему дизайну повышает гибкость`
   },
   {
     eng: `Simplicity is essential`,
-    rus: ``
+    rus: `Простота очень важна`
   },
   {
     eng: `Agile processes promote sustainable development`,
-    rus: ``
+    rus: `Гибкие процессы способствуют устойчивому развитию`
   },
   {
     eng: `The best architectures, requrements and design emerge from self-organizing teams.`,
-    rus: ``
+    rus: `Лучшие архитектурные решения, требования и дизайн возникают из самоорганизующихся команд`
   },
   {
     eng: `At regular intervals, the team reflects on how to become more effective, then  tunes and adjusts its behaviour accordingly.`,
-    rus: ``
+    rus: `Через регулярные промежутки времени команда размышляет о том, как стать более эффективной, а затем настраивает и корректирует свое поведение соответствующим образом.`
   },
   {
     eng: ``,
