@@ -572,7 +572,7 @@ const dictionary20: dictType[] = [];
 
 const dictionary2: dictType[] = [
 {
-    eng: `Individuals and interactions over proccesses and tools`,
+    eng: `Individuals and interactions over processes and tools`,
     rus: `Индивиды и взяимодействие превыше процессов и планов`
   },
   {
@@ -580,11 +580,11 @@ const dictionary2: dictType[] = [
     rus: `Рабочае приложение превыше исчерпывающей документации`
   },
   {
-    eng: `Cuctomer collaboration over contract negotiation`,
+    eng: `Customer collaboration over contract negotiation`,
     rus: `Работа с кастомерами превыше обсуждения контракта`
   },
   {
-    eng: `Resoponding to change over following a plan`,
+    eng: `Responding to change over following a plan`,
     rus: `Реагирование на изменения превыше следования плану`
   },
   {
@@ -592,7 +592,7 @@ const dictionary2: dictType[] = [
     rus: `Мы открываем лучшие пути разработки ПО, делая его и помогая другим`
   },
   {
-    eng: `Through this work we have come to value`,
+    eng: `Through this work we have come to the values`,
     rus: `Через эту работу мы пришли к ценностям`
   },
   {
@@ -600,8 +600,8 @@ const dictionary2: dictType[] = [
     rus: `Четыре ценности и двенадцать принципов`
   },
   {
-    eng: `Our highest priority is to sutisfy the customer through early and continuous delivery of valuable software`,
-    rus: `  Наш самый высокий приоритет заключается в удовлетворении потребностей клиента посредством ранней и непрерывной поставки ценного программного обеспечения    `
+    eng: `Our highest priority is to satisfy the customer through early and continuous delivery of valuable software`,
+    rus: `Наш самый высокий приоритет заключается в удовлетворении потребностей клиента посредством ранней и непрерывной поставки ценного программного обеспечения`
   },
   {
     eng: `Welcome changing requirements even late in developing.`,
@@ -616,8 +616,8 @@ const dictionary2: dictType[] = [
     rus: `Деловые люди и разработчики должны ежедневно работать вместе на протяжении всего проекта`
   },
   {
-    eng: `Build porjects around motivated individuals. Give them the enviroment and support they need, and trust them to get the work done.`,
-    rus: `Создавайте порции вокруг мотивированных людей. Дайте им окружающую среду и поддержку, в которых они нуждаются, и доверьте им выполнять свою работу.`
+    eng: `Build projects around motivated individuals. Give them the environment and support they need, and trust them to get the work done.`,
+    rus: `Создавайте проекты вокруг мотивированных людей. Дайте им окружающую среду и поддержку, в которых они нуждаются, и доверьте им выполнять свою работу.`
   },
   {
     eng: `The most efficient and effective method of conveying information is face to face conversation.`,
@@ -628,8 +628,8 @@ const dictionary2: dictType[] = [
     rus: `Рабочее программное обеспечение - это основной показатель прогресса.`
   },
   {
-    eng: `Continuous attention to technical execllence and good design enhances agility`,
-    rus: `Постоянное внимание к техническому исполнению и хорошему дизайну повышает гибкость`
+    eng: `Continuous attention to technical excellence and good design enhances agility`,
+    rus: `Постоянное внимание к техническому  совершенству и хорошему дизайну повышает гибкость`
   },
   {
     eng: `Simplicity is essential`,
@@ -640,7 +640,7 @@ const dictionary2: dictType[] = [
     rus: `Гибкие процессы способствуют устойчивому развитию`
   },
   {
-    eng: `The best architectures, requrements and design emerge from self-organizing teams.`,
+    eng: `The best architectures, requirements and design emerge from self-organizing teams.`,
     rus: `Лучшие архитектурные решения, требования и дизайн возникают из самоорганизующихся команд`
   },
   {
