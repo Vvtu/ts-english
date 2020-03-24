@@ -568,10 +568,8 @@ const dictionary1: dictType[] = [
 const veryOldDictionary1: dictType[] = [];
 const oldDictionary2: dictType[] = [];
 
-const dictionary20: dictType[] = [];
-
-const dictionary2: dictType[] = [
-{
+const dictionary20: dictType[] = [
+  {
     eng: `Individuals and interactions over processes and tools`,
     rus: `Индивиды и взяимодействие превыше процессов и планов`
   },
@@ -647,10 +645,45 @@ const dictionary2: dictType[] = [
     eng: `At regular intervals, the team reflects on how to become more effective, then  tunes and adjusts its behaviour accordingly.`,
     rus: `Через регулярные промежутки времени команда размышляет о том, как стать более эффективной, а затем настраивает и корректирует свое поведение соответствующим образом.`
   },
-  {
-    eng: ``,
-    rus: ``
-  },
+];
+
+const dictionary2: dictType[] = [
+
+
+// **********************************************************************
+
+{
+  rus: `Scrum - это процессный фрейворк для разработки, поставки и поддержания сложных продуктов.`,
+  eng: `Scrum is a process framework for developing, delivering, and sustaining complex products.`,
+},
+{
+  rus: `Определение Scrum состоит из ролей Scrum, событий, артефактов и правил, которые связывают их вместе.`,
+  eng: `The definition of Scrum consists of Scrum's roles, events, artefacts, and the rules that bind them together.`,
+},
+{
+  rus: `Три столпа поддерживают любой процесс эмпирического контроля: прозрачность, инспекция и адаптация.`,
+  eng: `Three pillars uphold every implementation of empirical process control: transparency, inspection and adaptation.`,
+},
+{
+  rus: `Транспарентность означает, что важные аспекты процесса разработки должны быть видны тем, кто несет ответственность за конечный результат.`,
+  eng: `Transparency means that significant aspects of the developing process must be visible to those responsible for the outcome.`,
+},
+{
+  rus: `Те, кто выполняет эту работу, и те, кто проверяет полученное улучшение, должны иметь общее определение "сделано". Это очень важно для прозрачности.`,
+  eng: `Those performing the work and those inspecting the resulting increment must share a common definition of "Done". It is important for transparency.`,
+},
+{
+  rus: `Инспекция означает, что пользователи Scrum должны часто проверять артефакты Scrum и прогресс на пути к цели спринта, чтобы обнаружить нежелательные отклонения.`,
+  eng: `Inspection means that Scrum users must frequently inspect Scrum artefacts and progress toward a Sprint Goal to detect undesirable variances.`,
+},
+{
+  rus: `Адаптация означает, что процесс должен быть скорректирован, когда инспектор определяет, что один или несколько аспектов процесса разработки отклоняются за пределы допустимых пределов и полученный продукт будет неприемлемым.`,
+  eng: `Adaptation means that the process must be adjusted when an inspector determines that one or more aspects of the developing process deviate outside acceptable limits and the resulting product will be unacceptable.`,
+},
+{
+  rus: `Scrum предписывает четыре официальных события для проверки и адаптации: планирование спринта, ежедневный Scrum, обзор спринта, ретроспектива спринта.`,
+  eng: `Scrum prescribes four formal events for inspection and adaptation: Sprint planning, Daily Scrum, Sprint review, Sprint retrospective.`,
+},
   {
     eng: ``,
     rus: ``
