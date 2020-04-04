@@ -681,6 +681,49 @@ const dictionary2: dictType[] = [
     rus: `Scrum предписывает четыре официальных события для проверки и адаптации: планирование спринта, ежедневный Scrum, обзор спринта, ретроспектива спринта.`,
     eng: `Scrum prescribes four formal events for inspection and adaptation: Sprint planning, Daily Scrum, Sprint review, Sprint retrospective.`,
   },
+  // *********************************************************************
+  {
+    rus: `Команда Scrum состоит из ПродуктОунера, команды разработчиков и Scrum мастера.`,
+    eng: `The Scrum Team consists of a Product Owner, the Developer Teams, and Scrum Master.`,
+  },
+  {
+    rus: `Scrum-команды являются самоорганизующимися и кросс-функциональными`,
+    eng: `Scrum Teams are self-organising and cross-functional`,
+  },
+  {
+    rus: `Самоорганизующиеся команды сами выбирают, как лучше выполнять свою работу, а не руководятся другими людьми вне команды.`,
+    eng: `Self-organising teams choose how best to accomplish their work, rather than being directed by others outside the team.`,
+  },
+  {
+    rus: `Кросс-функциональные команды обладают всеми компетенциями, необходимыми для выполнения работы, и не зависят от других, не входящих в состав команды.`,
+    eng: `Cross-functional teams have all competences needed to accomplish the work without depending on others not part of the team.`,
+  },
+  {
+    rus: `Владелец продукта несет ответственность за максимизацию ценности продукта, полученного в результате работы команды разработчиков.`,
+    eng: `The Product Owner is responsible for maximising the value of the product resulting from work of the Development team.`,
+  },
+  {
+    rus: `Чтобы владелец продукта добился успеха, вся организация должна уважать его или ее решения.`,
+    eng: `For the Product Owner to succeed, the entire organisation must respect his or her decisions.`,
+  },
+  {
+    rus: `Мастер Scrum отвечает за продвижение и поддержку Scrum, помогая всем понять теорию, практику, правила и ценности Scrum.`,
+    eng: `The Scrum Master is responsible for promoting and supporting Scrum by helping everyone understand Scrum theory, practices, rules and values.`,
+  },
+  {
+    rus: `Мастер Scrum - это слуга-лидер для команды Scrum.`,
+    eng: `The Scrum Master is a servant-leader for the Scrum Team.`,
+  },
+  {
+    rus: `Определение Done (DoD) - это совокупность результатов,
+      таких как написание кодов, комментарии к кодированию, тестирование блоков,
+      интеграционное тестирование, проектные документы, примечания к выпуску и т.д.,
+      которые добавляют проверяемые и доказуемые ценности в разработку проекта.`,
+    eng: `Definition of Done (DoD) is the collection of deliverables
+      like writing codes, coding comments, testing of units,
+      integration testing, design documents, release notes etc
+      that add verifiable and demonstrable values to project development.`,
+  },
   {
     eng: ``,
     rus: ``,
