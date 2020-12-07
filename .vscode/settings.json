@@ -1,8 +1,0 @@
-{
-  "workbench.colorCustomizations": {
-    "editor.background":"#222200",
-    "sideBar.background": "#222200",
-  },
-  "prettier.printWidth": 70,
-
-}
